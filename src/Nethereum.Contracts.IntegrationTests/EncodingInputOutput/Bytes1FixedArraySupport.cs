@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Nethereum.Hex.HexTypes;
+using Loom.Nethereum.Hex.HexTypes;
 using Xunit;
 
-namespace Nethereum.Contracts.IntegrationTests.EncodingInputOutput
+namespace Loom.Nethereum.Contracts.IntegrationTests.EncodingInputOutput
 {
     public class Bytes1FixedArraySupport
     {

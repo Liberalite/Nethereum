@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
-using Nethereum.RLP;
-using Nethereum.Util;
+using Loom.Nethereum.RLP;
+using Loom.Nethereum.Util;
 
-namespace Nethereum.Signer
+namespace Loom.Nethereum.Signer
 {
     public class RLPSigner
     {

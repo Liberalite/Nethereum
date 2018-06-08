@@ -5,19 +5,19 @@ using Org.BouncyCastle.Crypto.Digests;
 using Org.BouncyCastle.Crypto.Generators;
 using Org.BouncyCastle.Crypto.Parameters;
 
-namespace Nethereum.KeyStore.Crypto
+namespace Loom.Nethereum.KeyStore.Crypto
 {
     /* Scrypt and SalsaCore from BouncyCastle
     Changes:
-                //The Scrypt original spec says that 
+                //The Scrypt original spec says that
                 // N CPU/ Memory cost parameter, must be larger than 1,
                 // a power of 2 and less than 2 ^ (128 * r / 8).
-                
+
                 // But the Ethereum test vectors use a bigger cost, with an r of only 1, so to pass
                 // the test vectors and allow for further cost we allow this.
 
                 //avoiding the: throw new ArgumentException("Cost parameter N must be > 1 and < 65536.");
-     
+
     More info on memory costs:
 	 32MB = 33554432   = 2^25 to compute n up to = 2^14 = 16384
 	 64MB = 67108864   = 2^26 to compute n up to = 2^15 = 32768
@@ -241,10 +241,10 @@ namespace Nethereum.KeyStore.Crypto
             // Only value of r that cost (as an int) could be exceeded for is 1
             if (r == 1 && N >= 65536)
 
-                //The spec says that 
+                //The spec says that
                 // N CPU/ Memory cost parameter, must be larger than 1,
                 // a power of 2 and less than 2 ^ (128 * r / 8).
-                
+
                 // But the Ethereum test vectors use a bigger cost, with an r of only 1, so to pass
                 // the test vectors and allow for further cost we allow this.
 

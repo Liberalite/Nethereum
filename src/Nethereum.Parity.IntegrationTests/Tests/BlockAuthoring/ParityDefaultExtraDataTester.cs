@@ -1,10 +1,10 @@
 using System;
 using System.Threading.Tasks;
-using Nethereum.JsonRpc.Client;
-using Nethereum.Parity.RPC.BlockAuthoring;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.Parity.RPC.BlockAuthoring;
 using Xunit;
 
-namespace Nethereum.Parity.IntegrationTests.Tests.BlockAuthoring
+namespace Loom.Nethereum.Parity.IntegrationTests.Tests.BlockAuthoring
 {
     public class ParityDefaultExtraDataTester : RPCRequestTester<string>, IRPCRequestTester
     {

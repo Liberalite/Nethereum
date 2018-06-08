@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Nethereum.JsonRpc.Client
+namespace Loom.Nethereum.JsonRpc.Client
 {
     public class RpcClientTimeoutException : Exception
     {

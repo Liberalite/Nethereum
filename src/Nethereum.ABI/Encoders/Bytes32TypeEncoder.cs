@@ -1,9 +1,9 @@
 using System;
 using System.Numerics;
 using System.Text;
-using Nethereum.ABI.Util;
+using Loom.Nethereum.ABI.Util;
 
-namespace Nethereum.ABI.Encoders
+namespace Loom.Nethereum.ABI.Encoders
 {
     public class Bytes32TypeEncoder : ITypeEncoder
     {

@@ -1,8 +1,8 @@
 using System.Threading.Tasks;
-using Nethereum.JsonRpc.Client;
+using Loom.Nethereum.JsonRpc.Client;
 using Newtonsoft.Json.Linq;
 
-namespace Nethereum.Geth.RPC.Debug
+namespace Loom.Nethereum.Geth.RPC.Debug
 {
     /// <Summary>
     ///     Similar to debug_traceBlock, traceBlockFromFile accepts a file containing the RLP of the block.

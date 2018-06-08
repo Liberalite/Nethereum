@@ -1,6 +1,6 @@
 using Xunit;
 
-namespace Nethereum.ENS.UnitTests
+namespace Loom.Nethereum.ENS.UnitTests
 {
     public class ENSEncodingTest
     {

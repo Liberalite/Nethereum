@@ -1,10 +1,10 @@
-﻿using Nethereum.ABI.FunctionEncoding.Attributes;
-using Nethereum.Contracts.CQS;
-using Nethereum.Hex.HexTypes;
-using Nethereum.RPC.Eth.DTOs;
+﻿using Loom.Nethereum.ABI.FunctionEncoding.Attributes;
+using Loom.Nethereum.Contracts.CQS;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.RPC.Eth.DTOs;
 using Xunit;
 
-namespace Nethereum.Contracts.IntegrationTests.CQS
+namespace Loom.Nethereum.Contracts.IntegrationTests.CQS
 {
     public class ContractHandlers
     {

@@ -1,7 +1,7 @@
-using Nethereum.JsonRpc.Client;
-using Nethereum.RPC.Eth.Blocks;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC.Eth.Blocks;
 
-namespace Nethereum.RPC.Eth.Services
+namespace Loom.Nethereum.RPC.Eth.Services
 {
     public class EthApiBlockService : RpcClientWrapper
     {

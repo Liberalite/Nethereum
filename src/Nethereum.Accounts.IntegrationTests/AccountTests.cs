@@ -1,11 +1,11 @@
 ﻿using System.Threading.Tasks;
-using Nethereum.Hex.HexTypes;
-using Nethereum.RPC.TransactionReceipts;
-using Nethereum.Web3.Accounts;
-using Nethereum.Web3.Accounts.Managed;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.RPC.TransactionReceipts;
+using Loom.Nethereum.Web3.Accounts;
+using Loom.Nethereum.Web3.Accounts.Managed;
 using Xunit;
 
-namespace Nethereum.Accounts.IntegrationTests
+namespace Loom.Nethereum.Accounts.IntegrationTests
 {
     public class AccountTests
     {

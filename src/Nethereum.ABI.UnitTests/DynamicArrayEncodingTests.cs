@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Numerics;
-using Nethereum.Hex.HexConvertors.Extensions;
+using Loom.Nethereum.Hex.HexConvertors.Extensions;
 using Xunit;
 
-namespace Nethereum.ABI.UnitTests
+namespace Loom.Nethereum.ABI.UnitTests
 {
     public class DynamicArrayEncodingTests
     {

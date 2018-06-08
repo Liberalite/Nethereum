@@ -1,7 +1,7 @@
 using System;
 using Newtonsoft.Json;
 
-namespace Nethereum.RPC.Eth.DTOs
+namespace Loom.Nethereum.RPC.Eth.DTOs
 {
     public class BlockParameterJsonConverter : JsonConverter
     {

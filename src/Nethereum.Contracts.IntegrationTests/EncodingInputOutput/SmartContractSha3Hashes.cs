@@ -1,8 +1,8 @@
-﻿using Nethereum.Hex.HexConvertors.Extensions;
-using Nethereum.Hex.HexTypes;
+﻿using Loom.Nethereum.Hex.HexConvertors.Extensions;
+using Loom.Nethereum.Hex.HexTypes;
 using Xunit;
 
-namespace Nethereum.Contracts.IntegrationTests.EncodingInputOutput
+namespace Loom.Nethereum.Contracts.IntegrationTests.EncodingInputOutput
 {
     public class SmartContractSha3Hashes
     {

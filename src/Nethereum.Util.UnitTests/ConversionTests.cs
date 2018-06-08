@@ -2,7 +2,7 @@ using System;
 using System.Numerics;
 using Xunit;
 
-namespace Nethereum.Util.UnitTests
+namespace Loom.Nethereum.Util.UnitTests
 {
     public class ConversionTests
     {

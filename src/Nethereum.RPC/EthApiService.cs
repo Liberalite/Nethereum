@@ -1,10 +1,10 @@
-﻿using Nethereum.JsonRpc.Client;
-using Nethereum.RPC.Eth;
-using Nethereum.RPC.Eth.DTOs;
-using Nethereum.RPC.Eth.Services;
-using Nethereum.RPC.TransactionManagers;
+﻿using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC.Eth;
+using Loom.Nethereum.RPC.Eth.DTOs;
+using Loom.Nethereum.RPC.Eth.Services;
+using Loom.Nethereum.RPC.TransactionManagers;
 
-namespace Nethereum.RPC
+namespace Loom.Nethereum.RPC
 {
     public class EthApiService : RpcClientWrapper
     {
@@ -13,7 +13,7 @@ namespace Nethereum.RPC
 
         public EthApiService(IClient client) : this(client, new TransactionManager(client))
         {
-           
+
         }
 
         public EthApiService(IClient client, ITransactionManager transactionManager) : base(client)

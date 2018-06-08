@@ -1,11 +1,11 @@
 using System.Threading.Tasks;
-using Nethereum.ABI.FunctionEncoding.Attributes;
-using Nethereum.Contracts.CQS;
-using Nethereum.Hex.HexConvertors.Extensions;
-using Nethereum.RPC.Eth.DTOs;
+using Loom.Nethereum.ABI.FunctionEncoding.Attributes;
+using Loom.Nethereum.Contracts.CQS;
+using Loom.Nethereum.Hex.HexConvertors.Extensions;
+using Loom.Nethereum.RPC.Eth.DTOs;
 using Xunit;
 
-namespace Nethereum.Contracts.IntegrationTests.FiltersEvents
+namespace Loom.Nethereum.Contracts.IntegrationTests.FiltersEvents
 {
     public class EventFilterWith3Topics
     {

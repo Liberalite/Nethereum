@@ -1,12 +1,12 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
-using Nethereum.Hex.HexTypes;
-using Nethereum.RPC.Eth.DTOs;
-using Nethereum.RPC.Eth.Services;
-using Nethereum.StandardTokenEIP20.Events.DTO;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.RPC.Eth.DTOs;
+using Loom.Nethereum.RPC.Eth.Services;
+using Loom.Nethereum.StandardTokenEIP20.Events.DTO;
 using Xunit;
 
-namespace Nethereum.StandardTokenEIP20.IntegrationTests
+namespace Loom.Nethereum.StandardTokenEIP20.IntegrationTests
 {
     public class Erc20TokenTester
     {

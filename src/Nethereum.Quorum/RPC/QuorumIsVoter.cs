@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Nethereum.Hex.HexConvertors.Extensions;
-using Nethereum.JsonRpc.Client;
+using Loom.Nethereum.Hex.HexConvertors.Extensions;
+using Loom.Nethereum.JsonRpc.Client;
 
-namespace Nethereum.Quorum.RPC
+namespace Loom.Nethereum.Quorum.RPC
 {
     public class QuorumIsVoter : RpcRequestResponseHandler<bool>
     {

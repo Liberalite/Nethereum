@@ -1,7 +1,7 @@
-using Nethereum.JsonRpc.Client;
-using Nethereum.RPC.Shh;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC.Shh;
 
-namespace Nethereum.RPC
+namespace Loom.Nethereum.RPC
 {
     public class ShhApiService : RpcClientWrapper
     {

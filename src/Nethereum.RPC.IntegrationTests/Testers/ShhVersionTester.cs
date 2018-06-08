@@ -1,9 +1,9 @@
 using System;
 using System.Threading.Tasks;
-using Nethereum.JsonRpc.Client;
-using Nethereum.RPC.Shh;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC.Shh;
 
-namespace Nethereum.RPC.Tests.Testers
+namespace Loom.Nethereum.RPC.Tests.Testers
 {
     public class ShhVersionTester : IRPCRequestTester
     {

@@ -1,8 +1,8 @@
-using Nethereum.Geth.RPC.Miner;
-using Nethereum.JsonRpc.Client;
-using Nethereum.RPC;
+using Loom.Nethereum.Geth.RPC.Miner;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC;
 
-namespace Nethereum.Geth
+namespace Loom.Nethereum.Geth
 {
     public class MinerApiService : RpcClientWrapper
     {

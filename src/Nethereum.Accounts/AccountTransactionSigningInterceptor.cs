@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Nethereum.JsonRpc.Client;
-using Nethereum.RPC.Eth.DTOs;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC.Eth.DTOs;
 
-namespace Nethereum.Web3.Accounts
+namespace Loom.Nethereum.Web3.Accounts
 {
     public class AccountTransactionSigningInterceptor : RequestInterceptor
     {

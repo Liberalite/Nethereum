@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using Microsoft.Extensions.Configuration;
 
-namespace Nethereum.Parity.IntegrationTests
+namespace Loom.Nethereum.Parity.IntegrationTests
 {
     public class TestSettings
     {

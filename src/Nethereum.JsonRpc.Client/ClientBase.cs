@@ -1,7 +1,7 @@
 #if !DOTNET35
 using System.Threading.Tasks;
 
-namespace Nethereum.JsonRpc.Client
+namespace Loom.Nethereum.JsonRpc.Client
 {
     public abstract class ClientBase : IClient
     {

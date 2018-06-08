@@ -1,14 +1,14 @@
 ﻿using System.Numerics;
 using System.Threading;
 using System.Threading.Tasks;
-using Nethereum.Contracts;
-using Nethereum.Contracts.CQS;
-using Nethereum.Hex.HexTypes;
-using Nethereum.RPC.Eth.DTOs;
-using Nethereum.StandardTokenEIP20.CQS;
-using Nethereum.Web3;
+using Loom.Nethereum.Contracts;
+using Loom.Nethereum.Contracts.CQS;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.RPC.Eth.DTOs;
+using Loom.Nethereum.StandardTokenEIP20.CQS;
+using Loom.Nethereum.Web3;
 
-namespace Nethereum.StandardTokenEIP20
+namespace Loom.Nethereum.StandardTokenEIP20
 {
     public class StandardTokenService
     {

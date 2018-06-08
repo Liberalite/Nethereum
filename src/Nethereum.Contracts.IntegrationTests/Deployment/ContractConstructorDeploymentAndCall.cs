@@ -1,9 +1,9 @@
 using System.Threading;
-using Nethereum.Hex.HexTypes;
-using Nethereum.RPC.Eth.DTOs;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.RPC.Eth.DTOs;
 using Xunit;
 
-namespace Nethereum.Contracts.IntegrationTests.Deployment
+namespace Loom.Nethereum.Contracts.IntegrationTests.Deployment
 {
     public class ContractConstructorDeploymentAndCall
     {

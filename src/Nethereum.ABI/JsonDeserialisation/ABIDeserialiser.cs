@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 //using System.Dynamic;
-using Nethereum.ABI.Model;
+using Loom.Nethereum.ABI.Model;
 using Newtonsoft.Json;
 
-namespace Nethereum.ABI.JsonDeserialisation
+namespace Loom.Nethereum.ABI.JsonDeserialisation
 {
     public class ABIDeserialiser
     {

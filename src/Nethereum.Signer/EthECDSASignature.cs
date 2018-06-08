@@ -1,10 +1,10 @@
 ﻿using System;
-using Nethereum.RLP;
-using Nethereum.Signer.Crypto;
-using Nethereum.Util;
+using Loom.Nethereum.RLP;
+using Loom.Nethereum.Signer.Crypto;
+using Loom.Nethereum.Util;
 using Org.BouncyCastle.Math;
 
-namespace Nethereum.Signer
+namespace Loom.Nethereum.Signer
 {
     public class EthECDSASignature
     {

@@ -1,10 +1,10 @@
 using System.Threading;
 using System.Threading.Tasks;
-using Nethereum.Hex.HexTypes;
-using Nethereum.RPC.Eth.DTOs;
-using Nethereum.RPC.TransactionManagers;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.RPC.Eth.DTOs;
+using Loom.Nethereum.RPC.TransactionManagers;
 
-namespace Nethereum.Contracts
+namespace Loom.Nethereum.Contracts
 {
     public class DeployContract
     {

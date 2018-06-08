@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Nethereum.Hex.HexTypes;
-using Nethereum.Signer.IntegrationTests;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.Signer.IntegrationTests;
 using Xunit;
 
-namespace Nethereum.Signer.IntegrationTests
+namespace Loom.Nethereum.Signer.IntegrationTests
 {
     public class SignedTransactionManagerTests
     {

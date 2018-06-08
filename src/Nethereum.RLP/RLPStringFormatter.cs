@@ -1,8 +1,8 @@
 using System;
 using System.Text;
-using Nethereum.Hex.HexConvertors.Extensions;
+using Loom.Nethereum.Hex.HexConvertors.Extensions;
 
-namespace Nethereum.RLP
+namespace Loom.Nethereum.RLP
 {
     public class RLPStringFormatter
     {

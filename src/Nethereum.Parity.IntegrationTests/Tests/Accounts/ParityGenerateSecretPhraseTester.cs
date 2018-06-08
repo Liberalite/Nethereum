@@ -1,10 +1,10 @@
 using System;
 using System.Threading.Tasks;
-using Nethereum.JsonRpc.Client;
-using Nethereum.Parity.RPC.Accounts;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.Parity.RPC.Accounts;
 using Xunit;
 
-namespace Nethereum.Parity.IntegrationTests.Tests.Accounts
+namespace Loom.Nethereum.Parity.IntegrationTests.Tests.Accounts
 {
     public class ParityGenerateSecretPhraseTester : RPCRequestTester<string>, IRPCRequestTester
     {

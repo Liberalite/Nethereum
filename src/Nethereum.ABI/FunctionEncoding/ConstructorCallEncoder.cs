@@ -1,7 +1,7 @@
-using Nethereum.ABI.Model;
-using Nethereum.Hex.HexConvertors.Extensions;
+using Loom.Nethereum.ABI.Model;
+using Loom.Nethereum.Hex.HexConvertors.Extensions;
 
-namespace Nethereum.ABI.FunctionEncoding
+namespace Loom.Nethereum.ABI.FunctionEncoding
 {
     public class ConstructorCallEncoder : ParametersEncoder
     {

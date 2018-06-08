@@ -1,9 +1,9 @@
 using System;
 using System.Numerics;
-using Nethereum.Hex.HexTypes;
+using Loom.Nethereum.Hex.HexTypes;
 using Xunit;
 
-namespace Nethereum.ABI.UnitTests
+namespace Loom.Nethereum.ABI.UnitTests
 {
     public class HexBigIntegerEncodingTests
     {

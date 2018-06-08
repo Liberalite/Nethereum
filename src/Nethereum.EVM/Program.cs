@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Nethereum.EVM
+namespace Loom.Nethereum.EVM
 {
     public class Program
     {

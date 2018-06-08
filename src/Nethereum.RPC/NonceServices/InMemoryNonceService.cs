@@ -2,12 +2,12 @@
 using System.Numerics;
 using System.Threading;
 using System.Threading.Tasks;
-using Nethereum.Hex.HexTypes;
-using Nethereum.JsonRpc.Client;
-using Nethereum.RPC.Eth.DTOs;
-using Nethereum.RPC.Eth.Transactions;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC.Eth.DTOs;
+using Loom.Nethereum.RPC.Eth.Transactions;
 
-namespace Nethereum.RPC.NonceServices
+namespace Loom.Nethereum.RPC.NonceServices
 {
 #if !DOTNET35
     public class InMemoryNonceService: INonceService

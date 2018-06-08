@@ -1,7 +1,7 @@
 using System;
 using Newtonsoft.Json;
 
-namespace Nethereum.Hex.HexTypes
+namespace Loom.Nethereum.Hex.HexTypes
 {
     public class HexRPCTypeJsonConverter<T, TValue> : JsonConverter where T : HexRPCType<TValue>
     {

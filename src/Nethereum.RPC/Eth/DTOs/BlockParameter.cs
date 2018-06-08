@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Numerics;
-using Nethereum.Hex.HexTypes;
+using Loom.Nethereum.Hex.HexTypes;
 using Newtonsoft.Json;
 
-namespace Nethereum.RPC.Eth.DTOs
+namespace Loom.Nethereum.RPC.Eth.DTOs
 {
     [JsonConverter(typeof (BlockParameterJsonConverter))]
     public class BlockParameter

@@ -1,10 +1,10 @@
 using System;
 using System.Threading.Tasks;
  
-using Nethereum.JsonRpc.Client;
-using Nethereum.Hex.HexConvertors.Extensions;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.Hex.HexConvertors.Extensions;
 
-namespace Nethereum.RPC.Eth.Mining
+namespace Loom.Nethereum.RPC.Eth.Mining
 {
     /// <Summary>
     ///     eth_submitWork

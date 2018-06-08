@@ -2,13 +2,13 @@
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Nethereum.Hex.HexTypes;
-using Nethereum.RPC.NonceServices;
-using Nethereum.RPC.TransactionReceipts;
-using Nethereum.Web3.Accounts;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.RPC.NonceServices;
+using Loom.Nethereum.RPC.TransactionReceipts;
+using Loom.Nethereum.Web3.Accounts;
 using Xunit;
 
-namespace Nethereum.Accounts.IntegrationTests
+namespace Loom.Nethereum.Accounts.IntegrationTests
 {
     public class NonceTests
     {

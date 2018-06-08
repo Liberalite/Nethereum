@@ -1,8 +1,8 @@
-using Nethereum.JsonRpc.Client;
-using Nethereum.Parity.RPC.BlockAuthoring;
-using Nethereum.RPC;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.Parity.RPC.BlockAuthoring;
+using Loom.Nethereum.RPC;
 
-namespace Nethereum.Parity
+namespace Loom.Nethereum.Parity
 {
     public class BlockAuthoringApiService : RpcClientWrapper
     {

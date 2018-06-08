@@ -1,10 +1,10 @@
 using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
-using Nethereum.Hex.HexConvertors.Extensions;
+using Loom.Nethereum.Hex.HexConvertors.Extensions;
 using Xunit;
 
-namespace Nethereum.Signer.IntegrationTests
+namespace Loom.Nethereum.Signer.IntegrationTests
 {
     public class TransactionSigningTests
     {

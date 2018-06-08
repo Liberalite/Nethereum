@@ -1,8 +1,8 @@
-using Nethereum.Hex.HexTypes;
-using Nethereum.JsonRpc.Client;
-using Nethereum.RPC.Infrastructure;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC.Infrastructure;
 
-namespace Nethereum.Parity.RPC.BlockAuthoring
+namespace Loom.Nethereum.Parity.RPC.BlockAuthoring
 {
     /// <Summary>
     ///     parity_gasCeilTarget

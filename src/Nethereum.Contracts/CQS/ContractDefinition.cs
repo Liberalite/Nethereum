@@ -1,4 +1,4 @@
-﻿namespace Nethereum.Contracts.CQS
+﻿namespace Loom.Nethereum.Contracts.CQS
 {
     public class ContractDefinition
     {

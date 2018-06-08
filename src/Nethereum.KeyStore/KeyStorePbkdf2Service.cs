@@ -1,9 +1,9 @@
 ﻿using System;
-using Nethereum.Hex.HexConvertors.Extensions;
-using Nethereum.KeyStore.Crypto;
-using Nethereum.KeyStore.Model;
+using Loom.Nethereum.Hex.HexConvertors.Extensions;
+using Loom.Nethereum.KeyStore.Crypto;
+using Loom.Nethereum.KeyStore.Model;
 
-namespace Nethereum.KeyStore
+namespace Loom.Nethereum.KeyStore
 {
     public class KeyStorePbkdf2Service : KeyStoreServiceBase<Pbkdf2Params>
     {

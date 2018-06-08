@@ -1,7 +1,7 @@
 ﻿using System;
 using Org.BouncyCastle.Math;
 
-namespace Nethereum.Signer
+namespace Loom.Nethereum.Signer
 {
     public class EthECDSASignatureFactory
     {

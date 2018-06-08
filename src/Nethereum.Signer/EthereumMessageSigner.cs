@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using System.Text;
-using Nethereum.Hex.HexConvertors.Extensions;
+using Loom.Nethereum.Hex.HexConvertors.Extensions;
 
-namespace Nethereum.Signer
+namespace Loom.Nethereum.Signer
 {
     public class EthereumMessageSigner : MessageSigner
     {

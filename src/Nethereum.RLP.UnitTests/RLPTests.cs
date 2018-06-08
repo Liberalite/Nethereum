@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using System.Text;
-using Nethereum.Hex.HexConvertors.Extensions;
+using Loom.Nethereum.Hex.HexConvertors.Extensions;
 using Xunit;
 
-namespace Nethereum.RLP.UnitTests
+namespace Loom.Nethereum.RLP.UnitTests
 {
     public class RLPTests
     {

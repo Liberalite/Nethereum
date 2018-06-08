@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 using System.Threading;
-using Nethereum.Hex.HexConvertors.Extensions;
+using Loom.Nethereum.Hex.HexConvertors.Extensions;
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Digests;
 using Org.BouncyCastle.Crypto.Generators;
@@ -11,7 +11,7 @@ using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Crypto.Engines;
 using Org.BouncyCastle.Crypto.Utilities;
 
-namespace Nethereum.KeyStore.Crypto
+namespace Loom.Nethereum.KeyStore.Crypto
 {
     //https://github.com/ethereum/wiki/wiki/Web3-Secret-Storage-Definition
     public class KeyStoreCrypto

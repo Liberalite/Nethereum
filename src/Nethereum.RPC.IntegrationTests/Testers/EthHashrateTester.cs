@@ -1,11 +1,11 @@
 using System;
 using System.Threading.Tasks;
-using Nethereum.Hex.HexTypes;
-using Nethereum.JsonRpc.Client;
-using Nethereum.RPC.Eth.Mining;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC.Eth.Mining;
 using Xunit;
 
-namespace Nethereum.RPC.Tests.Testers
+namespace Loom.Nethereum.RPC.Tests.Testers
 {
     public class EthHashrateTester : RPCRequestTester<HexBigInteger>, IRPCRequestTester
     {

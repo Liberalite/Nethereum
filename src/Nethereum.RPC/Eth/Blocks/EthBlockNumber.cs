@@ -1,8 +1,8 @@
-using Nethereum.Hex.HexTypes;
-using Nethereum.JsonRpc.Client;
-using Nethereum.RPC.Infrastructure;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC.Infrastructure;
 
-namespace Nethereum.RPC.Eth.Blocks
+namespace Loom.Nethereum.RPC.Eth.Blocks
 {
     /// <Summary>
     ///     eth_blockNumber

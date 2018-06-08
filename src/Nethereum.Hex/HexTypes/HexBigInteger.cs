@@ -1,8 +1,8 @@
 using System.Numerics;
-using Nethereum.Hex.HexConvertors;
+using Loom.Nethereum.Hex.HexConvertors;
 using Newtonsoft.Json;
 
-namespace Nethereum.Hex.HexTypes
+namespace Loom.Nethereum.Hex.HexTypes
 {
     [JsonConverter(typeof(HexRPCTypeJsonConverter<HexBigInteger, BigInteger>))]
     public class HexBigInteger : HexRPCType<BigInteger>

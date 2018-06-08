@@ -1,13 +1,13 @@
 ﻿using System;
-using Nethereum.Contracts;
-using Nethereum.JsonRpc.Client;
-using Nethereum.RPC;
-using Nethereum.RPC.Accounts;
-using Nethereum.RPC.TransactionManagers;
-using Nethereum.Signer;
-using Nethereum.Util;
+using Loom.Nethereum.Contracts;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC;
+using Loom.Nethereum.RPC.Accounts;
+using Loom.Nethereum.RPC.TransactionManagers;
+using Loom.Nethereum.Signer;
+using Loom.Nethereum.Util;
 
-namespace Nethereum.Web3
+namespace Loom.Nethereum.Web3
 {
     public class Web3
     {

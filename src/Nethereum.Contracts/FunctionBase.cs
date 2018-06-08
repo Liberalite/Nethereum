@@ -1,13 +1,13 @@
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using Nethereum.ABI.FunctionEncoding;
-using Nethereum.Hex.HexTypes;
-using Nethereum.RPC.Eth.DTOs;
-using Nethereum.RPC.Eth.Transactions;
-using Nethereum.RPC.TransactionManagers;
+using Loom.Nethereum.ABI.FunctionEncoding;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.RPC.Eth.DTOs;
+using Loom.Nethereum.RPC.Eth.Transactions;
+using Loom.Nethereum.RPC.TransactionManagers;
 
-namespace Nethereum.Contracts
+namespace Loom.Nethereum.Contracts
 {
     public abstract class FunctionBase
     {

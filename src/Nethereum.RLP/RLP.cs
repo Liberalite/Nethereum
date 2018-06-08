@@ -1,7 +1,7 @@
 ﻿using System;
-using Nethereum.Hex.HexConvertors.Extensions;
+using Loom.Nethereum.Hex.HexConvertors.Extensions;
 
-namespace Nethereum.RLP
+namespace Loom.Nethereum.RLP
 {
     /// <summary>
     ///     Recursive Length Prefix (RLP) encoding.

@@ -1,7 +1,7 @@
 using System.Numerics;
-using Nethereum.ABI.FunctionEncoding.Attributes;
+using Loom.Nethereum.ABI.FunctionEncoding.Attributes;
 
-namespace Nethereum.StandardTokenEIP20.DTOs
+namespace Loom.Nethereum.StandardTokenEIP20.DTOs
 {
     [Event("Approval")]
     public class ApprovalEventDTO

@@ -1,8 +1,8 @@
-﻿using Nethereum.RPC.Accounts;
-using Nethereum.RPC.NonceServices;
-using Nethereum.RPC.TransactionManagers;
+﻿using Loom.Nethereum.RPC.Accounts;
+using Loom.Nethereum.RPC.NonceServices;
+using Loom.Nethereum.RPC.TransactionManagers;
 
-namespace Nethereum.Web3.Accounts.Managed
+namespace Loom.Nethereum.Web3.Accounts.Managed
 {
     public class ManagedAccount : IAccount
     {

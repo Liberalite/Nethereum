@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Nethereum.JsonRpc.Client;
-using Nethereum.Quorum.RPC.Interceptors;
-using Nethereum.Quorum.RPC.Services;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.Quorum.RPC.Interceptors;
+using Loom.Nethereum.Quorum.RPC.Services;
 
-namespace Nethereum.Quorum
+namespace Loom.Nethereum.Quorum
 {
     public class Web3Quorum:Web3.Web3
     {

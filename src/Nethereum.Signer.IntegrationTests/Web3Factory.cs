@@ -1,4 +1,4 @@
-﻿namespace Nethereum.Signer.IntegrationTests
+﻿namespace Loom.Nethereum.Signer.IntegrationTests
 {
     public static class Web3Factory
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Nethereum.KeyStore
+namespace Loom.Nethereum.KeyStore
 {
     public class InvalidKdfException : Exception
     {

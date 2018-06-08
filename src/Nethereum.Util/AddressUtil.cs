@@ -1,7 +1,7 @@
 ﻿using System.Globalization;
-using Nethereum.Hex.HexConvertors.Extensions;
+using Loom.Nethereum.Hex.HexConvertors.Extensions;
 
-namespace Nethereum.Util
+namespace Loom.Nethereum.Util
 {
     public class AddressUtil
     {

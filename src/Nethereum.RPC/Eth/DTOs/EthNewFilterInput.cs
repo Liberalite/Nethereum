@@ -1,6 +1,6 @@
 using Newtonsoft.Json;
 
-namespace Nethereum.RPC.Eth.DTOs
+namespace Loom.Nethereum.RPC.Eth.DTOs
 {
     /// <summary>
     ///     Object - The transaction object

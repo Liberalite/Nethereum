@@ -6,7 +6,7 @@ using Org.BouncyCastle.Crypto.Signers;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Math.EC;
 
-namespace Nethereum.Signer.Crypto
+namespace Loom.Nethereum.Signer.Crypto
 {
     /// <summary>
     ///     ECKey based on the implementation of NBitcoin

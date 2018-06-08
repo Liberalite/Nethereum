@@ -1,8 +1,8 @@
-﻿using Nethereum.ABI.Util;
-using Nethereum.Hex.HexConvertors.Extensions;
-using Nethereum.Util;
+﻿using Loom.Nethereum.ABI.Util;
+using Loom.Nethereum.Hex.HexConvertors.Extensions;
+using Loom.Nethereum.Util;
 
-namespace Nethereum.ENS
+namespace Loom.Nethereum.ENS
 {
     public class EnsUtil
     {

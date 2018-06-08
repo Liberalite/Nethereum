@@ -1,9 +1,9 @@
 using System;
 using System.Text;
-using Nethereum.Hex.HexConvertors.Extensions;
-using Nethereum.Util;
+using Loom.Nethereum.Hex.HexConvertors.Extensions;
+using Loom.Nethereum.Util;
 
-namespace Nethereum.Signer
+namespace Loom.Nethereum.Signer
 {
     public class MessageSigner
     {

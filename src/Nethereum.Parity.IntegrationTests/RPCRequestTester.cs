@@ -1,8 +1,8 @@
 using System;
 using System.Threading.Tasks;
-using Nethereum.JsonRpc.Client;
+using Loom.Nethereum.JsonRpc.Client;
 
-namespace Nethereum.Parity.IntegrationTests
+namespace Loom.Nethereum.Parity.IntegrationTests
 {
     public abstract class RPCRequestTester<T> : IRPCRequestTester
     {

@@ -1,7 +1,7 @@
-using Nethereum.JsonRpc.Client;
-using Nethereum.RPC.Eth.Uncles;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC.Eth.Uncles;
 
-namespace Nethereum.RPC.Eth.Services
+namespace Loom.Nethereum.RPC.Eth.Services
 {
     public class EthApiUncleService : RpcClientWrapper
     {

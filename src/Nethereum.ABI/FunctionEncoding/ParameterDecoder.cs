@@ -2,12 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using Nethereum.ABI.FunctionEncoding.AttributeEncoding;
-using Nethereum.ABI.FunctionEncoding.Attributes;
-using Nethereum.ABI.Model;
-using Nethereum.Hex.HexConvertors.Extensions;
+using Loom.Nethereum.ABI.FunctionEncoding.AttributeEncoding;
+using Loom.Nethereum.ABI.FunctionEncoding.Attributes;
+using Loom.Nethereum.ABI.Model;
+using Loom.Nethereum.Hex.HexConvertors.Extensions;
 
-namespace Nethereum.ABI.FunctionEncoding
+namespace Loom.Nethereum.ABI.FunctionEncoding
 {
     public class ParameterDecoder
     {

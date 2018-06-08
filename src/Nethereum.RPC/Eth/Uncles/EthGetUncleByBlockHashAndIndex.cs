@@ -1,12 +1,12 @@
 using System;
 using System.Threading.Tasks;
  
-using Nethereum.Hex.HexTypes;
-using Nethereum.JsonRpc.Client;
-using Nethereum.RPC.Eth.DTOs;
-using Nethereum.Hex.HexConvertors.Extensions;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC.Eth.DTOs;
+using Loom.Nethereum.Hex.HexConvertors.Extensions;
 
-namespace Nethereum.RPC.Eth.Uncles
+namespace Loom.Nethereum.RPC.Eth.Uncles
 {
     /// <Summary>
     ///     eth_getUncleByBlockHashAndIndex

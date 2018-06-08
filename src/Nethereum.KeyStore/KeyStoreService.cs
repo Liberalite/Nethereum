@@ -2,7 +2,7 @@
 using System.IO;
 using Newtonsoft.Json.Linq;
 
-namespace Nethereum.KeyStore
+namespace Loom.Nethereum.KeyStore
 {
     public class KeyStoreService
     {

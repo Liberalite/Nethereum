@@ -1,10 +1,10 @@
 using System;
 using System.Threading.Tasks;
  
-using Nethereum.Hex.HexTypes;
-using Nethereum.JsonRpc.Client;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.JsonRpc.Client;
 
-namespace Nethereum.RPC.Eth.Filters
+namespace Loom.Nethereum.RPC.Eth.Filters
 {
     /// <Summary>
     ///     eth_uninstallFilter

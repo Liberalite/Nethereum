@@ -1,8 +1,8 @@
 ﻿using System.Threading.Tasks;
-using Nethereum.Hex.HexTypes;
+using Loom.Nethereum.Hex.HexTypes;
 using Xunit;
 
-namespace Nethereum.Contracts.IntegrationTests.Issues
+namespace Loom.Nethereum.Contracts.IntegrationTests.Issues
 {
     public class Issue78
     {

@@ -1,8 +1,8 @@
-using Nethereum.Geth.RPC.Admin;
-using Nethereum.JsonRpc.Client;
-using Nethereum.RPC;
+using Loom.Nethereum.Geth.RPC.Admin;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC;
 
-namespace Nethereum.Geth
+namespace Loom.Nethereum.Geth
 {
     public class AdminApiService : RpcClientWrapper
     {

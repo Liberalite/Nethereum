@@ -1,9 +1,9 @@
 using System;
-using Nethereum.ABI.Encoders;
-using Nethereum.ABI.FunctionEncoding;
-using Nethereum.ABI.Model;
+using Loom.Nethereum.ABI.Encoders;
+using Loom.Nethereum.ABI.FunctionEncoding;
+using Loom.Nethereum.ABI.Model;
 
-namespace Nethereum.ABI
+namespace Loom.Nethereum.ABI
 {
     public class TupleTypeEncoder : ITypeEncoder
     {

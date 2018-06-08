@@ -1,8 +1,8 @@
-﻿using Nethereum.JsonRpc.Client;
-using Nethereum.Parity.RPC.Trace;
-using Nethereum.RPC;
+﻿using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.Parity.RPC.Trace;
+using Loom.Nethereum.RPC;
 
-namespace Nethereum.Parity
+namespace Loom.Nethereum.Parity
 {
     public class TraceApiService : RpcClientWrapper
     {

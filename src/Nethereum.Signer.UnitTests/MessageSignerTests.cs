@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Text;
-using Nethereum.ABI.Encoders;
-using Nethereum.Hex.HexConvertors.Extensions;
-using Nethereum.Util;
+using Loom.Nethereum.ABI.Encoders;
+using Loom.Nethereum.Hex.HexConvertors.Extensions;
+using Loom.Nethereum.Util;
 using Xunit;
 
-namespace Nethereum.Signer.UnitTests
+namespace Loom.Nethereum.Signer.UnitTests
 {
     public class MessageSignerTests
     {

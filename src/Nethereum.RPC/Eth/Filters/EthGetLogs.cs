@@ -1,10 +1,10 @@
 using System;
 using System.Threading.Tasks;
  
-using Nethereum.JsonRpc.Client;
-using Nethereum.RPC.Eth.DTOs;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC.Eth.DTOs;
 
-namespace Nethereum.RPC.Eth.Filters
+namespace Loom.Nethereum.RPC.Eth.Filters
 {
     /// <Summary>
     ///     eth_getLogs

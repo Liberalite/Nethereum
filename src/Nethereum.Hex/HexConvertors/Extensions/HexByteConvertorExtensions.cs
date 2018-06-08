@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 
-namespace Nethereum.Hex.HexConvertors.Extensions
+namespace Loom.Nethereum.Hex.HexConvertors.Extensions
 {
     public static class HexByteConvertorExtensions
     {

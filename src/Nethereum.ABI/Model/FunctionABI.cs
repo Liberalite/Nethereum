@@ -1,6 +1,6 @@
-using Nethereum.ABI.FunctionEncoding;
+using Loom.Nethereum.ABI.FunctionEncoding;
 
-namespace Nethereum.ABI.Model
+namespace Loom.Nethereum.ABI.Model
 {
     public class FunctionABI
     {

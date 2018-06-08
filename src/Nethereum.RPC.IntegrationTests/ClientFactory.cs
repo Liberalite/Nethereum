@@ -1,12 +1,12 @@
-﻿using Nethereum.JsonRpc.Client;
+﻿using Loom.Nethereum.JsonRpc.Client;
 //using Nethereum.JsonRpc.IpcClient;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Nethereum.RPC.Tests.Testers;
+using Loom.Nethereum.RPC.Tests.Testers;
 
-namespace Nethereum.RPC.Tests
+namespace Loom.Nethereum.RPC.Tests
 {
     public class ClientFactory
     {

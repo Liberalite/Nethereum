@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Nethereum.Hex.HexTypes;
-using Nethereum.JsonRpc.Client;
-using Nethereum.Parity.RPC.Trace;
-using Nethereum.Parity.RPC.Trace.TraceDTOs;
-using Nethereum.RPC.Eth.DTOs;
-using Nethereum.Web3.Accounts;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.Parity.RPC.Trace;
+using Loom.Nethereum.Parity.RPC.Trace.TraceDTOs;
+using Loom.Nethereum.RPC.Eth.DTOs;
+using Loom.Nethereum.Web3.Accounts;
 using Newtonsoft.Json.Linq;
 using Xunit;
 
-namespace Nethereum.Parity.IntegrationTests.Tests.Trace
+namespace Loom.Nethereum.Parity.IntegrationTests.Tests.Trace
 {
     public class TraceFilterTester : RPCRequestTester<JArray>
     {

@@ -1,9 +1,9 @@
 using System.Threading.Tasks;
-using Nethereum.Hex.HexTypes;
-using Nethereum.Web3.Accounts;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.Web3.Accounts;
 using Xunit;
 
-namespace Nethereum.Contracts.IntegrationTests
+namespace Loom.Nethereum.Contracts.IntegrationTests
 {
     public class ReceiptStatusTests
     {

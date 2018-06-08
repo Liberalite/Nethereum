@@ -1,10 +1,10 @@
 using System.Collections.Generic;
-using Nethereum.Contracts.Comparers;
-using Nethereum.Hex.HexTypes;
-using Nethereum.RPC.Eth.DTOs;
+using Loom.Nethereum.Contracts.Comparers;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.RPC.Eth.DTOs;
 using Xunit;
 
-namespace Nethereum.Contracts.UnitTests
+namespace Loom.Nethereum.Contracts.UnitTests
 {
     public class FilterLogSortingTests
     {

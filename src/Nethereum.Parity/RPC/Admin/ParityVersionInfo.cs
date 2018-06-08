@@ -1,8 +1,8 @@
-using Nethereum.JsonRpc.Client;
-using Nethereum.RPC.Infrastructure;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC.Infrastructure;
 using Newtonsoft.Json.Linq;
 
-namespace Nethereum.Parity.RPC.Admin
+namespace Loom.Nethereum.Parity.RPC.Admin
 {
     /// <Summary>
     ///     parity_versionInfo

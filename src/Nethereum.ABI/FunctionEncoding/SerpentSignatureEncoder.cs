@@ -1,8 +1,8 @@
 using System.Linq;
 using System.Text;
-using Nethereum.ABI.Model;
+using Loom.Nethereum.ABI.Model;
 
-namespace Nethereum.ABI.FunctionEncoding
+namespace Loom.Nethereum.ABI.FunctionEncoding
 {
     public class SerpentSignatureEncoder : SignatureEncoder
     {

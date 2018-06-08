@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Nethereum.JsonRpc.Client;
+using Loom.Nethereum.JsonRpc.Client;
 using Newtonsoft.Json;
 using RpcError = Nethereum.JsonRpc.Client.RpcError;
 using RpcRequest = Nethereum.JsonRpc.Client.RpcRequest;
 using System.Text;
 using System.IO;
-using Nethereum.JsonRpc.Client.RpcMessages;
+using Loom.Nethereum.JsonRpc.Client.RpcMessages;
 
-namespace Nethereum.JsonRpc.IpcClient
+namespace Loom.Nethereum.JsonRpc.IpcClient
 {
     public abstract class IpcClientBase : ClientBase, IDisposable
     {

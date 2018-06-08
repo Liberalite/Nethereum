@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 
-namespace Nethereum.JsonRpc.Client
+namespace Loom.Nethereum.JsonRpc.Client
 {
     public interface IClient
     {

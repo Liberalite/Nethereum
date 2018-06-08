@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Reflection;
-using Nethereum.ABI.Model;
+using Loom.Nethereum.ABI.Model;
 
-namespace Nethereum.ABI.FunctionEncoding.Attributes
+namespace Loom.Nethereum.ABI.FunctionEncoding.Attributes
 {
     public class AttributesToABIExtractor
     {

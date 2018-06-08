@@ -1,11 +1,11 @@
 ﻿using System.Numerics;
-using Nethereum.KeyStore;
-using Nethereum.RPC.Accounts;
-using Nethereum.RPC.NonceServices;
-using Nethereum.RPC.TransactionManagers;
-using Nethereum.Signer;
+using Loom.Nethereum.KeyStore;
+using Loom.Nethereum.RPC.Accounts;
+using Loom.Nethereum.RPC.NonceServices;
+using Loom.Nethereum.RPC.TransactionManagers;
+using Loom.Nethereum.Signer;
 
-namespace Nethereum.Web3.Accounts
+namespace Loom.Nethereum.Web3.Accounts
 {
     public class Account : IAccount
     {

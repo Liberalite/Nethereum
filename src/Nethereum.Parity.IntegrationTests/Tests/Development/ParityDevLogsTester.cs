@@ -1,10 +1,10 @@
 using System;
 using System.Threading.Tasks;
-using Nethereum.JsonRpc.Client;
-using Nethereum.Parity.RPC.Development;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.Parity.RPC.Development;
 using Xunit;
 
-namespace Nethereum.Parity.IntegrationTests.Tests.Development
+namespace Loom.Nethereum.Parity.IntegrationTests.Tests.Development
 {
     public class ParityDevLogsTester : RPCRequestTester<string[]>, IRPCRequestTester
     {

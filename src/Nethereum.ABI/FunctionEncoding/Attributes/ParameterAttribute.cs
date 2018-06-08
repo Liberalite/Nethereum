@@ -1,7 +1,7 @@
 using System;
-using Nethereum.ABI.Model;
+using Loom.Nethereum.ABI.Model;
 
-namespace Nethereum.ABI.FunctionEncoding.Attributes
+namespace Loom.Nethereum.ABI.FunctionEncoding.Attributes
 {
     [AttributeUsage(AttributeTargets.Property)]
     public class ParameterAttribute : Attribute
