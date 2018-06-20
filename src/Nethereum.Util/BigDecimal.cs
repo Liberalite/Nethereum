@@ -208,16 +208,6 @@ namespace Loom.Nethereum.Util
                 mantissa = new BigInteger(Decimal.Truncate(value * scaleFactor).ToString(CultureInfo.InvariantCulture));
             }
             return new BigDecimal(mantissa, exponent);
-            /*var mantissa = BigInteger.ValueOf(value);
-            var exponent = 0;
-            decimal scaleFactor = 1;
-            while ((decimal) mantissa != value * scaleFactor)
-            {
-                exponent -= 1;
-                scaleFactor *= 10;
-                mantissa = (BigInteger) (value * scaleFactor);
-            }
-            return new BigDecimal(mantissa, exponent);*/
         }
 
         public static explicit operator double(BigDecimal value)
