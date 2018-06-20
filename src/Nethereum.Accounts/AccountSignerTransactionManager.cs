@@ -9,7 +9,7 @@ using Loom.Nethereum.RPC.Eth.Transactions;
 using Loom.Nethereum.RPC.NonceServices;
 using Loom.Nethereum.RPC.TransactionManagers;
 using Loom.Nethereum.Signer;
-using Transaction = Nethereum.Signer.Transaction;
+using Transaction = Loom.Nethereum.Signer.Transaction;
 
 namespace Loom.Nethereum.Web3.Accounts
 {

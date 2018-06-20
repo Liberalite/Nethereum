@@ -1,5 +1,5 @@
 using System;
-using System.Numerics;
+using Org.BouncyCastle.Math;
 
 namespace Loom.Nethereum.Hex.HexTypes
 {

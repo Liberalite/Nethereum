@@ -1,5 +1,5 @@
 using System;
-using System.Numerics;
+using Org.BouncyCastle.Math;
 
 namespace Loom.Nethereum.Util
 {
@@ -96,51 +96,51 @@ namespace Loom.Nethereum.Util
             switch (ethUnit)
             {
                 case EthUnit.Wei:
-                    return BigInteger.Parse("1");
+                    return new BigInteger("1");
                 case EthUnit.Kwei:
-                    return BigInteger.Parse("1000");
+                    return new BigInteger("1000");
                 case EthUnit.Babbage:
-                    return BigInteger.Parse("1000");
+                    return new BigInteger("1000");
                 case EthUnit.Femtoether:
-                    return BigInteger.Parse("1000");
+                    return new BigInteger("1000");
                 case EthUnit.Mwei:
-                    return BigInteger.Parse("1000000");
+                    return new BigInteger("1000000");
                 case EthUnit.Picoether:
-                    return BigInteger.Parse("1000000");
+                    return new BigInteger("1000000");
                 case EthUnit.Gwei:
-                    return BigInteger.Parse("1000000000");
+                    return new BigInteger("1000000000");
                 case EthUnit.Shannon:
-                    return BigInteger.Parse("1000000000");
+                    return new BigInteger("1000000000");
                 case EthUnit.Nanoether:
-                    return BigInteger.Parse("1000000000");
+                    return new BigInteger("1000000000");
                 case EthUnit.Nano:
-                    return BigInteger.Parse("1000000000");
+                    return new BigInteger("1000000000");
                 case EthUnit.Szabo:
-                    return BigInteger.Parse("1000000000000");
+                    return new BigInteger("1000000000000");
                 case EthUnit.Microether:
-                    return BigInteger.Parse("1000000000000");
+                    return new BigInteger("1000000000000");
                 case EthUnit.Micro:
-                    return BigInteger.Parse("1000000000000");
+                    return new BigInteger("1000000000000");
                 case EthUnit.Finney:
-                    return BigInteger.Parse("1000000000000000");
+                    return new BigInteger("1000000000000000");
                 case EthUnit.Milliether:
-                    return BigInteger.Parse("1000000000000000");
+                    return new BigInteger("1000000000000000");
                 case EthUnit.Milli:
-                    return BigInteger.Parse("1000000000000000");
+                    return new BigInteger("1000000000000000");
                 case EthUnit.Ether:
-                    return BigInteger.Parse("1000000000000000000");
+                    return new BigInteger("1000000000000000000");
                 case EthUnit.Kether:
-                    return BigInteger.Parse("1000000000000000000000");
+                    return new BigInteger("1000000000000000000000");
                 case EthUnit.Grand:
-                    return BigInteger.Parse("1000000000000000000000");
+                    return new BigInteger("1000000000000000000000");
                 case EthUnit.Einstein:
-                    return BigInteger.Parse("1000000000000000000000");
+                    return new BigInteger("1000000000000000000000");
                 case EthUnit.Mether:
-                    return BigInteger.Parse("1000000000000000000000000");
+                    return new BigInteger("1000000000000000000000000");
                 case EthUnit.Gether:
-                    return BigInteger.Parse("1000000000000000000000000000");
+                    return new BigInteger("1000000000000000000000000000");
                 case EthUnit.Tether:
-                    return BigInteger.Parse("1000000000000000000000000000000");
+                    return new BigInteger("1000000000000000000000000000000");
             }
             throw new NotImplementedException();
         }
@@ -173,13 +173,13 @@ namespace Loom.Nethereum.Util
         public BigInteger ToWei(BigDecimal amount, int decimalPlacesFromUnit)
         {
             if (decimalPlacesFromUnit == 0) ToWei(amount, 1);
-            return ToWeiFromUnit(amount, BigInteger.Pow(10, decimalPlacesFromUnit));
+            return ToWeiFromUnit(amount, BigInteger.Ten.Pow(decimalPlacesFromUnit));
         }
 
         public BigInteger ToWei(decimal amount, int decimalPlacesFromUnit)
         {
             if (decimalPlacesFromUnit == 0) ToWei(amount, 1);
-            return ToWeiFromUnit(amount, BigInteger.Pow(10, decimalPlacesFromUnit));
+            return ToWeiFromUnit(amount, BigInteger.Ten.Pow(decimalPlacesFromUnit));
         }
 
 
@@ -191,12 +191,12 @@ namespace Loom.Nethereum.Util
 
         public BigInteger ToWei(BigInteger value, EthUnit fromUnit = EthUnit.Ether)
         {
-            return value * GetEthUnitValue(fromUnit);
+            return value.Multiply(GetEthUnitValue(fromUnit));
         }
 
         public BigInteger ToWei(int value, EthUnit fromUnit = EthUnit.Ether)
         {
-            return ToWei(new BigInteger(value), fromUnit);
+            return ToWei(BigInteger.ValueOf(value), fromUnit);
         }
 
         public BigInteger ToWei(double value, EthUnit fromUnit = EthUnit.Ether)
@@ -211,7 +211,7 @@ namespace Loom.Nethereum.Util
 
         public BigInteger ToWei(long value, EthUnit fromUnit = EthUnit.Ether)
         {
-            return ToWei(new BigInteger(value), fromUnit);
+            return ToWei(BigInteger.ValueOf(value), fromUnit);
         }
 
         public BigInteger ToWei(string value, EthUnit fromUnit = EthUnit.Ether)
@@ -222,15 +222,15 @@ namespace Loom.Nethereum.Util
         private BigInteger CalculateNumberOfDecimalPlaces(double value, int maxNumberOfDecimals,
             int currentNumberOfDecimals = 0)
         {
-            return CalculateNumberOfDecimalPlaces(System.Convert.ToDecimal(value), maxNumberOfDecimals,
-                currentNumberOfDecimals);
+            return BigInteger.ValueOf(CalculateNumberOfDecimalPlaces(System.Convert.ToDecimal(value), maxNumberOfDecimals,
+                currentNumberOfDecimals));
         }
 
         private BigInteger CalculateNumberOfDecimalPlaces(float value, int maxNumberOfDecimals,
             int currentNumberOfDecimals = 0)
         {
-            return CalculateNumberOfDecimalPlaces(System.Convert.ToDecimal(value), maxNumberOfDecimals,
-                currentNumberOfDecimals);
+            return BigInteger.ValueOf(CalculateNumberOfDecimalPlaces(System.Convert.ToDecimal(value), maxNumberOfDecimals,
+                currentNumberOfDecimals));
         }
 
         private int CalculateNumberOfDecimalPlaces(decimal value, int maxNumberOfDecimals,
@@ -242,7 +242,7 @@ namespace Loom.Nethereum.Util
                 currentNumberOfDecimals = 1;
             }
             if (currentNumberOfDecimals == maxNumberOfDecimals) return maxNumberOfDecimals;
-            var multiplied = value * (decimal) BigInteger.Pow(10, currentNumberOfDecimals);
+            var multiplied = value * BigInteger.Ten.Pow(currentNumberOfDecimals).ToDecimal();
             if (Math.Round(multiplied) == multiplied)
                 return currentNumberOfDecimals;
             return CalculateNumberOfDecimalPlaces(value, maxNumberOfDecimals, currentNumberOfDecimals + 1);
@@ -255,7 +255,7 @@ namespace Loom.Nethereum.Util
         //var stringAmount = amount.ToString("#.#############################", System.Globalization.CultureInfo.InvariantCulture);
         //if (stringAmount.IndexOf(".") == -1)
         //{
-        //    return BigInteger.Parse(stringAmount) * fromUnit;
+        //    return new BigInteger(stringAmount) * fromUnit;
         //}
 
         //stringAmount = stringAmount.TrimEnd('0');
@@ -265,10 +265,10 @@ namespace Loom.Nethereum.Util
 
         //if (decimalPlaces > maxDigits)
         //{
-        //    return BigInteger.Parse(stringAmount.Substring(0, decimalPosition) + stringAmount.Substring(decimalPosition + 1, maxDigits));
+        //    return new BigInteger(stringAmount.Substring(0, decimalPosition) + stringAmount.Substring(decimalPosition + 1, maxDigits));
         //}
 
-        //return BigInteger.Parse(stringAmount.Substring(0, decimalPosition) + stringAmount.Substring(decimalPosition + 1).PadRight(maxDigits, '0'));   
+        //return new BigInteger(stringAmount.Substring(0, decimalPosition) + stringAmount.Substring(decimalPosition + 1).PadRight(maxDigits, '0'));
         //}
     }
 }

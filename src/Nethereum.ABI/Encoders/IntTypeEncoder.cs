@@ -1,8 +1,8 @@
 using System;
 using System.Linq;
-using System.Numerics;
 using Loom.Nethereum.ABI.Decoders;
 using Loom.Nethereum.ABI.Util;
+using Org.BouncyCastle.Math;
 
 namespace Loom.Nethereum.ABI.Encoders
 {
@@ -26,7 +26,7 @@ namespace Loom.Nethereum.ABI.Encoders
             else if (value is BigInteger)
                 bigInt = (BigInteger) value;
             else if (value.IsNumber())
-                bigInt = BigInteger.Parse(value.ToString());
+                bigInt = new BigInteger(value.ToString());
             else
                 throw new Exception("Invalid value for type '" + this + "': " + value + " (" + value.GetType() + ")");
             return EncodeInt(bigInt);
@@ -34,7 +34,7 @@ namespace Loom.Nethereum.ABI.Encoders
 
         public byte[] EncodeInt(int value)
         {
-            return EncodeInt(new BigInteger(value));
+            return EncodeInt(BigInteger.ValueOf(value));
         }
 
         public byte[] EncodeInt(BigInteger value)
@@ -48,11 +48,11 @@ namespace Loom.Nethereum.ABI.Encoders
             if (bytes.Length > maxIntSizeInBytes)
                 throw new ArgumentOutOfRangeException(nameof(value),
                                                       $"Integer value must not exceed maximum Solidity size of {maxIntSizeInBytes} bytes. Length of passed value is {bytes.Length}");
-            
+
             var ret = new byte[maxIntSizeInBytes];
 
             for (var i = 0; i < ret.Length; i++)
-                if (value.Sign < 0)
+                if (value.SignValue < 0)
                     ret[i] = 0xFF;
                 else
                     ret[i] = 0;

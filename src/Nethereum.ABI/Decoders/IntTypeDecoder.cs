@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
-using System.Numerics;
 using Loom.Nethereum.Hex.HexConvertors.Extensions;
+using Org.BouncyCastle.Math;
 
 namespace Loom.Nethereum.ABI.Decoders
 {
@@ -51,55 +51,50 @@ namespace Loom.Nethereum.ABI.Decoders
         {
             var negative = encoded.First() == 0xFF;
 
-            if (BitConverter.IsLittleEndian)
-                encoded = encoded.Reverse().ToArray();
+            //if (BitConverter.IsLittleEndian)
+            //    encoded = encoded.Reverse().ToArray();
 
-            if (negative)
-                return new BigInteger(encoded) -
-                       new BigInteger(
-                           "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff".HexToByteArray()) - 1;
-
-            return new BigInteger(encoded);
+            return new BigInteger(negative ? -1 : 1, encoded);
         }
 
         public byte DecodeByte(byte[] encoded)
         {
-            return (byte)DecodeBigInteger(encoded);
+            return (byte)DecodeBigInteger(encoded).IntValue;
         }
 
         public sbyte DecodeSbyte(byte[] encoded)
         {
-            return (sbyte)DecodeBigInteger(encoded);
+            return (sbyte)DecodeBigInteger(encoded).IntValue;
         }
 
         public short DecodeShort(byte[] encoded)
         {
-            return (short)DecodeBigInteger(encoded);
+            return (short)DecodeBigInteger(encoded).IntValue;
         }
 
         public ushort DecodeUShort(byte[] encoded)
         {
-            return (ushort)DecodeBigInteger(encoded);
+            return (ushort)DecodeBigInteger(encoded).IntValue;
         }
 
         public int DecodeInt(byte[] encoded)
         {
-            return (int) DecodeBigInteger(encoded);
+            return DecodeBigInteger(encoded).IntValue;
         }
 
         public long DecodeLong(byte[] encoded)
         {
-            return (long) DecodeBigInteger(encoded);
+            return DecodeBigInteger(encoded).LongValue;
         }
 
         public uint DecodeUInt(byte[] encoded)
         {
-            return (uint) DecodeBigInteger(encoded);
+            return (uint) DecodeBigInteger(encoded).LongValue;
         }
 
         public ulong DecodeULong(byte[] encoded)
         {
-            return (ulong) DecodeBigInteger(encoded);
+            return (ulong) DecodeBigInteger(encoded).LongValue;
         }
 
         public override Type GetDefaultDecodingType()
@@ -109,7 +104,7 @@ namespace Loom.Nethereum.ABI.Decoders
 
         public override bool IsSupportedType(Type type)
         {
-            return (type == typeof(int)) || (type == typeof(uint)) || 
+            return (type == typeof(int)) || (type == typeof(uint)) ||
                    (type == typeof(ulong)) || (type == typeof(long))  ||
                    (type == typeof(short)) || (type == typeof(ushort)) ||
                    (type == typeof(byte)) || (type == typeof(sbyte)) ||

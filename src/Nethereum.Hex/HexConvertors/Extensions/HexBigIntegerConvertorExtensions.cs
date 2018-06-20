@@ -1,6 +1,6 @@
 using System;
 using System.Linq;
-using System.Numerics;
+using Org.BouncyCastle.Math;
 
 namespace Loom.Nethereum.Hex.HexConvertors.Extensions
 {
@@ -18,8 +18,8 @@ namespace Loom.Nethereum.Hex.HexConvertors.Extensions
 
         public static string ToHex(this BigInteger value, bool littleEndian, bool compact = true)
         {
-            if (value.Sign < 0) throw new Exception("Hex Encoding of Negative BigInteger value is not supported");
-            if (value == 0) return "0x0";
+            if (value.SignValue < 0) throw new Exception("Hex Encoding of Negative BigInteger value is not supported");
+            if (value.LongValue == 0) return "0x0";
 
 #if NETCOREAPP2_1
             var bytes = value.ToByteArray(true, !littleEndian);
@@ -36,7 +36,7 @@ namespace Loom.Nethereum.Hex.HexConvertors.Extensions
 
         public static BigInteger HexToBigInteger(this string hex, bool isHexLittleEndian)
         {
-            if (hex == "0x0") return 0;
+            if (hex == "0x0") return BigInteger.Zero;
 
             var encoded = hex.HexToByteArray();
 
