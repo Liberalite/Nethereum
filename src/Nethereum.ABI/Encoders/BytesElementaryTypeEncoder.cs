@@ -36,7 +36,7 @@ namespace Loom.Nethereum.ABI.Encoders
             var returnArray = new byte[((byteArray.Length - 1) / 32 + 1) * 32]; // padding 32 bytes
 
             //It should always be Big Endian.
-            if (BitConverter.IsLittleEndian && checkEndian)
+            if (!BitConverter.IsLittleEndian && checkEndian)
                 byteArray = byteArray.Reverse().ToArray();
 
             Array.Copy(byteArray, 0, returnArray, 0, byteArray.Length);

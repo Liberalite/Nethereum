@@ -51,8 +51,8 @@ namespace Loom.Nethereum.ABI.Decoders
         {
             var negative = encoded.First() == 0xFF;
 
-            //if (BitConverter.IsLittleEndian)
-            //    encoded = encoded.Reverse().ToArray();
+            if (!BitConverter.IsLittleEndian)
+                encoded = encoded.Reverse().ToArray();
 
             return new BigInteger(negative ? -1 : 1, encoded);
         }

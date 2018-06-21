@@ -42,8 +42,8 @@ namespace Loom.Nethereum.ABI.Encoders
             const int maxIntSizeInBytes = 32;
             //It should always be Big Endian.
             var bytes = BitConverter.IsLittleEndian
-                            ? value.ToByteArray().Reverse().ToArray()
-                            : value.ToByteArray();
+                            ? value.ToByteArray()
+                            : value.ToByteArray().Reverse().ToArray();
 
             if (bytes.Length > maxIntSizeInBytes)
                 throw new ArgumentOutOfRangeException(nameof(value),
