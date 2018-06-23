@@ -50,11 +50,23 @@ namespace Loom.Nethereum.ABI.Decoders
         public BigInteger DecodeBigInteger(byte[] encoded)
         {
             var negative = encoded.First() == 0xFF;
+            if (negative)
+            {
+                // Two's complement
+                encoded = encoded.Select(b => (byte) ~b).ToArray();
+            }
 
             if (!BitConverter.IsLittleEndian)
                 encoded = encoded.Reverse().ToArray();
 
-            return new BigInteger(negative ? -1 : 1, encoded);
+            BigInteger result = new BigInteger(negative ? -1 : 1, encoded);
+            if (negative)
+            {
+                // Two's complement
+                result = result.Subtract(BigInteger.One);
+            }
+
+            return result;
         }
 
         public byte DecodeByte(byte[] encoded)
