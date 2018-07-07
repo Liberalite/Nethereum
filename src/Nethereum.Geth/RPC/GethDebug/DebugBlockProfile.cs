@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
 using Loom.Nethereum.JsonRpc.Client;
 
-namespace Loom.Nethereum.Geth.RPC.Debug
+namespace Nethereum.Geth.RPC.Debug
 {
     /// <Summary>
     ///     Turns on block profiling for the given duration and writes profile data to disk. It uses a profile rate of 1 for

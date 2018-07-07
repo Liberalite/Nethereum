@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-namespace Loom.Nethereum.ABI.FunctionEncoding.Attributes
+namespace Nethereum.ABI.FunctionEncoding.Attributes
 {
     [AttributeUsage(AttributeTargets.Class)]
     public class EventAttribute : Attribute

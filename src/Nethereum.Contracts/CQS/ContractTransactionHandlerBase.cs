@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Loom.Nethereum.Hex.HexTypes;
 using Loom.Nethereum.RPC.Eth.DTOs;
 
-namespace Loom.Nethereum.Contracts.CQS
+namespace Nethereum.Contracts.CQS
 {
 #if !DOTNET35
     public abstract class ContractTransactionHandlerBase<TFunctionDTO> : ContractHandlerBase<TFunctionDTO>

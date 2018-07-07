@@ -2,7 +2,7 @@ using Loom.Nethereum.JsonRpc.Client;
 using Loom.Nethereum.RPC.Infrastructure;
 using Newtonsoft.Json.Linq;
 
-namespace Loom.Nethereum.Parity.RPC.Accounts
+namespace Nethereum.Parity.RPC.Accounts
 {
     /// <Summary>
     ///     parity_accountsInfo

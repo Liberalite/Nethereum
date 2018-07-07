@@ -7,7 +7,7 @@ using Loom.Nethereum.JsonRpc.Client;
 using Loom.Nethereum.RPC.Eth.DTOs;
 using Loom.Nethereum.RPC.Eth.Transactions;
 
-namespace Loom.Nethereum.RPC.NonceServices
+namespace Nethereum.RPC.NonceServices
 {
 #if !DOTNET35
     public class InMemoryNonceService: INonceService

@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
 using Loom.Nethereum.JsonRpc.Client;
 
-namespace Loom.Nethereum.Geth.RPC.Admin
+namespace Nethereum.Geth.RPC.Admin
 {
     /// <Summary>
     ///     The startRPC administrative method starts an HTTP based JSON RPC API webserver to handle client requests. All the

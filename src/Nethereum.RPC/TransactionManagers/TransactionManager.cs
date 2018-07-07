@@ -5,7 +5,7 @@ using Loom.Nethereum.RPC.Eth.Transactions;
 using Loom.Nethereum.RPC.Eth.DTOs;
 using System.Numerics;
 
-namespace Loom.Nethereum.RPC.TransactionManagers
+namespace Nethereum.RPC.TransactionManagers
 {
     public class TransactionManager : TransactionManagerBase
     {

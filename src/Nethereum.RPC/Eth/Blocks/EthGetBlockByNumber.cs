@@ -5,7 +5,7 @@ using Loom.Nethereum.Hex.HexTypes;
 using Loom.Nethereum.JsonRpc.Client;
 using Loom.Nethereum.RPC.Eth.DTOs;
 
-namespace Loom.Nethereum.RPC.Eth.Blocks
+namespace Nethereum.RPC.Eth.Blocks
 {
     /// <Summary>
     ///     eth_getBlockByNumber

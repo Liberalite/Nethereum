@@ -6,7 +6,7 @@ using Loom.Nethereum.JsonRpc.Client;
 using Loom.Nethereum.Quorum.RPC.Interceptors;
 using Loom.Nethereum.Quorum.RPC.Services;
 
-namespace Loom.Nethereum.Quorum
+namespace Nethereum.Quorum
 {
     public class Web3Quorum:Web3.Web3
     {

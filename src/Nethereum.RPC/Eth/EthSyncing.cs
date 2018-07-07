@@ -5,7 +5,7 @@ using Loom.Nethereum.RPC.Eth.DTOs;
 using Loom.Nethereum.RPC.Infrastructure;
 using Newtonsoft.Json.Linq;
 
-namespace Loom.Nethereum.RPC.Eth
+namespace Nethereum.RPC.Eth
 {
     /// <Summary>
     ///     eth_syncing

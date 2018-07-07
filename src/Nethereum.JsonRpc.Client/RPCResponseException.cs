@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Loom.Nethereum.JsonRpc.Client
+namespace Nethereum.JsonRpc.Client
 {
     public class RpcResponseException : Exception
     {

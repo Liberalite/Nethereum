@@ -1,7 +1,7 @@
 using Loom.Nethereum.Hex.HexConvertors;
 using Loom.Nethereum.Hex.HexConvertors.Extensions;
 
-namespace Loom.Nethereum.Hex.HexTypes
+namespace Nethereum.Hex.HexTypes
 {
     public class HexRPCType<T>
     {

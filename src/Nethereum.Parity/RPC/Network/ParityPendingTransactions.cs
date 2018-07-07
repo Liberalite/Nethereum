@@ -2,7 +2,7 @@ using Loom.Nethereum.JsonRpc.Client;
 using Loom.Nethereum.RPC.Infrastructure;
 using Newtonsoft.Json.Linq;
 
-namespace Loom.Nethereum.Parity.RPC.Network
+namespace Nethereum.Parity.RPC.Network
 {
     /// <Summary>
     ///     parity_pendingTransactions

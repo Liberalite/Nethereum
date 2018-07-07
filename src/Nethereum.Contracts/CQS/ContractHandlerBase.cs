@@ -3,7 +3,7 @@ using Loom.Nethereum.Hex.HexTypes;
 using Loom.Nethereum.JsonRpc.Client;
 using Loom.Nethereum.RPC.TransactionManagers;
 
-namespace Loom.Nethereum.Contracts.CQS
+namespace Nethereum.Contracts.CQS
 {
     public abstract class ContractHandlerBase<TContractMessage> where TContractMessage : ContractMessage
     {

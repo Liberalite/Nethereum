@@ -2,7 +2,7 @@
 using Newtonsoft.Json;
 using System.Collections;
 
-namespace Loom.Nethereum.RPC.Eth.DTOs
+namespace Nethereum.RPC.Eth.DTOs
 {
     public class Block
     {

@@ -7,7 +7,7 @@ using Loom.Nethereum.Hex.HexTypes;
 using Loom.Nethereum.RPC.Eth.DTOs;
 using Loom.Nethereum.RPC.TransactionReceipts;
 
-namespace Loom.Nethereum.Uport
+namespace Nethereum.Uport
 {
     public class UportRegistryService
     {

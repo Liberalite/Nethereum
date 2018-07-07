@@ -2,7 +2,7 @@ using System.Threading.Tasks;
 using Loom.Nethereum.JsonRpc.Client;
 using Newtonsoft.Json.Linq;
 
-namespace Loom.Nethereum.Geth.RPC.Debug
+namespace Nethereum.Geth.RPC.Debug
 {
     /// <Summary>
     ///     The traceBlock method will return a full stack trace of all invoked opcodes of all transaction that were included

@@ -1,7 +1,7 @@
 using Loom.Nethereum.JsonRpc.Client;
 using Loom.Nethereum.RPC.Infrastructure;
 
-namespace Loom.Nethereum.RPC.Personal
+namespace Nethereum.RPC.Personal
 {
     /// <Summary>
     ///     personal_listAccounts

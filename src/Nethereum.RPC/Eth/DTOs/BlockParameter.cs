@@ -3,7 +3,7 @@ using System.Numerics;
 using Loom.Nethereum.Hex.HexTypes;
 using Newtonsoft.Json;
 
-namespace Loom.Nethereum.RPC.Eth.DTOs
+namespace Nethereum.RPC.Eth.DTOs
 {
     [JsonConverter(typeof (BlockParameterJsonConverter))]
     public class BlockParameter

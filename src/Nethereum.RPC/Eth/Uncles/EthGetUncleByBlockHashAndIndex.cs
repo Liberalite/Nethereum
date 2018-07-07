@@ -6,7 +6,7 @@ using Loom.Nethereum.JsonRpc.Client;
 using Loom.Nethereum.RPC.Eth.DTOs;
 using Loom.Nethereum.Hex.HexConvertors.Extensions;
 
-namespace Loom.Nethereum.RPC.Eth.Uncles
+namespace Nethereum.RPC.Eth.Uncles
 {
     /// <Summary>
     ///     eth_getUncleByBlockHashAndIndex

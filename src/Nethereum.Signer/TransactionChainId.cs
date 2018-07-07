@@ -3,7 +3,7 @@ using System.Numerics;
 using Loom.Nethereum.Hex.HexConvertors.Extensions;
 using Loom.Nethereum.RLP;
 
-namespace Loom.Nethereum.Signer
+namespace Nethereum.Signer
 {
     public class TransactionChainId : TransactionBase
     {  

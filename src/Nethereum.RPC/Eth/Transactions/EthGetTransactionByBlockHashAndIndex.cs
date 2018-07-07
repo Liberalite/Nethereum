@@ -6,7 +6,7 @@ using Loom.Nethereum.Hex.HexTypes;
 using Loom.Nethereum.JsonRpc.Client;
 using Loom.Nethereum.RPC.Eth.DTOs;
 
-namespace Loom.Nethereum.RPC.Eth.Transactions
+namespace Nethereum.RPC.Eth.Transactions
 {
     /// <Summary>
     ///     eth_getTransactionByBlockHashAndIndex

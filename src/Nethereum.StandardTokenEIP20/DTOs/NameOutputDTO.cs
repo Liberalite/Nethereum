@@ -1,6 +1,6 @@
 using Loom.Nethereum.ABI.FunctionEncoding.Attributes;
 
-namespace Loom.Nethereum.StandardTokenEIP20.DTOs
+namespace Nethereum.StandardTokenEIP20.DTOs
 {
     [FunctionOutput]
     public class NameOutputDTO

@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Loom.Nethereum.Hex.HexTypes;
 using Loom.Nethereum.JsonRpc.Client;
 
-namespace Loom.Nethereum.RPC.Eth.Uncles
+namespace Nethereum.RPC.Eth.Uncles
 {
     /// <Summary>
     ///     eth_getUncleCountByBlockNumber

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace Loom.Nethereum.ABI.Decoders
+namespace Nethereum.ABI.Decoders
 {
     public class ArrayTypeDecoder : TypeDecoder
     {

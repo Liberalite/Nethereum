@@ -12,7 +12,7 @@ using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Utilities;
 
-namespace Loom.Nethereum.Signer
+namespace Nethereum.Signer
 {
     public class EthECKey
     {

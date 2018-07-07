@@ -1,6 +1,6 @@
 using Loom.Nethereum.RPC.Eth.DTOs;
 
-namespace Loom.Nethereum.Contracts
+namespace Nethereum.Contracts
 {
     public class EventLog<T> : IEventLog
     {

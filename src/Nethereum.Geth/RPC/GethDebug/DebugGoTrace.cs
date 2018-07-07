@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
 using Loom.Nethereum.JsonRpc.Client;
 
-namespace Loom.Nethereum.Geth.RPC.Debug
+namespace Nethereum.Geth.RPC.Debug
 {
     /// <Summary>
     ///     Turns on Go runtime tracing for the given duration and writes trace data to disk.

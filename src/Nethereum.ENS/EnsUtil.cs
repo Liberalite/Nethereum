@@ -2,7 +2,7 @@
 using Loom.Nethereum.Hex.HexConvertors.Extensions;
 using Loom.Nethereum.Util;
 
-namespace Loom.Nethereum.ENS
+namespace Nethereum.ENS
 {
     public class EnsUtil
     {

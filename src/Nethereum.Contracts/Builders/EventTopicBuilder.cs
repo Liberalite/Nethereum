@@ -3,7 +3,7 @@ using System.Linq;
 using Loom.Nethereum.ABI.Model;
 using Loom.Nethereum.Hex.HexConvertors.Extensions;
 
-namespace Loom.Nethereum.Contracts
+namespace Nethereum.Contracts
 {
     public class EventTopicBuilder
     {

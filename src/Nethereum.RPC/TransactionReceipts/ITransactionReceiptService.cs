@@ -4,7 +4,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Loom.Nethereum.RPC.Eth.DTOs;
 
-namespace Loom.Nethereum.RPC.TransactionReceipts
+namespace Nethereum.RPC.TransactionReceipts
 {
     public interface ITransactionReceiptService
     {

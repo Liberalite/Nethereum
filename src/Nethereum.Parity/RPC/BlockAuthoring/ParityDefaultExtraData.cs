@@ -1,7 +1,7 @@
 using Loom.Nethereum.JsonRpc.Client;
 using Loom.Nethereum.RPC.Infrastructure;
 
-namespace Loom.Nethereum.Parity.RPC.BlockAuthoring
+namespace Nethereum.Parity.RPC.BlockAuthoring
 {
     /// <Summary>
     ///     parity_defaultExtraData

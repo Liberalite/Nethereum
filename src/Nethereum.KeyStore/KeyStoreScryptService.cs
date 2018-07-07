@@ -3,7 +3,7 @@ using Loom.Nethereum.Hex.HexConvertors.Extensions;
 using Loom.Nethereum.KeyStore.Crypto;
 using Loom.Nethereum.KeyStore.Model;
 
-namespace Loom.Nethereum.KeyStore
+namespace Nethereum.KeyStore
 {
     public class KeyStoreScryptService : KeyStoreServiceBase<ScryptParams>
     {

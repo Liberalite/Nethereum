@@ -1,7 +1,7 @@
 using Loom.Nethereum.ABI.Decoders;
 using Loom.Nethereum.ABI.Encoders;
 
-namespace Loom.Nethereum.ABI
+namespace Nethereum.ABI
 {
     public class StringType : ABIType
     {

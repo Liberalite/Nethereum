@@ -5,7 +5,7 @@ using Org.BouncyCastle.Crypto.Digests;
 using Org.BouncyCastle.Crypto.Generators;
 using Org.BouncyCastle.Crypto.Parameters;
 
-namespace Loom.Nethereum.KeyStore.Crypto
+namespace Nethereum.KeyStore.Crypto
 {
     /* Scrypt and SalsaCore from BouncyCastle
     Changes:

@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Loom.Nethereum.Geth.RPC.Debug.DTOs
+namespace Nethereum.Geth.RPC.Debug.DTOs
 {
     public class TraceTransactionOptions
     {

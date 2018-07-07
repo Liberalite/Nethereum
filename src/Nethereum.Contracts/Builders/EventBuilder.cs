@@ -8,7 +8,7 @@ using Loom.Nethereum.RPC.Eth.DTOs;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace Loom.Nethereum.Contracts
+namespace Nethereum.Contracts
 {
     public class EventBuilder
     {

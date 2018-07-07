@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Loom.Nethereum.Hex.HexConvertors.Extensions;
 using Loom.Nethereum.JsonRpc.Client;
 
-namespace Loom.Nethereum.RPC.Eth.Transactions
+namespace Nethereum.RPC.Eth.Transactions
 {
     /// <Summary>
     ///     eth_sendRawTransaction

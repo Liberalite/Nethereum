@@ -1,7 +1,7 @@
 using Loom.Nethereum.JsonRpc.Client;
 using Loom.Nethereum.RPC.Infrastructure;
 
-namespace Loom.Nethereum.Geth.RPC.Debug
+namespace Nethereum.Geth.RPC.Debug
 {
     /// <Summary>
     ///     Returns a printed representation of the stacks of all goroutines.

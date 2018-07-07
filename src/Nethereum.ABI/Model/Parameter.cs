@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Loom.Nethereum.ABI.Model
+namespace Nethereum.ABI.Model
 {
     public class Parameter
     {

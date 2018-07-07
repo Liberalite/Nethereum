@@ -3,7 +3,7 @@ using Loom.Nethereum.JsonRpc.Client;
 using Loom.Nethereum.RPC;
 using Loom.Nethereum.RPC.TransactionManagers;
 
-namespace Loom.Nethereum.Contracts
+namespace Nethereum.Contracts
 {
     public class EthApiContractService : EthApiService
     {

@@ -2,7 +2,7 @@ using System;
 using System.Threading.Tasks;
 using Loom.Nethereum.JsonRpc.Client;
 
-namespace Loom.Nethereum.Geth.RPC.Admin
+namespace Nethereum.Geth.RPC.Admin
 {
     /// <Summary>
     ///     The addPeer administrative method requests adding a new remote node to the list of tracked static nodes. The node

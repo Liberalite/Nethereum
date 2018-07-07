@@ -3,7 +3,7 @@ using Loom.Nethereum.ABI.Model;
 using Loom.Nethereum.Hex.HexTypes;
 using Loom.Nethereum.RPC.Eth.DTOs;
 
-namespace Loom.Nethereum.Contracts
+namespace Nethereum.Contracts
 {
     public class FunctionBuilder : FunctionBuilderBase
     {

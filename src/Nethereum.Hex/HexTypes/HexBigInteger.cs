@@ -2,7 +2,7 @@ using System.Numerics;
 using Loom.Nethereum.Hex.HexConvertors;
 using Newtonsoft.Json;
 
-namespace Loom.Nethereum.Hex.HexTypes
+namespace Nethereum.Hex.HexTypes
 {
     [JsonConverter(typeof(HexRPCTypeJsonConverter<HexBigInteger, BigInteger>))]
     public class HexBigInteger : HexRPCType<BigInteger>

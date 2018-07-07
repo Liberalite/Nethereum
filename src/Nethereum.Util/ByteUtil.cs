@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Loom.Nethereum.Util
+namespace Nethereum.Util
 {
     public static class ByteUtil
     {

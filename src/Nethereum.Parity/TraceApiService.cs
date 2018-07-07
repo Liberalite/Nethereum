@@ -2,7 +2,7 @@
 using Loom.Nethereum.Parity.RPC.Trace;
 using Loom.Nethereum.RPC;
 
-namespace Loom.Nethereum.Parity
+namespace Nethereum.Parity
 {
     public class TraceApiService : RpcClientWrapper
     {

@@ -8,7 +8,7 @@ using System.Numerics;
 using Loom.Nethereum.RPC.Accounts;
 using Loom.Nethereum.RPC.TransactionReceipts;
 
-namespace Loom.Nethereum.RPC.TransactionManagers
+namespace Nethereum.RPC.TransactionManagers
 {
     public abstract class TransactionManagerBase : ITransactionManager
     {

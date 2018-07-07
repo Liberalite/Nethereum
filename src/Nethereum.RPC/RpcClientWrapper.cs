@@ -1,6 +1,6 @@
 using Loom.Nethereum.JsonRpc.Client;
 
-namespace Loom.Nethereum.RPC
+namespace Nethereum.RPC
 {
     public class RpcClientWrapper
     {

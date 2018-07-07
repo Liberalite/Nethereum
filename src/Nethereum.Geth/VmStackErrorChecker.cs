@@ -1,6 +1,6 @@
 using Newtonsoft.Json.Linq;
 
-namespace Loom.Nethereum.Geth
+namespace Nethereum.Geth
 {
     public class VmStackErrorChecker
     {

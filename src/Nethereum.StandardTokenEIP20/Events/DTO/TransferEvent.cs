@@ -1,7 +1,7 @@
 ﻿using System.Numerics;
 using Loom.Nethereum.ABI.FunctionEncoding.Attributes;
 
-namespace Loom.Nethereum.StandardTokenEIP20.Events.DTO
+namespace Nethereum.StandardTokenEIP20.Events.DTO
 {
     public class Transfer
     {

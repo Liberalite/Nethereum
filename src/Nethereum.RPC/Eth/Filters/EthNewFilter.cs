@@ -5,7 +5,7 @@ using Loom.Nethereum.Hex.HexTypes;
 using Loom.Nethereum.JsonRpc.Client;
 using Loom.Nethereum.RPC.Eth.DTOs;
 
-namespace Loom.Nethereum.RPC.Eth.Filters
+namespace Nethereum.RPC.Eth.Filters
 {
     /// <Summary>
     ///     Creates a filter object, based on filter options, to notify when the state changes (logs). To check if the state

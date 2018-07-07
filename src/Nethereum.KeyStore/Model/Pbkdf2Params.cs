@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Loom.Nethereum.KeyStore.Model
+namespace Nethereum.KeyStore.Model
 {
     public class Pbkdf2Params : KdfParams
     {

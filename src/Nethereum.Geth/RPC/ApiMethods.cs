@@ -1,4 +1,4 @@
-﻿namespace Loom.Nethereum.Geth.RPC
+﻿namespace Nethereum.Geth.RPC
 {
     public enum ApiMethods
     {

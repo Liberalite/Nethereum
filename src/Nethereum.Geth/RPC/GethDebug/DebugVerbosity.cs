@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
 using Loom.Nethereum.JsonRpc.Client;
 
-namespace Loom.Nethereum.Geth.RPC.Debug
+namespace Nethereum.Geth.RPC.Debug
 {
     /// <Summary>
     ///     Sets the logging verbosity ceiling. Log messages with level up to and including the given level will be printed.

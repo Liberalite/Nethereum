@@ -3,7 +3,7 @@
 using Loom.Nethereum.Hex.HexTypes;
 using Loom.Nethereum.JsonRpc.Client;
 
-namespace Loom.Nethereum.RPC.Web3
+namespace Nethereum.RPC.Web3
 {
     /// <summary>
     ///     web3_sha3

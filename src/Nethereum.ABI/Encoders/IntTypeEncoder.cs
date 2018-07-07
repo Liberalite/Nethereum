@@ -4,7 +4,7 @@ using System.Numerics;
 using Loom.Nethereum.ABI.Decoders;
 using Loom.Nethereum.ABI.Util;
 
-namespace Loom.Nethereum.ABI.Encoders
+namespace Nethereum.ABI.Encoders
 {
     public class IntTypeEncoder : ITypeEncoder
     {

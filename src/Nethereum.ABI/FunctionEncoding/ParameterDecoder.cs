@@ -7,7 +7,7 @@ using Loom.Nethereum.ABI.FunctionEncoding.Attributes;
 using Loom.Nethereum.ABI.Model;
 using Loom.Nethereum.Hex.HexConvertors.Extensions;
 
-namespace Loom.Nethereum.ABI.FunctionEncoding
+namespace Nethereum.ABI.FunctionEncoding
 {
     public class ParameterDecoder
     {

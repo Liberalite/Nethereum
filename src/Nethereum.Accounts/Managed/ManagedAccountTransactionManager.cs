@@ -6,9 +6,9 @@ using Loom.Nethereum.JsonRpc.Client;
 using Loom.Nethereum.RPC.Eth.DTOs;
 using Loom.Nethereum.RPC.Personal;
 using Loom.Nethereum.RPC.TransactionManagers;
-using Transaction = Nethereum.Signer.Transaction;
+using Transaction = Loom.Nethereum.Signer.Transaction;
 
-namespace Loom.Nethereum.Web3.Accounts.Managed
+namespace Nethereum.Web3.Accounts.Managed
 {
     public class ManagedAccountTransactionManager : TransactionManagerBase
     {

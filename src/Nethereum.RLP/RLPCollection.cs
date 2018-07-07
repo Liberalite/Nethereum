@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Loom.Nethereum.RLP
+namespace Nethereum.RLP
 {
     public class RLPCollection : List<IRLPElement>, IRLPElement
     {

@@ -3,7 +3,7 @@ using System.Collections;
 using Loom.Nethereum.ABI.Util;
 using Loom.Nethereum.Util;
 
-namespace Loom.Nethereum.ABI.Encoders
+namespace Nethereum.ABI.Encoders
 {
     public class StaticArrayTypeEncoder : ArrayTypeEncoder
     {

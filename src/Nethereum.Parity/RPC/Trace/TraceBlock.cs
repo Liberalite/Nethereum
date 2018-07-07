@@ -3,7 +3,7 @@ using Loom.Nethereum.Hex.HexTypes;
 using Loom.Nethereum.JsonRpc.Client;
 using Newtonsoft.Json.Linq;
 
-namespace Loom.Nethereum.Parity.RPC.Trace
+namespace Nethereum.Parity.RPC.Trace
 {
     /// <Summary>
     ///     Returns traces created at given block

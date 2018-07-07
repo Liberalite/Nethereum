@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace Loom.Nethereum.ABI.Encoders
+namespace Nethereum.ABI.Encoders
 {
     public class BytesElementaryTypeEncoder : ITypeEncoder
     {

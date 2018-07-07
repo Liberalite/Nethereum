@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace Loom.Nethereum.ABI.Decoders
+namespace Nethereum.ABI.Decoders
 {
     public class BytesElementaryTypeDecoder : TypeDecoder
     {

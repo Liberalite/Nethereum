@@ -4,7 +4,7 @@ using Loom.Nethereum.Hex.HexTypes;
 using Loom.Nethereum.RPC.Eth.DTOs;
 using Loom.Nethereum.RPC.TransactionManagers;
 
-namespace Loom.Nethereum.Contracts
+namespace Nethereum.Contracts
 {
     public class DeployContract
     {

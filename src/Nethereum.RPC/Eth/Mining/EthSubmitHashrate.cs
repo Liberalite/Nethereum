@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Loom.Nethereum.JsonRpc.Client;
 using Loom.Nethereum.Hex.HexConvertors.Extensions;
 
-namespace Loom.Nethereum.RPC.Eth.Mining
+namespace Nethereum.RPC.Eth.Mining
 {
     /// <Summary>
     ///     eth_submitHashrate

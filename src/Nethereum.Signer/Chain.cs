@@ -1,4 +1,4 @@
-﻿namespace Loom.Nethereum.Signer
+﻿namespace Nethereum.Signer
 {
     public enum Chain
     {

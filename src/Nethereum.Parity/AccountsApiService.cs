@@ -2,7 +2,7 @@ using Loom.Nethereum.JsonRpc.Client;
 using Loom.Nethereum.Parity.RPC.Accounts;
 using Loom.Nethereum.RPC;
 
-namespace Loom.Nethereum.Parity
+namespace Nethereum.Parity
 {
     public class AccountsApiService : RpcClientWrapper
     {

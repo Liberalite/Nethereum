@@ -3,7 +3,7 @@ using System;
 using Common.Logging;
 using Loom.Nethereum.JsonRpc.Client.RpcMessages;
 
-namespace Loom.Nethereum.JsonRpc.Client
+namespace Nethereum.JsonRpc.Client
 {
 
     public class RpcLogger

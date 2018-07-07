@@ -1,6 +1,6 @@
 using Loom.Nethereum.Hex.HexConvertors.Extensions;
 
-namespace Loom.Nethereum.Hex.HexConvertors
+namespace Nethereum.Hex.HexConvertors
 {
     public class HexUTF8StringConvertor : IHexConvertor<string>
     {

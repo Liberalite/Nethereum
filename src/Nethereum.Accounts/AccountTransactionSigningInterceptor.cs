@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Loom.Nethereum.JsonRpc.Client;
 using Loom.Nethereum.RPC.Eth.DTOs;
 
-namespace Loom.Nethereum.Web3.Accounts
+namespace Nethereum.Web3.Accounts
 {
     public class AccountTransactionSigningInterceptor : RequestInterceptor
     {

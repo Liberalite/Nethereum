@@ -5,7 +5,7 @@ using Loom.Nethereum.JsonRpc.Client;
 using Newtonsoft.Json.Linq;
 using Loom.Nethereum.Hex.HexConvertors.Extensions;
 
-namespace Loom.Nethereum.RPC.Eth.Compilation
+namespace Nethereum.RPC.Eth.Compilation
 {
     /// <summary>
     ///     Returns compiled solidity code.

@@ -5,7 +5,7 @@ using Newtonsoft.Json;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Utilities;
 
-namespace Loom.Nethereum.KeyStore
+namespace Nethereum.KeyStore
 {
     public abstract class KeyStoreServiceBase<T> : IKeyStoreService<T> where T : KdfParams
     {

@@ -3,7 +3,7 @@ using System.Linq;
 using System.Numerics;
 using Loom.Nethereum.Hex.HexConvertors.Extensions;
 
-namespace Loom.Nethereum.ABI.Decoders
+namespace Nethereum.ABI.Decoders
 {
     public class IntTypeDecoder : TypeDecoder
     {

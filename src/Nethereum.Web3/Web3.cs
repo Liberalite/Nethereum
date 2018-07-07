@@ -7,7 +7,7 @@ using Loom.Nethereum.RPC.TransactionManagers;
 using Loom.Nethereum.Signer;
 using Loom.Nethereum.Util;
 
-namespace Loom.Nethereum.Web3
+namespace Nethereum.Web3
 {
     public class Web3
     {

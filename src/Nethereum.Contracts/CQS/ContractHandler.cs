@@ -4,7 +4,7 @@ using Loom.Nethereum.ABI.FunctionEncoding.Attributes;
 using Loom.Nethereum.Hex.HexTypes;
 using Loom.Nethereum.RPC.Eth.DTOs;
 
-namespace Loom.Nethereum.Contracts.CQS
+namespace Nethereum.Contracts.CQS
 {
 
     public class ContractHandler

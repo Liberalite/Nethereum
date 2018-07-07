@@ -2,7 +2,7 @@ using Loom.Nethereum.Hex.HexTypes;
 using Loom.Nethereum.JsonRpc.Client;
 using Loom.Nethereum.RPC.Infrastructure;
 
-namespace Loom.Nethereum.RPC.Eth.Blocks
+namespace Nethereum.RPC.Eth.Blocks
 {
     /// <Summary>
     ///     eth_blockNumber

@@ -6,7 +6,7 @@ using Loom.Nethereum.Hex.HexTypes;
 using Loom.Nethereum.JsonRpc.Client;
 using Loom.Nethereum.RPC.Eth;
 
-namespace Loom.Nethereum.RPC.Personal
+namespace Nethereum.RPC.Personal
 {
     /// <Summary>
     ///     personal_unlockAccount

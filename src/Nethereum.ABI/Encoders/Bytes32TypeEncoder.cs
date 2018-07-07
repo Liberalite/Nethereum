@@ -3,7 +3,7 @@ using System.Numerics;
 using System.Text;
 using Loom.Nethereum.ABI.Util;
 
-namespace Loom.Nethereum.ABI.Encoders
+namespace Nethereum.ABI.Encoders
 {
     public class Bytes32TypeEncoder : ITypeEncoder
     {

@@ -4,7 +4,7 @@ using Loom.Nethereum.Contracts;
 using Loom.Nethereum.Hex.HexTypes;
 using Loom.Nethereum.Web3;
 
-namespace Loom.Nethereum.ENS
+namespace Nethereum.ENS
 {
     public class DeedService
     {

@@ -4,7 +4,7 @@ using System.Text;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace Loom.Nethereum.JsonRpc.Client.RpcMessages
+namespace Nethereum.JsonRpc.Client.RpcMessages
 {
     /*
 

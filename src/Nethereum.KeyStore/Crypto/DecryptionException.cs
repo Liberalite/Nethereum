@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Loom.Nethereum.KeyStore.Crypto
+namespace Nethereum.KeyStore.Crypto
 {
     public class DecryptionException : Exception
     {

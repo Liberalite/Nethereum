@@ -1,4 +1,4 @@
-namespace Loom.Nethereum.ABI.Util
+namespace Nethereum.ABI.Util
 {
     public static class NumberExtensions
     {

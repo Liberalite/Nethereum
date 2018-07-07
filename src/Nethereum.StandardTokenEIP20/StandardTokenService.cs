@@ -8,7 +8,7 @@ using Loom.Nethereum.RPC.Eth.DTOs;
 using Loom.Nethereum.StandardTokenEIP20.CQS;
 using Loom.Nethereum.Web3;
 
-namespace Loom.Nethereum.StandardTokenEIP20
+namespace Nethereum.StandardTokenEIP20
 {
     public class StandardTokenService
     {

@@ -1,4 +1,4 @@
-﻿namespace Loom.Nethereum.ABI.Encoders
+﻿namespace Nethereum.ABI.Encoders
 {
     public interface ITypeEncoder
     {

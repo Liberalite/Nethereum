@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Loom.Nethereum.Hex.HexConvertors.Extensions;
 using Loom.Nethereum.JsonRpc.Client;
 
-namespace Loom.Nethereum.Quorum.RPC
+namespace Nethereum.Quorum.RPC
 {
     public class QuorumIsVoter : RpcRequestResponseHandler<bool>
     {

@@ -5,7 +5,7 @@ using Loom.Nethereum.RPC.NonceServices;
 using Loom.Nethereum.RPC.TransactionManagers;
 using Loom.Nethereum.Signer;
 
-namespace Loom.Nethereum.Web3.Accounts
+namespace Nethereum.Web3.Accounts
 {
     public class Account : IAccount
     {

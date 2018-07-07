@@ -1,7 +1,7 @@
 ﻿using Loom.Nethereum.JsonRpc.Client;
 using Loom.Nethereum.RPC.Accounts;
 
-namespace Loom.Nethereum.Parity
+namespace Nethereum.Parity
 {
     public class Web3Parity : Web3.Web3
     {

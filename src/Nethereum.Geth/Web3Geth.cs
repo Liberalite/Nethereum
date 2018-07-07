@@ -1,7 +1,7 @@
 ﻿using Loom.Nethereum.JsonRpc.Client;
 using Loom.Nethereum.RPC.Accounts;
 
-namespace Loom.Nethereum.Geth
+namespace Nethereum.Geth
 {
     public class Web3Geth : Web3.Web3
     {

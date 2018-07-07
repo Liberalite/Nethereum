@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Loom.Nethereum.Hex.HexTypes;
 using Loom.Nethereum.JsonRpc.Client;
 
-namespace Loom.Nethereum.Quorum.RPC
+namespace Nethereum.Quorum.RPC
 {
     public class QuorumCanonicalHash : RpcRequestResponseHandler<string>
     {

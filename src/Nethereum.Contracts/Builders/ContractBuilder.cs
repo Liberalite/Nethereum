@@ -5,7 +5,7 @@ using Loom.Nethereum.ABI.JsonDeserialisation;
 using Loom.Nethereum.ABI.Model;
 using Loom.Nethereum.RPC.Eth.DTOs;
 
-namespace Loom.Nethereum.Contracts
+namespace Nethereum.Contracts
 {
     public class ContractBuilder
     {

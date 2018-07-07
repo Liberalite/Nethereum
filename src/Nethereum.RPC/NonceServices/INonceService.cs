@@ -2,7 +2,7 @@
 using Loom.Nethereum.Hex.HexTypes;
 using Loom.Nethereum.JsonRpc.Client;
 
-namespace Loom.Nethereum.RPC.NonceServices
+namespace Nethereum.RPC.NonceServices
 {
     public interface INonceService
     {

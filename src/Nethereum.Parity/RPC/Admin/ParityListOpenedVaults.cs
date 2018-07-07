@@ -1,7 +1,7 @@
 using Loom.Nethereum.JsonRpc.Client;
 using Loom.Nethereum.RPC.Infrastructure;
 
-namespace Loom.Nethereum.Parity.RPC.Admin
+namespace Nethereum.Parity.RPC.Admin
 {
     /// <Summary>
     ///     parity_listOpenedVaults

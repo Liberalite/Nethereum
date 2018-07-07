@@ -8,7 +8,7 @@ using Loom.Nethereum.RPC.Eth.Transactions;
 using Loom.Nethereum.RPC.Eth;
 using Loom.Nethereum.RPC.Eth.Exceptions;
 
-namespace Loom.Nethereum.RPC.TransactionReceipts
+namespace Nethereum.RPC.TransactionReceipts
 {
 
 #if !DOTNET35

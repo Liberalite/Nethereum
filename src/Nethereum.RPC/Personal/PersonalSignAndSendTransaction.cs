@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Loom.Nethereum.JsonRpc.Client;
 using Loom.Nethereum.RPC.Eth.DTOs;
 
-namespace Loom.Nethereum.RPC.Personal
+namespace Nethereum.RPC.Personal
 {
     /// <Summary>
     ///     Validate the given passphrase and submit transaction.

@@ -2,7 +2,7 @@
 using System.IO;
 using Newtonsoft.Json.Linq;
 
-namespace Loom.Nethereum.KeyStore
+namespace Nethereum.KeyStore
 {
     public class KeyStoreService
     {
@@ -37,7 +37,7 @@ namespace Loom.Nethereum.KeyStore
             if (address == null) throw new ArgumentNullException(nameof(address));
             return "UTC--" + DateTime.UtcNow.ToString("O").Replace(":", "-") + "--" + address.Replace("0x", "");
         }
-#if !PCL 
+#if !PCL
         public byte[] DecryptKeyStoreFromFile(string password, string filePath)
         {
             using (var file = File.OpenText(filePath))

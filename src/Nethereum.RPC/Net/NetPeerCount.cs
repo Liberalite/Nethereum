@@ -2,7 +2,7 @@ using Loom.Nethereum.Hex.HexTypes;
 using Loom.Nethereum.JsonRpc.Client;
 using Loom.Nethereum.RPC.Infrastructure;
 
-namespace Loom.Nethereum.RPC.Net
+namespace Nethereum.RPC.Net
 {
     /// <Summary>
     ///     net_peerCount

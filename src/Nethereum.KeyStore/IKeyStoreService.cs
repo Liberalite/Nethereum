@@ -1,6 +1,6 @@
 ﻿using Loom.Nethereum.KeyStore.Model;
 
-namespace Loom.Nethereum.KeyStore
+namespace Nethereum.KeyStore
 {
     public interface IKeyStoreService<T> where T : KdfParams
     {

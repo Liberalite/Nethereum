@@ -2,7 +2,7 @@
 using Loom.Nethereum.RPC.Infrastructure;
 using Newtonsoft.Json.Linq;
 
-namespace Loom.Nethereum.Geth.RPC.Admin
+namespace Nethereum.Geth.RPC.Admin
 {
     /// <Summary>
     ///     The peers administrative property can be queried for all the information known about the connected remote nodes at

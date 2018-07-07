@@ -1,6 +1,6 @@
 using System;
 
-namespace Loom.Nethereum.ABI
+namespace Nethereum.ABI
 {
     public abstract class ArrayType : ABIType
     {

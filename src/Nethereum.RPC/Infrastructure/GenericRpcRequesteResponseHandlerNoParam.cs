@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Loom.Nethereum.JsonRpc.Client;
 
-namespace Loom.Nethereum.RPC.Infrastructure
+namespace Nethereum.RPC.Infrastructure
 {
     public class GenericRpcRequestResponseHandlerNoParam<TResponse> : RpcRequestResponseHandlerNoParam<TResponse>
     {

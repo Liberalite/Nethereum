@@ -1,4 +1,4 @@
-﻿namespace Loom.Nethereum.Parity.RPC
+﻿namespace Nethereum.Parity.RPC
 {
     public enum ApiMethods
     {

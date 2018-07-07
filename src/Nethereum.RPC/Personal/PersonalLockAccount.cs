@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Loom.Nethereum.Hex.HexConvertors.Extensions;
 using Loom.Nethereum.JsonRpc.Client;
 
-namespace Loom.Nethereum.RPC.Personal
+namespace Nethereum.RPC.Personal
 {
     /// <Summary>
     ///     Removes the private key with given address from memory. The account can no longer be used to send transactions.

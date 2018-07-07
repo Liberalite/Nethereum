@@ -2,7 +2,7 @@ using System.Numerics;
 using Loom.Nethereum.ABI.FunctionEncoding.Attributes;
 using Loom.Nethereum.Contracts.CQS;
 
-namespace Loom.Nethereum.StandardTokenEIP20.CQS
+namespace Nethereum.StandardTokenEIP20.CQS
 {
     [Function("approve", "bool")]
     public class ApproveFunction:ContractMessage

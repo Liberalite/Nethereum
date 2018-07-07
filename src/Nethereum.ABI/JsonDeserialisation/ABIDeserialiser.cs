@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Loom.Nethereum.ABI.Model;
 using Newtonsoft.Json;
 
-namespace Loom.Nethereum.ABI.JsonDeserialisation
+namespace Nethereum.ABI.JsonDeserialisation
 {
     public class ABIDeserialiser
     {

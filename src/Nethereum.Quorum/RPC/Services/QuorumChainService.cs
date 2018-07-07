@@ -7,7 +7,7 @@ using Loom.Nethereum.RPC;
 using Loom.Nethereum.RPC.Eth.Filters;
 using Loom.Nethereum.Web3;
 
-namespace Loom.Nethereum.Quorum.RPC.Services
+namespace Nethereum.Quorum.RPC.Services
 {
     public class QuorumChainService : RpcClientWrapper
     {

@@ -1,7 +1,7 @@
 using Loom.Nethereum.JsonRpc.Client;
 using Loom.Nethereum.RPC.Infrastructure;
 
-namespace Loom.Nethereum.Parity.RPC.Development
+namespace Nethereum.Parity.RPC.Development
 {
     /// <Summary>
     ///     parity_devLogs

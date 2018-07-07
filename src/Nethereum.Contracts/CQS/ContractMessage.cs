@@ -1,6 +1,6 @@
 ﻿using System.Numerics;
 
-namespace Loom.Nethereum.Contracts.CQS
+namespace Nethereum.Contracts.CQS
 {
     public class ContractMessage
     {

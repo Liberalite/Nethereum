@@ -2,7 +2,7 @@ using System.Threading.Tasks;
 using Loom.Nethereum.JsonRpc.Client;
 using Newtonsoft.Json.Linq;
 
-namespace Loom.Nethereum.Geth.RPC.Debug
+namespace Nethereum.Geth.RPC.Debug
 {
     /// <Summary>
     ///     Similar to debug_traceBlock, traceBlockByHash accepts a block hash and will replay the block that is already

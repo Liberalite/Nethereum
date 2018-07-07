@@ -5,7 +5,7 @@ using System.Numerics;
 using Loom.Nethereum.RLP;
 using Loom.Nethereum.Util;
 
-namespace Loom.Nethereum.Signer
+namespace Nethereum.Signer
 {
     public class RLPSigner
     {

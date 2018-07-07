@@ -5,7 +5,7 @@ using Loom.Nethereum.Hex.HexConvertors.Extensions;
 using Loom.Nethereum.JsonRpc.Client;
 using Newtonsoft.Json.Linq;
 
-namespace Loom.Nethereum.RPC.Eth.Compilation
+namespace Nethereum.RPC.Eth.Compilation
 {
     /// <Summary>
     ///     eth_compileLLL

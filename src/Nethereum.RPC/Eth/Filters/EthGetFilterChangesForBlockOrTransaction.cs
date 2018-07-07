@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Loom.Nethereum.Hex.HexTypes;
 using Loom.Nethereum.JsonRpc.Client;
 
-namespace Loom.Nethereum.RPC.Eth.Filters
+namespace Nethereum.RPC.Eth.Filters
 {
     /// <Summary>
     ///     Polling method for a filter, which returns an array of logs which occurred since last poll.

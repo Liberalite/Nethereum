@@ -3,7 +3,7 @@ using System.Linq;
 using System.Reflection;
 using Loom.Nethereum.ABI.FunctionEncoding.Attributes;
 
-namespace Loom.Nethereum.ABI.FunctionEncoding
+namespace Nethereum.ABI.FunctionEncoding
 {
     public class EventTopicDecoder : ParameterDecoder
     {

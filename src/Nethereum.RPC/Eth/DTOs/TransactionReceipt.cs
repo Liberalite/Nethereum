@@ -2,7 +2,7 @@ using Loom.Nethereum.Hex.HexTypes;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace Loom.Nethereum.RPC.Eth.DTOs
+namespace Nethereum.RPC.Eth.DTOs
 {
     public class TransactionReceipt
     {

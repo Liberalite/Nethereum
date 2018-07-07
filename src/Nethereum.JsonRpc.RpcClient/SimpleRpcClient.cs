@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Loom.Nethereum.JsonRpc.Client.RpcMessages;
 using Newtonsoft.Json;
 
-namespace Loom.Nethereum.JsonRpc.Client
+namespace Nethereum.JsonRpc.Client
 {
     public class SimpleRpcClient : ClientBase
     {

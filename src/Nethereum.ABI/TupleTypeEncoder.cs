@@ -3,7 +3,7 @@ using Loom.Nethereum.ABI.Encoders;
 using Loom.Nethereum.ABI.FunctionEncoding;
 using Loom.Nethereum.ABI.Model;
 
-namespace Loom.Nethereum.ABI
+namespace Nethereum.ABI
 {
     public class TupleTypeEncoder : ITypeEncoder
     {

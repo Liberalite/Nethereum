@@ -1,7 +1,7 @@
 ﻿using Loom.Nethereum.Hex.HexConvertors.Extensions;
 using Newtonsoft.Json;
 
-namespace Loom.Nethereum.KeyStore.Model
+namespace Nethereum.KeyStore.Model
 {
     public class CipherParams
     {

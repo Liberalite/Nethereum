@@ -1,7 +1,7 @@
 using Loom.Nethereum.JsonRpc.Client;
 using Loom.Nethereum.RPC.Infrastructure;
 
-namespace Loom.Nethereum.Geth.RPC.Admin
+namespace Nethereum.Geth.RPC.Admin
 {
     /// <Summary>
     ///     The stopRPC administrative method closes the currently open HTTP RPC endpoint. As the node can only have a single

@@ -2,7 +2,7 @@ using System.Threading.Tasks;
 using Loom.Nethereum.JsonRpc.Client;
 using Newtonsoft.Json.Linq;
 
-namespace Loom.Nethereum.Parity.RPC.Trace
+namespace Nethereum.Parity.RPC.Trace
 {
     /// <Summary>
     ///     Traces a call to eth_sendRawTransaction without making the call, returning the traces

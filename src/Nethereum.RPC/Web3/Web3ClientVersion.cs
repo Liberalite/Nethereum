@@ -1,7 +1,7 @@
 ﻿using Loom.Nethereum.JsonRpc.Client;
 using Loom.Nethereum.RPC.Infrastructure;
 
-namespace Loom.Nethereum.RPC.Web3
+namespace Nethereum.RPC.Web3
 {
     /// <Summary>
     ///     web3_clientVersion

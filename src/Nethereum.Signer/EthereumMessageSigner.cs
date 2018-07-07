@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Text;
 using Loom.Nethereum.Hex.HexConvertors.Extensions;
 
-namespace Loom.Nethereum.Signer
+namespace Nethereum.Signer
 {
     public class EthereumMessageSigner : MessageSigner
     {

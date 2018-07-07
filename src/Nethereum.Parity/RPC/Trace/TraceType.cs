@@ -1,4 +1,4 @@
-namespace Loom.Nethereum.Parity.RPC.Trace
+namespace Nethereum.Parity.RPC.Trace
 {
     public enum TraceType
     {

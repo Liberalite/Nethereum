@@ -6,7 +6,7 @@ using Loom.Nethereum.Quorum.RPC.DTOs;
 using Loom.Nethereum.RPC.Eth.DTOs;
 using Newtonsoft.Json.Linq;
 
-namespace Loom.Nethereum.Quorum.RPC.Interceptors
+namespace Nethereum.Quorum.RPC.Interceptors
 {
     public class PrivateForInterceptor : RequestInterceptor
     {

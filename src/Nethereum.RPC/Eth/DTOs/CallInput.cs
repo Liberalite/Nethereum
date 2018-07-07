@@ -2,7 +2,7 @@ using Loom.Nethereum.Hex.HexConvertors.Extensions;
 using Loom.Nethereum.Hex.HexTypes;
 using Newtonsoft.Json;
 
-namespace Loom.Nethereum.RPC.Eth.DTOs
+namespace Nethereum.RPC.Eth.DTOs
 {
     /// <summary>
     ///     Object - The transaction call object

@@ -3,7 +3,7 @@ using System.Text;
 using Loom.Nethereum.Hex.HexConvertors.Extensions;
 using Org.BouncyCastle.Crypto.Digests;
 
-namespace Loom.Nethereum.Util
+namespace Nethereum.Util
 {
     public class Sha3Keccack
     {

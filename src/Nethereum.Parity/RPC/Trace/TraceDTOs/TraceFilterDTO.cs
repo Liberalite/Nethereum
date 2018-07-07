@@ -1,7 +1,7 @@
 ﻿using Loom.Nethereum.RPC.Eth.DTOs;
 using Newtonsoft.Json;
 
-namespace Loom.Nethereum.Parity.RPC.Trace.TraceDTOs
+namespace Nethereum.Parity.RPC.Trace.TraceDTOs
 {
     public class TraceFilterDTO
     {

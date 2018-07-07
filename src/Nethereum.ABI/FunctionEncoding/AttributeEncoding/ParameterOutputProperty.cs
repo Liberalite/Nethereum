@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Reflection;
 
-namespace Loom.Nethereum.ABI.FunctionEncoding.AttributeEncoding
+namespace Nethereum.ABI.FunctionEncoding.AttributeEncoding
 {
     public class ParameterOutputProperty : ParameterOutput
     {

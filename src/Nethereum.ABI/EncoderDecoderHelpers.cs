@@ -1,7 +1,7 @@
 using System.Linq;
 using Loom.Nethereum.ABI.Decoders;
 
-namespace Loom.Nethereum.ABI
+namespace Nethereum.ABI
 {
     public class EncoderDecoderHelpers
     {

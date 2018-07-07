@@ -1,7 +1,7 @@
 using Loom.Nethereum.JsonRpc.Client;
 using Loom.Nethereum.RPC.Net;
 
-namespace Loom.Nethereum.RPC
+namespace Nethereum.RPC
 {
     public class NetApiService : RpcClientWrapper
     {

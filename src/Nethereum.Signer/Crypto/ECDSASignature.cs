@@ -3,7 +3,7 @@ using System.IO;
 using Org.BouncyCastle.Asn1;
 using Org.BouncyCastle.Math;
 
-namespace Loom.Nethereum.Signer.Crypto
+namespace Nethereum.Signer.Crypto
 {
     public class ECDSASignature
     {

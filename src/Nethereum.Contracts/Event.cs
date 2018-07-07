@@ -7,7 +7,7 @@ using Loom.Nethereum.RPC.Eth.DTOs;
 using Loom.Nethereum.RPC.Eth.Filters;
 using Newtonsoft.Json.Linq;
 
-namespace Loom.Nethereum.Contracts
+namespace Nethereum.Contracts
 {
     public class Event
     {

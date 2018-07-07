@@ -3,7 +3,7 @@ using Loom.Nethereum.JsonRpc.Client;
 using Loom.Nethereum.RPC.Eth.DTOs;
 using Newtonsoft.Json.Linq;
 
-namespace Loom.Nethereum.Parity.RPC.Trace
+namespace Nethereum.Parity.RPC.Trace
 {
     /// <Summary>
     ///     Executes the given call and returns a number of possible traces for it.

@@ -11,7 +11,7 @@ using Org.BouncyCastle.Security;
 using Org.BouncyCastle.Crypto.Engines;
 using Org.BouncyCastle.Crypto.Utilities;
 
-namespace Loom.Nethereum.KeyStore.Crypto
+namespace Nethereum.KeyStore.Crypto
 {
     //https://github.com/ethereum/wiki/wiki/Web3-Secret-Storage-Definition
     public class KeyStoreCrypto

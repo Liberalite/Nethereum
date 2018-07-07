@@ -1,4 +1,4 @@
-﻿namespace Loom.Nethereum.Contracts.CQS
+﻿namespace Nethereum.Contracts.CQS
 {
     public class ContractDeploymentMessage : ContractMessage
     {

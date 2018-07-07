@@ -4,7 +4,7 @@ using Loom.Nethereum.RPC.Eth.DTOs;
 using Loom.Nethereum.RPC.Eth.Services;
 using Loom.Nethereum.RPC.TransactionManagers;
 
-namespace Loom.Nethereum.RPC
+namespace Nethereum.RPC
 {
     public class EthApiService : RpcClientWrapper
     {

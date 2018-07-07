@@ -5,7 +5,7 @@ using Loom.Nethereum.RPC;
 using Loom.Nethereum.RPC.Eth.DTOs;
 using Loom.Nethereum.RPC.Eth.Filters;
 
-namespace Loom.Nethereum.Contracts
+namespace Nethereum.Contracts
 {
     public class Contract
     {

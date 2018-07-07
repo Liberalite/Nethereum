@@ -1,4 +1,4 @@
-namespace Loom.Nethereum.RLP
+namespace Nethereum.RLP
 {
     public class RLPItem : IRLPElement
     {

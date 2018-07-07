@@ -1,6 +1,6 @@
 using Loom.Nethereum.RPC.Eth.DTOs;
 
-namespace Loom.Nethereum.RPC.Eth
+namespace Nethereum.RPC.Eth
 {
     public interface IDefaultBlock
     {

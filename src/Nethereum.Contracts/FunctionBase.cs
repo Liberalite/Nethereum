@@ -7,7 +7,7 @@ using Loom.Nethereum.RPC.Eth.DTOs;
 using Loom.Nethereum.RPC.Eth.Transactions;
 using Loom.Nethereum.RPC.TransactionManagers;
 
-namespace Loom.Nethereum.Contracts
+namespace Nethereum.Contracts
 {
     public abstract class FunctionBase
     {

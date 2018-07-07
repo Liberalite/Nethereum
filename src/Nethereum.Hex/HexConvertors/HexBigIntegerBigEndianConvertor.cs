@@ -1,7 +1,7 @@
 using System.Numerics;
 using Loom.Nethereum.Hex.HexConvertors.Extensions;
 
-namespace Loom.Nethereum.Hex.HexConvertors
+namespace Nethereum.Hex.HexConvertors
 {
     public class HexBigIntegerBigEndianConvertor : IHexConvertor<BigInteger>
     {

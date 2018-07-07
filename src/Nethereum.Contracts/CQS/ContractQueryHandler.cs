@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Loom.Nethereum.RPC.Eth.DTOs;
 
-namespace Loom.Nethereum.Contracts.CQS
+namespace Nethereum.Contracts.CQS
 {
 #if !DOTNET35
     public class ContractQueryHandler<TContractMessage> : ContractHandlerBase<TContractMessage>

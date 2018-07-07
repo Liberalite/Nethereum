@@ -2,7 +2,7 @@
 using Loom.Nethereum.Quorum.RPC.DTOs;
 using Loom.Nethereum.RPC.Infrastructure;
 
-namespace Loom.Nethereum.Quorum.RPC
+namespace Nethereum.Quorum.RPC
 {
     public class QuorumNodeInfo : GenericRpcRequestResponseHandlerNoParam<NodeInfo>
     {

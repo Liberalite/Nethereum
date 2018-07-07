@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using Loom.Nethereum.ABI.Model;
 
-namespace Loom.Nethereum.ABI.FunctionEncoding.Attributes
+namespace Nethereum.ABI.FunctionEncoding.Attributes
 {
     public class AttributesToABIExtractor
     {

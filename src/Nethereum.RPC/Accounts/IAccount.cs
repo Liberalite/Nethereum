@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using Loom.Nethereum.RPC.NonceServices;
 
-namespace Loom.Nethereum.RPC.Accounts
+namespace Nethereum.RPC.Accounts
 {
     public interface IAccount
     {

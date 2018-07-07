@@ -1,6 +1,6 @@
 ﻿using System.Numerics;
 
-namespace Loom.Nethereum.Util
+namespace Nethereum.Util
 {
     public static class BigIntegerExtensions
     {

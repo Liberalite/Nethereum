@@ -1,6 +1,6 @@
 using Org.BouncyCastle.Crypto;
 
-namespace Loom.Nethereum.Signer.Crypto
+namespace Nethereum.Signer.Crypto
 {
     internal static class DeterministicDSAExtensions
     {

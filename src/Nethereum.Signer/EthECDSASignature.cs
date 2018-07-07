@@ -4,7 +4,7 @@ using Loom.Nethereum.Signer.Crypto;
 using Loom.Nethereum.Util;
 using Org.BouncyCastle.Math;
 
-namespace Loom.Nethereum.Signer
+namespace Nethereum.Signer
 {
     public class EthECDSASignature
     {

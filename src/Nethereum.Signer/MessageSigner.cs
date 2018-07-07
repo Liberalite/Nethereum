@@ -3,7 +3,7 @@ using System.Text;
 using Loom.Nethereum.Hex.HexConvertors.Extensions;
 using Loom.Nethereum.Util;
 
-namespace Loom.Nethereum.Signer
+namespace Nethereum.Signer
 {
     public class MessageSigner
     {

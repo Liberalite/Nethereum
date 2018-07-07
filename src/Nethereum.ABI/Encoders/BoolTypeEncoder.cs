@@ -1,6 +1,6 @@
 using System;
 
-namespace Loom.Nethereum.ABI.Encoders
+namespace Nethereum.ABI.Encoders
 {
     public class BoolTypeEncoder : ITypeEncoder
     {

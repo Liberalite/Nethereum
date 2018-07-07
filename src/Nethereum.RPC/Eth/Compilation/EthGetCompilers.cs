@@ -1,7 +1,7 @@
 using Loom.Nethereum.JsonRpc.Client;
 using Loom.Nethereum.RPC.Infrastructure;
 
-namespace Loom.Nethereum.RPC.Eth.Compilation
+namespace Nethereum.RPC.Eth.Compilation
 {
     /// <Summary>
     ///     eth_getCompilers

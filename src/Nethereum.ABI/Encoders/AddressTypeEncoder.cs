@@ -1,7 +1,7 @@
 using System;
 using Loom.Nethereum.Hex.HexConvertors.Extensions;
 
-namespace Loom.Nethereum.ABI.Encoders
+namespace Nethereum.ABI.Encoders
 {
     public class AddressTypeEncoder : ITypeEncoder
     {

@@ -3,7 +3,7 @@ using Loom.Nethereum.Geth.RPC.Debug.DTOs;
 using Loom.Nethereum.JsonRpc.Client;
 using Newtonsoft.Json.Linq;
 
-namespace Loom.Nethereum.Geth.RPC.Debug
+namespace Nethereum.Geth.RPC.Debug
 {
     /// <Summary>
     ///     The traceTransaction debugging method will attempt to run the transaction in the exact same manner as it was

@@ -1,6 +1,6 @@
 using System.Text;
 
-namespace Loom.Nethereum.Hex.HexConvertors.Extensions
+namespace Nethereum.Hex.HexConvertors.Extensions
 {
     public static class HexStringUTF8ConvertorExtensions
     {

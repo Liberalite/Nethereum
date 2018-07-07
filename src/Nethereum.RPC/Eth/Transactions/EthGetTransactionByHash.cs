@@ -4,7 +4,7 @@ using Loom.Nethereum.Hex.HexConvertors.Extensions;
 using Loom.Nethereum.JsonRpc.Client;
 using Loom.Nethereum.RPC.Eth.DTOs;
 
-namespace Loom.Nethereum.RPC.Eth.Transactions
+namespace Nethereum.RPC.Eth.Transactions
 {
     /// <Summary>
     ///     eth_getTransactionByHash

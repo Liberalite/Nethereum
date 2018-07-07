@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using Loom.Nethereum.RPC.Eth.DTOs;
 
-namespace Loom.Nethereum.Contracts.Comparers
+namespace Nethereum.Contracts.Comparers
 {
     public class FilterLogBlockNumberTransactionIndexComparer : IComparer<FilterLog>
     {

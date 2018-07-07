@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Loom.Nethereum.JsonRpc.Client;
 
-namespace Loom.Nethereum.Geth.RPC.Admin
+namespace Nethereum.Geth.RPC.Admin
 {
     /// <Summary>
     ///     The setSolc administrative method sets the Solidity compiler path to be used by the node when invoking the

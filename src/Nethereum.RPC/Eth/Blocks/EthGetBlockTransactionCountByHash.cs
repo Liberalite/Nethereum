@@ -5,7 +5,7 @@ using Loom.Nethereum.Hex.HexConvertors.Extensions;
 using Loom.Nethereum.Hex.HexTypes;
 using Loom.Nethereum.JsonRpc.Client;
 
-namespace Loom.Nethereum.RPC.Eth.Blocks
+namespace Nethereum.RPC.Eth.Blocks
 {
     /// <Summary>
     ///     eth_getBlockTransactionCountByHash

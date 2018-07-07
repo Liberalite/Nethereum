@@ -2,7 +2,7 @@ using System.Threading.Tasks;
 using Loom.Nethereum.JsonRpc.Client;
 using Newtonsoft.Json.Linq;
 
-namespace Loom.Nethereum.Parity.RPC.Trace
+namespace Nethereum.Parity.RPC.Trace
 {
     /// <Summary>
     ///     Returns all traces of given transaction

@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-namespace Loom.Nethereum.ABI.Decoders
+namespace Nethereum.ABI.Decoders
 {
     public class StringTypeDecoder : TypeDecoder
     {

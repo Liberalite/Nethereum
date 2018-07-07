@@ -9,7 +9,7 @@ using Loom.Nethereum.ABI.Model;
 using Loom.Nethereum.ABI.Util;
 using Loom.Nethereum.Util;
 
-namespace Loom.Nethereum.ABI.FunctionEncoding
+namespace Nethereum.ABI.FunctionEncoding
 {
     public class ParametersEncoder
     {
