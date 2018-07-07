@@ -1,4 +1,4 @@
-﻿namespace Loom.Nethereum.StandardTokenEIP20.IntegrationTests
+﻿namespace Nethereum.StandardTokenEIP20.IntegrationTests
 {
     public static class Web3Factory
     {

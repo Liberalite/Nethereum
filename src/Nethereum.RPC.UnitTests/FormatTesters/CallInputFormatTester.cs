@@ -1,7 +1,7 @@
-﻿using Loom.Nethereum.RPC.Eth.DTOs;
+﻿using Nethereum.RPC.Eth.DTOs;
 using Xunit;
 
-namespace Loom.Nethereum.RPC.UnitTests.FormatTesters
+namespace Nethereum.RPC.UnitTests.FormatTesters
 {
     public class CallInputFormatTester
     {

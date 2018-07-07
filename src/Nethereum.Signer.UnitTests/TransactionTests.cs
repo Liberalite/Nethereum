@@ -1,13 +1,13 @@
 using System;
 using System.Diagnostics;
 using System.Numerics;
-using Loom.Nethereum.Hex.HexConvertors.Extensions;
-using Loom.Nethereum.Hex.HexTypes;
-using Loom.Nethereum.RLP;
-using Loom.Nethereum.Util;
+using Nethereum.Hex.HexConvertors.Extensions;
+using Nethereum.Hex.HexTypes;
+using Nethereum.RLP;
+using Nethereum.Util;
 using Xunit;
 
-namespace Loom.Nethereum.Signer.UnitTests
+namespace Nethereum.Signer.UnitTests
 {
     public class TransactionTests
     {

@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
-using Loom.Nethereum.ABI.FunctionEncoding.Attributes;
-using Loom.Nethereum.Contracts.CQS;
+using Nethereum.ABI.FunctionEncoding.Attributes;
+using Nethereum.Contracts.CQS;
 using Xunit;
 
-namespace Loom.Nethereum.Contracts.IntegrationTests.CQS
+namespace Nethereum.Contracts.IntegrationTests.CQS
 {
     public class FixedArrayQuery
     {

@@ -1,8 +1,8 @@
-﻿using Loom.Nethereum.Hex.HexTypes;
-using Loom.Nethereum.RPC.Eth.DTOs;
+﻿using Nethereum.Hex.HexTypes;
+using Nethereum.RPC.Eth.DTOs;
 using Xunit;
 
-namespace Loom.Nethereum.Contracts.IntegrationTests.SmartContracts
+namespace Nethereum.Contracts.IntegrationTests.SmartContracts
 {
     public class CallStateFromPreviousBlock
     {

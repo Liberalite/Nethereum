@@ -1,13 +1,13 @@
-using Loom.Nethereum.Signer;
+using Nethereum.Signer;
 using Transaction = Nethereum.Signer.Transaction;
-using Loom.Nethereum.RPC.Eth.DTOs;
-using Loom.Nethereum.RPC.Eth.Transactions;
-using Loom.Nethereum.Hex.HexTypes;
+using Nethereum.RPC.Eth.DTOs;
+using Nethereum.RPC.Eth.Transactions;
+using Nethereum.Hex.HexTypes;
 using System.Collections;
 using System;
 using UnityEngine;
 
-namespace Loom.Nethereum.JsonRpc.UnityClient
+namespace Nethereum.JsonRpc.UnityClient
 {
  
     public class TransactionSignedUnityRequest:UnityRequest<string>

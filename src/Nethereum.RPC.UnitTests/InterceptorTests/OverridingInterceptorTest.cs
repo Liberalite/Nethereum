@@ -1,9 +1,9 @@
 ﻿using System;
-using Loom.Nethereum.JsonRpc.Client;
-using Loom.Nethereum.RPC.Eth;
+using Nethereum.JsonRpc.Client;
+using Nethereum.RPC.Eth;
 using Xunit;
 
-namespace Loom.Nethereum.RPC.UnitTests.InterceptorTests
+namespace Nethereum.RPC.UnitTests.InterceptorTests
 {
     public class OverridingInterceptorTest
     {

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Loom.Nethereum.JsonRpc.Client;
-using Loom.Nethereum.RPC.Web3;
+using Nethereum.JsonRpc.Client;
+using Nethereum.RPC.Web3;
 
-namespace Loom.Nethereum.RPC.Tests.Testers
+namespace Nethereum.RPC.Tests.Testers
 {
     public class Web3ClientVersionTester : IRPCRequestTester
     {

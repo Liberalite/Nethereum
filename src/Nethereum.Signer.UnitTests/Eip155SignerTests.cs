@@ -1,9 +1,9 @@
 using System.Numerics;
-using Loom.Nethereum.Hex.HexConvertors.Extensions;
-using Loom.Nethereum.RLP;
+using Nethereum.Hex.HexConvertors.Extensions;
+using Nethereum.RLP;
 using Xunit;
 
-namespace Loom.Nethereum.Signer.UnitTests
+namespace Nethereum.Signer.UnitTests
 {
     public class Eip155SignerTests
     {

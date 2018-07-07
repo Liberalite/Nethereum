@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Loom.Nethereum.JsonRpc.Client;
-using Loom.Nethereum.RPC.Personal;
+using Nethereum.JsonRpc.Client;
+using Nethereum.RPC.Personal;
 using Xunit;
 
-namespace Loom.Nethereum.RPC.Tests.Testers
+namespace Nethereum.RPC.Tests.Testers
 {
     public class PersonalListAccountsTester : RPCRequestTester<string[]>, IRPCRequestTester
     {

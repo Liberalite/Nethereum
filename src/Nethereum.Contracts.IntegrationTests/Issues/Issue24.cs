@@ -1,10 +1,10 @@
-﻿using Loom.Nethereum.ABI;
-using Loom.Nethereum.ABI.FunctionEncoding.Attributes;
-using Loom.Nethereum.Hex.HexConvertors.Extensions;
-using Loom.Nethereum.RPC.Eth.DTOs;
+﻿using Nethereum.ABI;
+using Nethereum.ABI.FunctionEncoding.Attributes;
+using Nethereum.Hex.HexConvertors.Extensions;
+using Nethereum.RPC.Eth.DTOs;
 using Xunit;
 
-namespace Loom.Nethereum.Contracts.IntegrationTests.Issues
+namespace Nethereum.Contracts.IntegrationTests.Issues
 {
     public class Issue24
     {

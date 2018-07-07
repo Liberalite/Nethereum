@@ -1,8 +1,8 @@
-using Loom.Nethereum.Hex.HexConvertors.Extensions;
-using Loom.Nethereum.Util;
+using Nethereum.Hex.HexConvertors.Extensions;
+using Nethereum.Util;
 using Xunit;
 
-namespace Loom.Nethereum.Signer.UnitTests
+namespace Nethereum.Signer.UnitTests
 {
     public class EthereumMessageSignerTests
     {

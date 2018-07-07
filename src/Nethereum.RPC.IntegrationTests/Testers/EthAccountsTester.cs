@@ -1,10 +1,10 @@
 using System;
 using System.Threading.Tasks;
-using Loom.Nethereum.JsonRpc.Client;
-using Loom.Nethereum.RPC.Eth;
+using Nethereum.JsonRpc.Client;
+using Nethereum.RPC.Eth;
 using Xunit;
 
-namespace Loom.Nethereum.RPC.Tests.Testers
+namespace Nethereum.RPC.Tests.Testers
 {
     public class EthAccountsTester : RPCRequestTester<String[]>, IRPCRequestTester
     {

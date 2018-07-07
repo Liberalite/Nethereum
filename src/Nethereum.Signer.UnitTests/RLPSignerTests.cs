@@ -1,10 +1,10 @@
 using System.Diagnostics;
-using Loom.Nethereum.Hex.HexConvertors.Extensions;
-using Loom.Nethereum.Hex.HexTypes;
-using Loom.Nethereum.RLP;
+using Nethereum.Hex.HexConvertors.Extensions;
+using Nethereum.Hex.HexTypes;
+using Nethereum.RLP;
 using Xunit;
 
-namespace Loom.Nethereum.Signer.UnitTests
+namespace Nethereum.Signer.UnitTests
 {
 
     public static class RLPSignerExt

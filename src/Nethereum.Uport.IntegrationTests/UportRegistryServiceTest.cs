@@ -1,10 +1,10 @@
-﻿using Loom.Nethereum.Hex.HexTypes;
-using Loom.Nethereum.RPC.TransactionReceipts;
-using Loom.Nethereum.TestRPCRunner;
-using Loom.Nethereum.Web3.Accounts;
+﻿using Nethereum.Hex.HexTypes;
+using Nethereum.RPC.TransactionReceipts;
+using Nethereum.TestRPCRunner;
+using Nethereum.Web3.Accounts;
 using Xunit;
 
-namespace Loom.Nethereum.Uport.IntegrationTests
+namespace Nethereum.Uport.IntegrationTests
 {
     public class UportRegistryServiceTest
     {

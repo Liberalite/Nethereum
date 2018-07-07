@@ -1,9 +1,9 @@
-using Loom.Nethereum.Hex.HexTypes;
-using Loom.Nethereum.RPC.TransactionReceipts;
-using Loom.Nethereum.StandardTokenEIP20;
+using Nethereum.Hex.HexTypes;
+using Nethereum.RPC.TransactionReceipts;
+using Nethereum.StandardTokenEIP20;
 using Xunit;
 
-namespace Loom.Nethereum.HdWallet.IntegrationTests
+namespace Nethereum.HdWallet.IntegrationTests
 {
     public class TokenTransferTest
     {

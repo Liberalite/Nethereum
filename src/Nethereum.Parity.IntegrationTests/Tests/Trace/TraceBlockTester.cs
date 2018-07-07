@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Loom.Nethereum.Hex.HexTypes;
-using Loom.Nethereum.JsonRpc.Client;
-using Loom.Nethereum.Parity.RPC.Trace;
-using Loom.Nethereum.Web3.Accounts;
+using Nethereum.Hex.HexTypes;
+using Nethereum.JsonRpc.Client;
+using Nethereum.Parity.RPC.Trace;
+using Nethereum.Web3.Accounts;
 using Newtonsoft.Json.Linq;
 using Xunit;
 
-namespace Loom.Nethereum.Parity.IntegrationTests.Tests.Trace
+namespace Nethereum.Parity.IntegrationTests.Tests.Trace
 {
     public class TraceBlockTester : RPCRequestTester<JArray>
     {

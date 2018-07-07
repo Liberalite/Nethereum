@@ -3,7 +3,7 @@ using System.Numerics;
 using System.Collections;
 using System.Linq;
 
-namespace Loom.Nethereum.EVM
+namespace Nethereum.EVM
 {
 
  //   public class Memory

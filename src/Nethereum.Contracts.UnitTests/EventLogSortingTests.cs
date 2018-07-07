@@ -1,10 +1,10 @@
 using System.Collections.Generic;
-using Loom.Nethereum.Contracts.Comparers;
-using Loom.Nethereum.Hex.HexTypes;
-using Loom.Nethereum.RPC.Eth.DTOs;
+using Nethereum.Contracts.Comparers;
+using Nethereum.Hex.HexTypes;
+using Nethereum.RPC.Eth.DTOs;
 using Xunit;
 
-namespace Loom.Nethereum.Contracts.UnitTests
+namespace Nethereum.Contracts.UnitTests
 {
 
 

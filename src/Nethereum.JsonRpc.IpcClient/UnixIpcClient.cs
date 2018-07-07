@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using System.Net.Sockets;
 using Common.Logging;
-using Loom.Nethereum.JsonRpc.Client;
+using Nethereum.JsonRpc.Client;
 
-namespace Loom.Nethereum.JsonRpc.IpcClient
+namespace Nethereum.JsonRpc.IpcClient
 {
     public class UnixIpcClient : IpcClientBase
     {

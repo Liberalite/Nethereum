@@ -1,8 +1,8 @@
 using System.Text;
-using Loom.Nethereum.Util;
+using Nethereum.Util;
 using Xunit;
 
-namespace Loom.Nethereum.ABI.UnitTests
+namespace Nethereum.ABI.UnitTests
 {
     public class ByteUtilTest
     {

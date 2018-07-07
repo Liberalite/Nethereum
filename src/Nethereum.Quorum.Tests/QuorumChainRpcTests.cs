@@ -1,7 +1,7 @@
-﻿using Loom.Nethereum.RPC.Eth.DTOs;
+﻿using Nethereum.RPC.Eth.DTOs;
 using Xunit;
 
-namespace Loom.Nethereum.Quorum.Tests
+namespace Nethereum.Quorum.Tests
 {
     //Tests depend on the 7 nodes sample of Quorum
     public class QuorumChainRpcTests

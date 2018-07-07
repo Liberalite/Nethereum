@@ -3,7 +3,7 @@ using System.IO;
 using System.IO.Pipes;
 using System.Text;
 using System.Threading.Tasks;
-using Loom.Nethereum.JsonRpc.Client;
+using Nethereum.JsonRpc.Client;
 using Newtonsoft.Json;
 using RpcError = Nethereum.JsonRpc.Client.RpcError;
 using RpcRequest = Nethereum.JsonRpc.Client.RpcRequest;
@@ -11,10 +11,10 @@ using System.Net.Sockets;
 using System.Net;
 using System.Diagnostics;
 using Common.Logging;
-using Loom.Nethereum.JsonRpc.Client.RpcMessages;
+using Nethereum.JsonRpc.Client.RpcMessages;
 using Newtonsoft.Json.Linq;
 
-namespace Loom.Nethereum.JsonRpc.IpcClient
+namespace Nethereum.JsonRpc.IpcClient
 {
     public class IpcClient : IpcClientBase
     {

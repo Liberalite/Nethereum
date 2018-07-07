@@ -1,6 +1,6 @@
 ﻿using NBitcoin;
 
-namespace Loom.Nethereum.HdWallet
+namespace Nethereum.HdWallet
 {
     public class SecureRandom : IRandom
     {

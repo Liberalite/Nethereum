@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Loom.Nethereum.JsonRpc.Client;
+using Nethereum.JsonRpc.Client;
 
-namespace Loom.Nethereum.RPC.UnitTests.InterceptorTests
+namespace Nethereum.RPC.UnitTests.InterceptorTests
 {
     public class OverridingInterceptorMock:RequestInterceptor
     {

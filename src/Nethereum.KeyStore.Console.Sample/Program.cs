@@ -1,8 +1,8 @@
 ﻿using System.IO;
-using Loom.Nethereum.Hex.HexConvertors.Extensions;
-using Loom.Nethereum.Signer;
+using Nethereum.Hex.HexConvertors.Extensions;
+using Nethereum.Signer;
 
-namespace Loom.Nethereum.KeyStore.Console.Sample
+namespace Nethereum.KeyStore.Console.Sample
 {
     public class Program
     {

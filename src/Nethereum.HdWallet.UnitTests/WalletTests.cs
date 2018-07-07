@@ -1,7 +1,7 @@
-using Loom.Nethereum.Hex.HexConvertors.Extensions;
+using Nethereum.Hex.HexConvertors.Extensions;
 using Xunit;
 
-namespace Loom.Nethereum.HdWallet.UnitTests
+namespace Nethereum.HdWallet.UnitTests
 {
     //To validate use https://iancoleman.github.io/bip39/#english
     public class WalletTests

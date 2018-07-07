@@ -1,7 +1,7 @@
-using Loom.Nethereum.Hex.HexConvertors.Extensions;
+using Nethereum.Hex.HexConvertors.Extensions;
 using Xunit;
 
-namespace Loom.Nethereum.ABI.UnitTests
+namespace Nethereum.ABI.UnitTests
 {
     public class BoolEncodingTests
     {

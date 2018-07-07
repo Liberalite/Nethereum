@@ -1,17 +1,17 @@
 using System;
 using System.Text;
-using Loom.Nethereum.Unity.RpcModel;
-using Loom.Nethereum.JsonRpc.Client;
+using Nethereum.Unity.RpcModel;
+using Nethereum.JsonRpc.Client;
 using Newtonsoft.Json;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Networking;
 using RpcError = Nethereum.JsonRpc.Client.RpcError;
 using RpcRequest = Nethereum.JsonRpc.Client.RpcRequest;
-using Loom.Nethereum.RPC.Eth.Transactions;
+using Nethereum.RPC.Eth.Transactions;
 
 
-namespace Loom.Nethereum.JsonRpc.UnityClient
+namespace Nethereum.JsonRpc.UnityClient
 {
     public class UnityRpcClient<TResult>:UnityRequest<TResult>
     {

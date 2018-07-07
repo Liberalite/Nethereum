@@ -1,11 +1,11 @@
-using Loom.Nethereum.Geth;
-using Loom.Nethereum.Hex.HexConvertors.Extensions;
-using Loom.Nethereum.Hex.HexTypes;
-using Loom.Nethereum.RPC.TransactionReceipts;
-using Loom.Nethereum.Web3.Accounts.Managed;
+using Nethereum.Geth;
+using Nethereum.Hex.HexConvertors.Extensions;
+using Nethereum.Hex.HexTypes;
+using Nethereum.RPC.TransactionReceipts;
+using Nethereum.Web3.Accounts.Managed;
 using Xunit;
 
-namespace Loom.Nethereum.ENS.IntegrationTests.ENS
+namespace Nethereum.ENS.IntegrationTests.ENS
 {
     public class ENSLocalTest
     {

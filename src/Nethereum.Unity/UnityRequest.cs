@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace Loom.Nethereum.JsonRpc.UnityClient
+namespace Nethereum.JsonRpc.UnityClient
 {
     public class UnityRequest<TResult>
     {

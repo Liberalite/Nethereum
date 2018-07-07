@@ -1,4 +1,4 @@
-﻿namespace Loom.Nethereum.EVM
+﻿namespace Nethereum.EVM
 {
     public enum Instruction
     {

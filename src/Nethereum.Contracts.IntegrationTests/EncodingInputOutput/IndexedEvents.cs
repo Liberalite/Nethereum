@@ -1,9 +1,9 @@
 ﻿using System.Numerics;
-using Loom.Nethereum.ABI.FunctionEncoding.Attributes;
-using Loom.Nethereum.Hex.HexTypes;
+using Nethereum.ABI.FunctionEncoding.Attributes;
+using Nethereum.Hex.HexTypes;
 using Xunit;
 
-namespace Loom.Nethereum.Contracts.IntegrationTests.EncodingInputOutput
+namespace Nethereum.Contracts.IntegrationTests.EncodingInputOutput
 {
     public class IndexedEvents
     {

@@ -1,6 +1,6 @@
 using Xunit;
 
-namespace Loom.Nethereum.Util.UnitTests
+namespace Nethereum.Util.UnitTests
 {
     public class Sha3Tests
     {

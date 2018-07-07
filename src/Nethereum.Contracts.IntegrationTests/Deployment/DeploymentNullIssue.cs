@@ -1,8 +1,8 @@
-﻿using Loom.Nethereum.Hex.HexTypes;
-using Loom.Nethereum.RPC.TransactionReceipts;
+﻿using Nethereum.Hex.HexTypes;
+using Nethereum.RPC.TransactionReceipts;
 using Xunit;
 
-namespace Loom.Nethereum.Contracts.IntegrationTests.Deployment
+namespace Nethereum.Contracts.IntegrationTests.Deployment
 {
     public class DeploymentNullIssue
     {

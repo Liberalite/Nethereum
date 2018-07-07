@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Loom.Nethereum.Hex.HexConvertors.Extensions;
-using Loom.Nethereum.Hex.HexTypes;
-using Loom.Nethereum.JsonRpc.Client;
-using Loom.Nethereum.Parity.RPC.Trace;
-using Loom.Nethereum.RPC.Eth.DTOs;
-using Loom.Nethereum.Signer;
-using Loom.Nethereum.Web3.Accounts;
+using Nethereum.Hex.HexConvertors.Extensions;
+using Nethereum.Hex.HexTypes;
+using Nethereum.JsonRpc.Client;
+using Nethereum.Parity.RPC.Trace;
+using Nethereum.RPC.Eth.DTOs;
+using Nethereum.Signer;
+using Nethereum.Web3.Accounts;
 using Newtonsoft.Json.Linq;
 using Xunit;
 using Transaction = Nethereum.Signer.Transaction;
 
-namespace Loom.Nethereum.Parity.IntegrationTests.Tests.Trace
+namespace Nethereum.Parity.IntegrationTests.Tests.Trace
 {
     public class TraceRawTransactionTester : RPCRequestTester<JObject>
     {

@@ -1,11 +1,11 @@
 using System;
 using System.Threading.Tasks;
-using Loom.Nethereum.JsonRpc.Client;
-using Loom.Nethereum.Parity.RPC.Accounts;
+using Nethereum.JsonRpc.Client;
+using Nethereum.Parity.RPC.Accounts;
 using Newtonsoft.Json.Linq;
 using Xunit;
 
-namespace Loom.Nethereum.Parity.IntegrationTests.Tests.Accounts
+namespace Nethereum.Parity.IntegrationTests.Tests.Accounts
 {
     public class ParityAccountsInfoTester : RPCRequestTester<JObject>, IRPCRequestTester
     {

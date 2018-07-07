@@ -1,11 +1,11 @@
 using System;
 using System.Threading.Tasks;
-using Loom.Nethereum.JsonRpc.Client;
-using Loom.Nethereum.RPC.Eth.Compilation;
+using Nethereum.JsonRpc.Client;
+using Nethereum.RPC.Eth.Compilation;
 using Newtonsoft.Json.Linq;
 using Xunit;
 
-namespace Loom.Nethereum.RPC.Tests.Testers
+namespace Nethereum.RPC.Tests.Testers
 {
     public class EthCompileSolidityTester : RPCRequestTester<JToken>, IRPCRequestTester
     {

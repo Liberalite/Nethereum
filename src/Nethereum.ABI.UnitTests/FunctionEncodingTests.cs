@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Loom.Nethereum.ABI.FunctionEncoding;
-using Loom.Nethereum.ABI.Model;
+using Nethereum.ABI.FunctionEncoding;
+using Nethereum.ABI.Model;
 using Xunit;
 
-namespace Loom.Nethereum.ABI.UnitTests
+namespace Nethereum.ABI.UnitTests
 {
     public class FunctionEncodingTests
     {

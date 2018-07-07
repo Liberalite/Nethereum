@@ -1,4 +1,4 @@
-﻿namespace Loom.Nethereum.Contracts.IntegrationTests
+﻿namespace Nethereum.Contracts.IntegrationTests
 {
     public static class Web3Factory
     {

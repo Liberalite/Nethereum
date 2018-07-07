@@ -1,16 +1,16 @@
 using System;
 using System.Threading.Tasks;
-using Loom.Nethereum.ABI.FunctionEncoding;
-using Loom.Nethereum.ABI.Model;
-using Loom.Nethereum.Geth.RPC.Miner;
-using Loom.Nethereum.JsonRpc.Client;
-using Loom.Nethereum.RPC.Eth.DTOs;
-using Loom.Nethereum.RPC.Eth.Transactions;
-using Loom.Nethereum.RPC.Personal;
-using Loom.Nethereum.RPC.Tests.Testers;
+using Nethereum.ABI.FunctionEncoding;
+using Nethereum.ABI.Model;
+using Nethereum.Geth.RPC.Miner;
+using Nethereum.JsonRpc.Client;
+using Nethereum.RPC.Eth.DTOs;
+using Nethereum.RPC.Eth.Transactions;
+using Nethereum.RPC.Personal;
+using Nethereum.RPC.Tests.Testers;
 using Xunit;
 
-namespace Loom.Nethereum.RPC.Tests.ContractTest
+namespace Nethereum.RPC.Tests.ContractTest
 {
     public class DeployContractCallFunctionTester : RPCRequestTester<string>, IRPCRequestTester
     {

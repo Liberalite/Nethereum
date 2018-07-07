@@ -3,7 +3,7 @@ using System;
 using System.Linq;
 using Microsoft.Extensions.Configuration;
 
-namespace Loom.Nethereum.RPC.Tests.Testers
+namespace Nethereum.RPC.Tests.Testers
 {
     public class TestSettings
     {

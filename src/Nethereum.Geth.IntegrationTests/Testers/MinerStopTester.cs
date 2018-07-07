@@ -1,11 +1,11 @@
 using System;
 using System.Threading.Tasks;
-using Loom.Nethereum.Geth.RPC.Miner;
-using Loom.Nethereum.JsonRpc.Client;
-using Loom.Nethereum.RPC.Tests.Testers;
+using Nethereum.Geth.RPC.Miner;
+using Nethereum.JsonRpc.Client;
+using Nethereum.RPC.Tests.Testers;
 using Xunit;
 
-namespace Loom.Nethereum.Geth.Tests.Testers
+namespace Nethereum.Geth.Tests.Testers
 {
     public class MinerStopTester : RPCRequestTester<bool>, IRPCRequestTester
     {

@@ -1,12 +1,12 @@
 ﻿using System.Numerics;
 using System.Threading.Tasks;
-using Loom.Nethereum.ABI.FunctionEncoding.Attributes;
-using Loom.Nethereum.Hex.HexTypes;
-using Loom.Nethereum.RPC.Eth.DTOs;
-using Loom.Nethereum.RPC.TransactionReceipts;
+using Nethereum.ABI.FunctionEncoding.Attributes;
+using Nethereum.Hex.HexTypes;
+using Nethereum.RPC.Eth.DTOs;
+using Nethereum.RPC.TransactionReceipts;
 using Xunit;
 
-namespace Loom.Nethereum.Contracts.IntegrationTests.EncodingInputOutput
+namespace Nethereum.Contracts.IntegrationTests.EncodingInputOutput
 {
     public class EventAddressIntString
     {

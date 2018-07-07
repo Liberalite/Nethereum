@@ -1,7 +1,7 @@
-﻿using Loom.Nethereum.Web3.Accounts;
-using Loom.Nethereum.Web3.Accounts.Managed;
+﻿using Nethereum.Web3.Accounts;
+using Nethereum.Web3.Accounts.Managed;
 
-namespace Loom.Nethereum.Web3.IntegrationTests
+namespace Nethereum.Web3.IntegrationTests
 {
     public static class AccountFactory
     {

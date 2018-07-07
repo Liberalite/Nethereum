@@ -1,11 +1,11 @@
 using System;
 using System.Threading.Tasks;
-using Loom.Nethereum.Hex.HexTypes;
-using Loom.Nethereum.JsonRpc.Client;
-using Loom.Nethereum.Parity.RPC.BlockAuthoring;
+using Nethereum.Hex.HexTypes;
+using Nethereum.JsonRpc.Client;
+using Nethereum.Parity.RPC.BlockAuthoring;
 using Xunit;
 
-namespace Loom.Nethereum.Parity.IntegrationTests.Tests.BlockAuthoring
+namespace Nethereum.Parity.IntegrationTests.Tests.BlockAuthoring
 {
     public class ParityGasCeilTargetTester : RPCRequestTester<HexBigInteger>, IRPCRequestTester
     {

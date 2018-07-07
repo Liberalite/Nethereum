@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Loom.Nethereum.Hex.HexTypes;
-using Loom.Nethereum.Web3.Accounts;
+using Nethereum.Hex.HexTypes;
+using Nethereum.Web3.Accounts;
 using Xunit;
 
-namespace Loom.Nethereum.Signer.IntegrationTests
+namespace Nethereum.Signer.IntegrationTests
 {
     public class SignedEIP155
     {

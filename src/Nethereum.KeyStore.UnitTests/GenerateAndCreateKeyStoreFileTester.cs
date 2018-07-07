@@ -1,7 +1,7 @@
-﻿using Loom.Nethereum.Hex.HexConvertors.Extensions;
+﻿using Nethereum.Hex.HexConvertors.Extensions;
 using Xunit;
 
-namespace Loom.Nethereum.KeyStore.UnitTests
+namespace Nethereum.KeyStore.UnitTests
 {
     public class GenerateAndCreateKeyStoreFileTester
     {

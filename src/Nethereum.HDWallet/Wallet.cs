@@ -1,10 +1,10 @@
 ﻿using NBitcoin;
-using Loom.Nethereum.Hex.HexConvertors.Extensions;
-using Loom.Nethereum.Signer;
-using Loom.Nethereum.Util;
-using Loom.Nethereum.Web3.Accounts;
+using Nethereum.Hex.HexConvertors.Extensions;
+using Nethereum.Signer;
+using Nethereum.Util;
+using Nethereum.Web3.Accounts;
 
-namespace Loom.Nethereum.HdWallet
+namespace Nethereum.HdWallet
 {
     public class Wallet
     {

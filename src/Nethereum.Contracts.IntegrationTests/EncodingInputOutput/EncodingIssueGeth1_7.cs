@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Numerics;
-using Loom.Nethereum.Hex.HexTypes;
-using Loom.Nethereum.RPC.TransactionReceipts;
+using Nethereum.Hex.HexTypes;
+using Nethereum.RPC.TransactionReceipts;
 using Xunit;
 
-namespace Loom.Nethereum.Contracts.IntegrationTests.EncodingInputOutput
+namespace Nethereum.Contracts.IntegrationTests.EncodingInputOutput
 {
     public class EncodingIssueGeth1_7
     {

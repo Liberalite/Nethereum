@@ -1,9 +1,9 @@
 using System;
 using System.Threading.Tasks;
-using Loom.Nethereum.JsonRpc.Client;
-using Loom.Nethereum.RPC.Net;
+using Nethereum.JsonRpc.Client;
+using Nethereum.RPC.Net;
 
-namespace Loom.Nethereum.RPC.Tests.Testers
+namespace Nethereum.RPC.Tests.Testers
 {
     public class NetPeerCountTester : IRPCRequestTester
     {

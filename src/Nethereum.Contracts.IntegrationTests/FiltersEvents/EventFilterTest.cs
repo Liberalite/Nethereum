@@ -1,10 +1,10 @@
 using System.Numerics;
 using System.Threading.Tasks;
-using Loom.Nethereum.ABI.FunctionEncoding.Attributes;
-using Loom.Nethereum.Contracts.CQS;
+using Nethereum.ABI.FunctionEncoding.Attributes;
+using Nethereum.Contracts.CQS;
 using Xunit;
 
-namespace Loom.Nethereum.Contracts.IntegrationTests.FiltersEvents
+namespace Nethereum.Contracts.IntegrationTests.FiltersEvents
 {
     public class EventFilterTest
     {
