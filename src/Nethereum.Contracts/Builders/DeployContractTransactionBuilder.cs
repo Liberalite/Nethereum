@@ -1,8 +1,8 @@
 ﻿using System;
-using Loom.Nethereum.ABI.FunctionEncoding;
-using Loom.Nethereum.ABI.JsonDeserialisation;
-using Loom.Nethereum.Hex.HexTypes;
-using Loom.Nethereum.RPC.Eth.DTOs;
+using Nethereum.ABI.FunctionEncoding;
+using Nethereum.ABI.JsonDeserialisation;
+using Nethereum.Hex.HexTypes;
+using Nethereum.RPC.Eth.DTOs;
 
 namespace Nethereum.Contracts
 {

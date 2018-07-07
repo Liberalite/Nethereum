@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Reflection;
-using Loom.Nethereum.ABI.Model;
+using Nethereum.ABI.Model;
 
 namespace Nethereum.ABI.FunctionEncoding.Attributes
 {

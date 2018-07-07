@@ -1,5 +1,5 @@
 using System.Numerics;
-using Loom.Nethereum.Hex.HexConvertors;
+using Nethereum.Hex.HexConvertors;
 using Newtonsoft.Json;
 
 namespace Nethereum.Hex.HexTypes

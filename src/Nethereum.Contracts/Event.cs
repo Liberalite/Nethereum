@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Loom.Nethereum.Hex.HexTypes;
-using Loom.Nethereum.RPC.Eth.DTOs;
-using Loom.Nethereum.RPC.Eth.Filters;
+using Nethereum.Hex.HexTypes;
+using Nethereum.RPC.Eth.DTOs;
+using Nethereum.RPC.Eth.Filters;
 using Newtonsoft.Json.Linq;
 
 namespace Nethereum.Contracts

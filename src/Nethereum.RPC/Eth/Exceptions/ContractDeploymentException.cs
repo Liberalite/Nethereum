@@ -1,5 +1,5 @@
 using System;
-using Loom.Nethereum.RPC.Eth.DTOs;
+using Nethereum.RPC.Eth.DTOs;
 
 namespace Nethereum.RPC.Eth.Exceptions
 {

@@ -1,5 +1,5 @@
 ﻿using System.Threading.Tasks;
-using Loom.Nethereum.JsonRpc.Client;
+using Nethereum.JsonRpc.Client;
 
 namespace Nethereum.RPC.Infrastructure
 {

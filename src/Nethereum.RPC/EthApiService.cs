@@ -1,8 +1,8 @@
-﻿using Loom.Nethereum.JsonRpc.Client;
-using Loom.Nethereum.RPC.Eth;
-using Loom.Nethereum.RPC.Eth.DTOs;
-using Loom.Nethereum.RPC.Eth.Services;
-using Loom.Nethereum.RPC.TransactionManagers;
+﻿using Nethereum.JsonRpc.Client;
+using Nethereum.RPC.Eth;
+using Nethereum.RPC.Eth.DTOs;
+using Nethereum.RPC.Eth.Services;
+using Nethereum.RPC.TransactionManagers;
 
 namespace Nethereum.RPC
 {

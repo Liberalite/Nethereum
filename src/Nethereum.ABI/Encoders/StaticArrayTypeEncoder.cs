@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
-using Loom.Nethereum.ABI.Util;
-using Loom.Nethereum.Util;
+using Nethereum.ABI.Util;
+using Nethereum.Util;
 
 namespace Nethereum.ABI.Encoders
 {

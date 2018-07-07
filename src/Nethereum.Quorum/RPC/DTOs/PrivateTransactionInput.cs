@@ -1,4 +1,4 @@
-﻿using Loom.Nethereum.RPC.Eth.DTOs;
+﻿using Nethereum.RPC.Eth.DTOs;
 using Newtonsoft.Json;
 
 namespace Nethereum.Quorum.RPC.DTOs

@@ -1,7 +1,7 @@
 ﻿using System;
-using Loom.Nethereum.RLP;
-using Loom.Nethereum.Signer.Crypto;
-using Loom.Nethereum.Util;
+using Nethereum.RLP;
+using Nethereum.Signer.Crypto;
+using Nethereum.Util;
 using Org.BouncyCastle.Math;
 
 namespace Nethereum.Signer

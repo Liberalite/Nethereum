@@ -1,4 +1,4 @@
-using Loom.Nethereum.ABI.FunctionEncoding;
+using Nethereum.ABI.FunctionEncoding;
 
 namespace Nethereum.ABI.Model
 {

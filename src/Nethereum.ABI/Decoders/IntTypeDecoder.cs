@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 using System.Numerics;
-using Loom.Nethereum.Hex.HexConvertors.Extensions;
+using Nethereum.Hex.HexConvertors.Extensions;
 
 namespace Nethereum.ABI.Decoders
 {

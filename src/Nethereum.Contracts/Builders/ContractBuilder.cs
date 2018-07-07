@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq;
-using Loom.Nethereum.ABI.FunctionEncoding.Attributes;
-using Loom.Nethereum.ABI.JsonDeserialisation;
-using Loom.Nethereum.ABI.Model;
-using Loom.Nethereum.RPC.Eth.DTOs;
+using Nethereum.ABI.FunctionEncoding.Attributes;
+using Nethereum.ABI.JsonDeserialisation;
+using Nethereum.ABI.Model;
+using Nethereum.RPC.Eth.DTOs;
 
 namespace Nethereum.Contracts
 {

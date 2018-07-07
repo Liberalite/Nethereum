@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 using System.Text;
-using Loom.Nethereum.Hex.HexConvertors.Extensions;
+using Nethereum.Hex.HexConvertors.Extensions;
 using Org.BouncyCastle.Crypto.Digests;
 
 namespace Nethereum.Util

@@ -1,5 +1,5 @@
-using Loom.Nethereum.JsonRpc.Client;
-using Loom.Nethereum.RPC.Eth.Compilation;
+using Nethereum.JsonRpc.Client;
+using Nethereum.RPC.Eth.Compilation;
 
 namespace Nethereum.RPC.Eth.Services
 {

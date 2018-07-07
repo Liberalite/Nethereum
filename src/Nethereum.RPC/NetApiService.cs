@@ -1,5 +1,5 @@
-using Loom.Nethereum.JsonRpc.Client;
-using Loom.Nethereum.RPC.Net;
+using Nethereum.JsonRpc.Client;
+using Nethereum.RPC.Net;
 
 namespace Nethereum.RPC
 {

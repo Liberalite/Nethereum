@@ -1,7 +1,7 @@
 using System;
 using System.Numerics;
 using System.Text;
-using Loom.Nethereum.ABI.Util;
+using Nethereum.ABI.Util;
 
 namespace Nethereum.ABI.Encoders
 {

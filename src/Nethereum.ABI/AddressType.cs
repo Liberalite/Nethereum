@@ -1,5 +1,5 @@
-using Loom.Nethereum.ABI.Decoders;
-using Loom.Nethereum.ABI.Encoders;
+using Nethereum.ABI.Decoders;
+using Nethereum.ABI.Encoders;
 
 namespace Nethereum.ABI
 {

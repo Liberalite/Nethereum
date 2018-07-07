@@ -1,9 +1,9 @@
 using System;
 using System.Threading.Tasks;
-using Loom.Nethereum.Hex.HexTypes;
-using Loom.Nethereum.RPC;
-using Loom.Nethereum.RPC.Eth.DTOs;
-using Loom.Nethereum.RPC.Eth.Filters;
+using Nethereum.Hex.HexTypes;
+using Nethereum.RPC;
+using Nethereum.RPC.Eth.DTOs;
+using Nethereum.RPC.Eth.Filters;
 
 namespace Nethereum.Contracts
 {

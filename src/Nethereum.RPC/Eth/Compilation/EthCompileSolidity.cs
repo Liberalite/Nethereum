@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
  
-using Loom.Nethereum.JsonRpc.Client;
+using Nethereum.JsonRpc.Client;
 using Newtonsoft.Json.Linq;
-using Loom.Nethereum.Hex.HexConvertors.Extensions;
+using Nethereum.Hex.HexConvertors.Extensions;
 
 namespace Nethereum.RPC.Eth.Compilation
 {

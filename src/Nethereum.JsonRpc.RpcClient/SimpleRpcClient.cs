@@ -4,7 +4,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Loom.Nethereum.JsonRpc.Client.RpcMessages;
+using Nethereum.JsonRpc.Client.RpcMessages;
 using Newtonsoft.Json;
 
 namespace Nethereum.JsonRpc.Client

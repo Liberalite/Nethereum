@@ -1,5 +1,5 @@
-﻿using Loom.Nethereum.JsonRpc.Client;
-using Loom.Nethereum.RPC.Accounts;
+﻿using Nethereum.JsonRpc.Client;
+using Nethereum.RPC.Accounts;
 
 namespace Nethereum.Parity
 {

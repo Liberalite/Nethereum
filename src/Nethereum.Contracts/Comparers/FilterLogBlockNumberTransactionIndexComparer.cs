@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using Loom.Nethereum.RPC.Eth.DTOs;
+using Nethereum.RPC.Eth.DTOs;
 
 namespace Nethereum.Contracts.Comparers
 {

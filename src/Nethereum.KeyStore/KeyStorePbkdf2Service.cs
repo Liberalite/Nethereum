@@ -1,7 +1,7 @@
 ﻿using System;
-using Loom.Nethereum.Hex.HexConvertors.Extensions;
-using Loom.Nethereum.KeyStore.Crypto;
-using Loom.Nethereum.KeyStore.Model;
+using Nethereum.Hex.HexConvertors.Extensions;
+using Nethereum.KeyStore.Crypto;
+using Nethereum.KeyStore.Model;
 
 namespace Nethereum.KeyStore
 {

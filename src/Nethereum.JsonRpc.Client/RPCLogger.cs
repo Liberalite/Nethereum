@@ -1,7 +1,7 @@
 #if !DOTNET35
 using System;
 using Common.Logging;
-using Loom.Nethereum.JsonRpc.Client.RpcMessages;
+using Nethereum.JsonRpc.Client.RpcMessages;
 
 namespace Nethereum.JsonRpc.Client
 {

@@ -1,8 +1,8 @@
-﻿using Loom.Nethereum.RPC.TransactionManagers;
+﻿using Nethereum.RPC.TransactionManagers;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Loom.Nethereum.RPC.NonceServices;
+using Nethereum.RPC.NonceServices;
 
 namespace Nethereum.RPC.Accounts
 {

@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Loom.Nethereum.JsonRpc.Client;
-using Loom.Nethereum.RPC;
-using Loom.Nethereum.RPC.Eth.Filters;
-using Loom.Nethereum.Web3;
+using Nethereum.JsonRpc.Client;
+using Nethereum.RPC;
+using Nethereum.RPC.Eth.Filters;
+using Nethereum.Web3;
 
 namespace Nethereum.Quorum.RPC.Services
 {

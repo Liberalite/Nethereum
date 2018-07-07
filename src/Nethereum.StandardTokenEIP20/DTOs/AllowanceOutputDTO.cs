@@ -1,5 +1,5 @@
 using System.Numerics;
-using Loom.Nethereum.ABI.FunctionEncoding.Attributes;
+using Nethereum.ABI.FunctionEncoding.Attributes;
 
 namespace Nethereum.StandardTokenEIP20.DTOs
 {

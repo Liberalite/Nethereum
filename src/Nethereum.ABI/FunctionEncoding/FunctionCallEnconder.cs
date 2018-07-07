@@ -1,8 +1,8 @@
 using System;
 using System.Reflection;
-using Loom.Nethereum.ABI.FunctionEncoding.Attributes;
-using Loom.Nethereum.ABI.Model;
-using Loom.Nethereum.Hex.HexConvertors.Extensions;
+using Nethereum.ABI.FunctionEncoding.Attributes;
+using Nethereum.ABI.Model;
+using Nethereum.Hex.HexConvertors.Extensions;
 
 namespace Nethereum.ABI.FunctionEncoding
 {

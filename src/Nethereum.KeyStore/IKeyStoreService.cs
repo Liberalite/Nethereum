@@ -1,4 +1,4 @@
-﻿using Loom.Nethereum.KeyStore.Model;
+﻿using Nethereum.KeyStore.Model;
 
 namespace Nethereum.KeyStore
 {

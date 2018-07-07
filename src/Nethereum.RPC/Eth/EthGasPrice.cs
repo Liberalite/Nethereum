@@ -1,6 +1,6 @@
-using Loom.Nethereum.Hex.HexTypes;
-using Loom.Nethereum.JsonRpc.Client;
-using Loom.Nethereum.RPC.Infrastructure;
+using Nethereum.Hex.HexTypes;
+using Nethereum.JsonRpc.Client;
+using Nethereum.RPC.Infrastructure;
 
 namespace Nethereum.RPC.Eth
 {

@@ -1,8 +1,8 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
-using Loom.Nethereum.ABI.FunctionEncoding.Attributes;
-using Loom.Nethereum.Hex.HexTypes;
-using Loom.Nethereum.RPC.Eth.DTOs;
+using Nethereum.ABI.FunctionEncoding.Attributes;
+using Nethereum.Hex.HexTypes;
+using Nethereum.RPC.Eth.DTOs;
 
 namespace Nethereum.Contracts.CQS
 {

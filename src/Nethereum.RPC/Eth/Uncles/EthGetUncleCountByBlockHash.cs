@@ -1,9 +1,9 @@
 using System;
 using System.Threading.Tasks;
  
-using Loom.Nethereum.Hex.HexTypes;
-using Loom.Nethereum.JsonRpc.Client;
-using Loom.Nethereum.Hex.HexConvertors.Extensions;
+using Nethereum.Hex.HexTypes;
+using Nethereum.JsonRpc.Client;
+using Nethereum.Hex.HexConvertors.Extensions;
 
 namespace Nethereum.RPC.Eth.Uncles
 {

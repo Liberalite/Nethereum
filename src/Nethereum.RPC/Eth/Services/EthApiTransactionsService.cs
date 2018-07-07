@@ -1,6 +1,6 @@
-using Loom.Nethereum.JsonRpc.Client;
-using Loom.Nethereum.RPC.Eth.DTOs;
-using Loom.Nethereum.RPC.Eth.Transactions;
+using Nethereum.JsonRpc.Client;
+using Nethereum.RPC.Eth.DTOs;
+using Nethereum.RPC.Eth.Transactions;
 
 namespace Nethereum.RPC.Eth.Services
 {

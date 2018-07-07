@@ -2,8 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using Loom.Nethereum.ABI.FunctionEncoding.Attributes;
-using Loom.Nethereum.ABI.Model;
+using Nethereum.ABI.FunctionEncoding.Attributes;
+using Nethereum.ABI.Model;
 
 namespace Nethereum.ABI.FunctionEncoding
 {

@@ -1,8 +1,8 @@
 using System;
 using System.Threading.Tasks;
  
-using Loom.Nethereum.JsonRpc.Client;
-using Loom.Nethereum.Hex.HexConvertors.Extensions;
+using Nethereum.JsonRpc.Client;
+using Nethereum.Hex.HexConvertors.Extensions;
 
 namespace Nethereum.RPC.Eth.Mining
 {

@@ -1,5 +1,5 @@
 using System.Linq;
-using Loom.Nethereum.ABI.Decoders;
+using Nethereum.ABI.Decoders;
 
 namespace Nethereum.ABI
 {

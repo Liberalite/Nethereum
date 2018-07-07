@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using Loom.Nethereum.ABI.Decoders;
-using Loom.Nethereum.ABI.FunctionEncoding;
-using Loom.Nethereum.ABI.Model;
+using Nethereum.ABI.Decoders;
+using Nethereum.ABI.FunctionEncoding;
+using Nethereum.ABI.Model;
 
 namespace Nethereum.ABI
 {

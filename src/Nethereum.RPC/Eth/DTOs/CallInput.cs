@@ -1,5 +1,5 @@
-using Loom.Nethereum.Hex.HexConvertors.Extensions;
-using Loom.Nethereum.Hex.HexTypes;
+using Nethereum.Hex.HexConvertors.Extensions;
+using Nethereum.Hex.HexTypes;
 using Newtonsoft.Json;
 
 namespace Nethereum.RPC.Eth.DTOs

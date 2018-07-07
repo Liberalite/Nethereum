@@ -1,8 +1,8 @@
 using System;
 using System.Linq;
 using System.Numerics;
-using Loom.Nethereum.ABI.Decoders;
-using Loom.Nethereum.ABI.Util;
+using Nethereum.ABI.Decoders;
+using Nethereum.ABI.Util;
 
 namespace Nethereum.ABI.Encoders
 {

@@ -1,6 +1,6 @@
 using System.Linq;
 using System.Text;
-using Loom.Nethereum.ABI.Model;
+using Nethereum.ABI.Model;
 
 namespace Nethereum.ABI.FunctionEncoding
 {

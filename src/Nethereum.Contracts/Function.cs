@@ -1,7 +1,7 @@
 using System.Threading;
 using System.Threading.Tasks;
-using Loom.Nethereum.Hex.HexTypes;
-using Loom.Nethereum.RPC.Eth.DTOs;
+using Nethereum.Hex.HexTypes;
+using Nethereum.RPC.Eth.DTOs;
 
 namespace Nethereum.Contracts
 {

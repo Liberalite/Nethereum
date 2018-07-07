@@ -1,5 +1,5 @@
 using System;
-using Loom.Nethereum.Hex.HexConvertors.Extensions;
+using Nethereum.Hex.HexConvertors.Extensions;
 
 namespace Nethereum.ABI.Decoders
 {

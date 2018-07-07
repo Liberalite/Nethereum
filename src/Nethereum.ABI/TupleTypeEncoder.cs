@@ -1,7 +1,7 @@
 using System;
-using Loom.Nethereum.ABI.Encoders;
-using Loom.Nethereum.ABI.FunctionEncoding;
-using Loom.Nethereum.ABI.Model;
+using Nethereum.ABI.Encoders;
+using Nethereum.ABI.FunctionEncoding;
+using Nethereum.ABI.Model;
 
 namespace Nethereum.ABI
 {

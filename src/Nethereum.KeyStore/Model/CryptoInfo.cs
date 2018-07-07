@@ -1,4 +1,4 @@
-﻿using Loom.Nethereum.Hex.HexConvertors.Extensions;
+﻿using Nethereum.Hex.HexConvertors.Extensions;
 using Newtonsoft.Json;
 
 namespace Nethereum.KeyStore.Model

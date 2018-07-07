@@ -1,10 +1,10 @@
 ﻿using System.Threading.Tasks;
-using Loom.Nethereum.Hex.HexTypes;
-using Loom.Nethereum.JsonRpc.Client;
-using Loom.Nethereum.RPC.Eth.DTOs;
+using Nethereum.Hex.HexTypes;
+using Nethereum.JsonRpc.Client;
+using Nethereum.RPC.Eth.DTOs;
 using System.Numerics;
-using Loom.Nethereum.RPC.Accounts;
-using Loom.Nethereum.RPC.TransactionReceipts;
+using Nethereum.RPC.Accounts;
+using Nethereum.RPC.TransactionReceipts;
 
 namespace Nethereum.RPC.TransactionManagers
 {

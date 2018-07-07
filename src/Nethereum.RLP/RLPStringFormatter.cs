@@ -1,6 +1,6 @@
 using System;
 using System.Text;
-using Loom.Nethereum.Hex.HexConvertors.Extensions;
+using Nethereum.Hex.HexConvertors.Extensions;
 
 namespace Nethereum.RLP
 {

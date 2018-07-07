@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Loom.Nethereum.Hex.HexConvertors.Extensions;
-using Loom.Nethereum.JsonRpc.Client;
+using Nethereum.Hex.HexConvertors.Extensions;
+using Nethereum.JsonRpc.Client;
 
 namespace Nethereum.Quorum.RPC
 {

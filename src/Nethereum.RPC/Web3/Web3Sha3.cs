@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
  
-using Loom.Nethereum.Hex.HexTypes;
-using Loom.Nethereum.JsonRpc.Client;
+using Nethereum.Hex.HexTypes;
+using Nethereum.JsonRpc.Client;
 
 namespace Nethereum.RPC.Web3
 {

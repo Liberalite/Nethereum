@@ -1,4 +1,4 @@
-﻿using Loom.Nethereum.Hex.HexTypes;
+﻿using Nethereum.Hex.HexTypes;
 using Newtonsoft.Json;
 
 namespace Nethereum.RPC.Eth.DTOs

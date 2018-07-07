@@ -1,7 +1,7 @@
 using System;
 using System.Text;
-using Loom.Nethereum.Hex.HexConvertors.Extensions;
-using Loom.Nethereum.Util;
+using Nethereum.Hex.HexConvertors.Extensions;
+using Nethereum.Util;
 
 namespace Nethereum.Signer
 {

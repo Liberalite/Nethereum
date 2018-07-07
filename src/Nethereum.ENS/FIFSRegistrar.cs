@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
-using Loom.Nethereum.Contracts;
-using Loom.Nethereum.Hex.HexTypes;
-using Loom.Nethereum.Web3;
+using Nethereum.Contracts;
+using Nethereum.Hex.HexTypes;
+using Nethereum.Web3;
 
 namespace Nethereum.ENS
 {

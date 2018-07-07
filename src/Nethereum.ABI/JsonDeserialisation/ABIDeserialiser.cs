@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 //using System.Dynamic;
-using Loom.Nethereum.ABI.Model;
+using Nethereum.ABI.Model;
 using Newtonsoft.Json;
 
 namespace Nethereum.ABI.JsonDeserialisation

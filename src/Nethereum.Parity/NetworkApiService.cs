@@ -1,6 +1,6 @@
-using Loom.Nethereum.JsonRpc.Client;
-using Loom.Nethereum.Parity.RPC.Network;
-using Loom.Nethereum.RPC;
+using Nethereum.JsonRpc.Client;
+using Nethereum.Parity.RPC.Network;
+using Nethereum.RPC;
 
 namespace Nethereum.Parity
 {

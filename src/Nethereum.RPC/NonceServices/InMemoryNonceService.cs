@@ -2,10 +2,10 @@
 using System.Numerics;
 using System.Threading;
 using System.Threading.Tasks;
-using Loom.Nethereum.Hex.HexTypes;
-using Loom.Nethereum.JsonRpc.Client;
-using Loom.Nethereum.RPC.Eth.DTOs;
-using Loom.Nethereum.RPC.Eth.Transactions;
+using Nethereum.Hex.HexTypes;
+using Nethereum.JsonRpc.Client;
+using Nethereum.RPC.Eth.DTOs;
+using Nethereum.RPC.Eth.Transactions;
 
 namespace Nethereum.RPC.NonceServices
 {

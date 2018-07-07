@@ -1,6 +1,6 @@
-using Loom.Nethereum.Geth.RPC.Miner;
-using Loom.Nethereum.JsonRpc.Client;
-using Loom.Nethereum.RPC;
+using Nethereum.Geth.RPC.Miner;
+using Nethereum.JsonRpc.Client;
+using Nethereum.RPC;
 
 namespace Nethereum.Geth
 {

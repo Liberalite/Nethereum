@@ -1,7 +1,7 @@
 ﻿using System.Numerics;
-using Loom.Nethereum.Hex.HexTypes;
-using Loom.Nethereum.JsonRpc.Client;
-using Loom.Nethereum.RPC.TransactionManagers;
+using Nethereum.Hex.HexTypes;
+using Nethereum.JsonRpc.Client;
+using Nethereum.RPC.TransactionManagers;
 
 namespace Nethereum.Contracts.CQS
 {

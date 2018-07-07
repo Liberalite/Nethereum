@@ -1,6 +1,6 @@
-﻿using Loom.Nethereum.JsonRpc.Client;
-using Loom.Nethereum.Quorum.RPC.DTOs;
-using Loom.Nethereum.RPC.Infrastructure;
+﻿using Nethereum.JsonRpc.Client;
+using Nethereum.Quorum.RPC.DTOs;
+using Nethereum.RPC.Infrastructure;
 
 namespace Nethereum.Quorum.RPC
 {
