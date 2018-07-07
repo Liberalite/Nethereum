@@ -1,9 +1,9 @@
-using Nethereum.Contracts.CQS;
-using Nethereum.JsonRpc.Client;
-using Nethereum.RPC;
-using Nethereum.RPC.TransactionManagers;
+using Loom.Nethereum.Contracts.CQS;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC;
+using Loom.Nethereum.RPC.TransactionManagers;
 
-namespace Nethereum.Contracts
+namespace Loom.Nethereum.Contracts
 {
     public class EthApiContractService : EthApiService
     {

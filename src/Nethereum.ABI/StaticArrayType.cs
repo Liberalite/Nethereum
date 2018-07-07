@@ -1,8 +1,8 @@
 using System;
-using Nethereum.ABI.Decoders;
-using Nethereum.ABI.Encoders;
+using Loom.Nethereum.ABI.Decoders;
+using Loom.Nethereum.ABI.Encoders;
 
-namespace Nethereum.ABI
+namespace Loom.Nethereum.ABI
 {
     public class StaticArrayType : ArrayType
     {

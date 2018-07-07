@@ -1,7 +1,7 @@
 using System;
 using System.Numerics;
 
-namespace Nethereum.Hex.HexTypes
+namespace Loom.Nethereum.Hex.HexTypes
 {
     public class HexTypeFactory
     {

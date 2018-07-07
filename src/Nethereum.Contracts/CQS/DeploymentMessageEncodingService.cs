@@ -1,6 +1,6 @@
-﻿using Nethereum.RPC.Eth.DTOs;
+﻿using Loom.Nethereum.RPC.Eth.DTOs;
 
-namespace Nethereum.Contracts.CQS
+namespace Loom.Nethereum.Contracts.CQS
 {
     public class DeploymentMessageEncodingService<TContractDeployment> : IContractMessageTransactionInputCreator<TContractDeployment> where TContractDeployment: ContractDeploymentMessage
     {

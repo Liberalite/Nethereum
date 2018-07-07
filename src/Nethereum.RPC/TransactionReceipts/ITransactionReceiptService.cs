@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using Nethereum.RPC.Eth.DTOs;
+using Loom.Nethereum.RPC.Eth.DTOs;
 
-namespace Nethereum.RPC.TransactionReceipts
+namespace Loom.Nethereum.RPC.TransactionReceipts
 {
     public interface ITransactionReceiptService
     {

@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
-using Nethereum.ABI.FunctionEncoding.Attributes;
-using Nethereum.Contracts.CQS;
-using Nethereum.XUnitEthereumClients;
+using Loom.Nethereum.ABI.FunctionEncoding.Attributes;
+using Loom.Nethereum.Contracts.CQS;
+using Loom.Nethereum.XUnitEthereumClients;
 using Xunit;
 
-namespace Nethereum.Contracts.IntegrationTests.CQS
+namespace Loom.Nethereum.Contracts.IntegrationTests.CQS
 {
     [Collection(EthereumClientIntegrationFixture.ETHEREUM_CLIENT_COLLECTION_DEFAULT)]
     public class FixedArrayQuery

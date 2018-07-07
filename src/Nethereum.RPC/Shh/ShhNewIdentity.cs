@@ -1,7 +1,7 @@
-using Nethereum.JsonRpc.Client;
-using Nethereum.RPC.Infrastructure;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC.Infrastructure;
 
-namespace Nethereum.RPC.Shh
+namespace Loom.Nethereum.RPC.Shh
 {
     /// <Summary>
     ///     shh_newIdentity

@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Nethereum.Hex.HexConvertors.Extensions;
-using Nethereum.JsonRpc.Client;
-using Nethereum.RPC.Accounts;
-using Nethereum.RPC.Eth.DTOs;
+using Loom.Nethereum.Hex.HexConvertors.Extensions;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC.Accounts;
+using Loom.Nethereum.RPC.Eth.DTOs;
 
-namespace Nethereum.Contracts.CQS
+namespace Loom.Nethereum.Contracts.CQS
 {
 
 #if !DOTNET35

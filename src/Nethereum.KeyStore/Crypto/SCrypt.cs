@@ -7,7 +7,7 @@ using Org.BouncyCastle.Crypto.Digests;
 using Org.BouncyCastle.Crypto.Generators;
 using Org.BouncyCastle.Crypto.Parameters;
 
-namespace Nethereum.KeyStore.Crypto
+namespace Loom.Nethereum.KeyStore.Crypto
 {
     public class ScryptNet
     {

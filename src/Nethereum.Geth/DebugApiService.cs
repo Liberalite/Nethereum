@@ -1,8 +1,8 @@
-using Nethereum.Geth.RPC.Debug;
-using Nethereum.JsonRpc.Client;
-using Nethereum.RPC;
+using Loom.Nethereum.Geth.RPC.Debug;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC;
 
-namespace Nethereum.Geth
+namespace Loom.Nethereum.Geth
 {
     public class DebugApiService : RpcClientWrapper
     {

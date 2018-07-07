@@ -4,10 +4,10 @@ using System.Net.Http;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Nethereum.JsonRpc.Client.RpcMessages;
+using Loom.Nethereum.JsonRpc.Client.RpcMessages;
 using Newtonsoft.Json;
 
-namespace Nethereum.JsonRpc.Client
+namespace Loom.Nethereum.JsonRpc.Client
 {
     public class SimpleRpcClient : ClientBase
     {

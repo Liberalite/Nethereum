@@ -1,7 +1,7 @@
 using System;
-using Nethereum.RPC.Eth.DTOs;
+using Loom.Nethereum.RPC.Eth.DTOs;
 
-namespace Nethereum.RPC.Eth.Exceptions
+namespace Loom.Nethereum.RPC.Eth.Exceptions
 {
     public class ContractDeploymentException : Exception
     {

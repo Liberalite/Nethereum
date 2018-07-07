@@ -1,6 +1,6 @@
 ﻿using Org.BouncyCastle.Security;
 
-namespace Nethereum.KeyStore.Crypto
+namespace Loom.Nethereum.KeyStore.Crypto
 {
     public class RandomBytesGenerator : IRandomBytesGenerator
     {

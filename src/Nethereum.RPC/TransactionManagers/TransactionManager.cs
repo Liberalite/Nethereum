@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Nethereum.JsonRpc.Client;
-using Nethereum.RPC.Eth.Transactions;
-using Nethereum.RPC.Eth.DTOs;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC.Eth.Transactions;
+using Loom.Nethereum.RPC.Eth.DTOs;
 using System.Numerics;
 
-namespace Nethereum.RPC.TransactionManagers
+namespace Loom.Nethereum.RPC.TransactionManagers
 {
     public class TransactionManager : TransactionManagerBase
     {

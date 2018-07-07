@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Nethereum.ABI.Decoders
+namespace Loom.Nethereum.ABI.Decoders
 {
     public class StringBytes32Decoder:ICustomRawDecoder<string>
     {

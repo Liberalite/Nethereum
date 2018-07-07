@@ -1,8 +1,8 @@
 using System.Threading.Tasks;
-using Nethereum.JsonRpc.Client;
+using Loom.Nethereum.JsonRpc.Client;
 using Newtonsoft.Json.Linq;
 
-namespace Nethereum.Geth.RPC.Debug
+namespace Loom.Nethereum.Geth.RPC.Debug
 {
     /// <Summary>
     ///     Retrieves the state that corresponds to the block number and returns a list of accounts (including storage and

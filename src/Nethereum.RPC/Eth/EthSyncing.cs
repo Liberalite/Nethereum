@@ -1,11 +1,11 @@
 ﻿using System.Threading.Tasks;
-using Nethereum.Hex.HexTypes;
-using Nethereum.JsonRpc.Client;
-using Nethereum.RPC.Eth.DTOs;
-using Nethereum.RPC.Infrastructure;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC.Eth.DTOs;
+using Loom.Nethereum.RPC.Infrastructure;
 using Newtonsoft.Json.Linq;
 
-namespace Nethereum.RPC.Eth
+namespace Loom.Nethereum.RPC.Eth
 {
     /// <Summary>
     ///     eth_syncing

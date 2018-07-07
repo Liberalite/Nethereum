@@ -1,16 +1,16 @@
 ﻿using System.Threading.Tasks;
-using Nethereum.Hex.HexTypes;
-using Nethereum.RPC.Eth;
-using Nethereum.RPC.Eth.DTOs;
-using Nethereum.RPC.TransactionReceipts;
-using Nethereum.Util;
-using Nethereum.Web3.Accounts;
-using Nethereum.Web3.Accounts.Managed;
-using Nethereum.XUnitEthereumClients;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.RPC.Eth;
+using Loom.Nethereum.RPC.Eth.DTOs;
+using Loom.Nethereum.RPC.TransactionReceipts;
+using Loom.Nethereum.Util;
+using Loom.Nethereum.Web3.Accounts;
+using Loom.Nethereum.Web3.Accounts.Managed;
+using Loom.Nethereum.XUnitEthereumClients;
 using Xunit;
 using Transaction = Nethereum.Signer.Transaction;
 
-namespace Nethereum.Accounts.IntegrationTests
+namespace Loom.Nethereum.Accounts.IntegrationTests
 {
 
     [Collection(EthereumClientIntegrationFixture.ETHEREUM_CLIENT_COLLECTION_DEFAULT)]

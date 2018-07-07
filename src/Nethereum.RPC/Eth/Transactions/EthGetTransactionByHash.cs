@@ -1,10 +1,10 @@
 using System.Threading.Tasks;
  
-using Nethereum.Hex.HexConvertors.Extensions;
-using Nethereum.JsonRpc.Client;
-using Nethereum.RPC.Eth.DTOs;
+using Loom.Nethereum.Hex.HexConvertors.Extensions;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC.Eth.DTOs;
 
-namespace Nethereum.RPC.Eth.Transactions
+namespace Loom.Nethereum.RPC.Eth.Transactions
 {
     /// <Summary>
     ///     eth_getTransactionByHash

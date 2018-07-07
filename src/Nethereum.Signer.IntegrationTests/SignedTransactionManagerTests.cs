@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Nethereum.Hex.HexTypes;
-using Nethereum.Signer.IntegrationTests;
-using Nethereum.XUnitEthereumClients;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.Signer.IntegrationTests;
+using Loom.Nethereum.XUnitEthereumClients;
 using Xunit;
 
-namespace Nethereum.Signer.IntegrationTests
+namespace Loom.Nethereum.Signer.IntegrationTests
 {
     [Collection(EthereumClientIntegrationFixture.ETHEREUM_CLIENT_COLLECTION_DEFAULT)]
     public class SignedTransactionManagerTests

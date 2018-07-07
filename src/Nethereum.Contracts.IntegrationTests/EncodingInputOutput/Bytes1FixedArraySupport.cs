@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
-using Nethereum.Hex.HexTypes;
-using Nethereum.XUnitEthereumClients;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.XUnitEthereumClients;
 using Xunit;
 
-namespace Nethereum.Contracts.IntegrationTests.EncodingInputOutput
+namespace Loom.Nethereum.Contracts.IntegrationTests.EncodingInputOutput
 {
     [Collection(EthereumClientIntegrationFixture.ETHEREUM_CLIENT_COLLECTION_DEFAULT)]
     public class Bytes1FixedArraySupport

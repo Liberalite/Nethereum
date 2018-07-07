@@ -1,11 +1,11 @@
 using System;
 using System.Threading.Tasks;
  
-using Nethereum.Hex.HexConvertors.Extensions;
-using Nethereum.Hex.HexTypes;
-using Nethereum.JsonRpc.Client;
+using Loom.Nethereum.Hex.HexConvertors.Extensions;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.JsonRpc.Client;
 
-namespace Nethereum.RPC.Eth.Blocks
+namespace Loom.Nethereum.RPC.Eth.Blocks
 {
     /// <Summary>
     ///     eth_getBlockTransactionCountByHash

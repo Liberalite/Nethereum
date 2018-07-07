@@ -1,4 +1,4 @@
-﻿namespace Nethereum.RPC
+﻿namespace Loom.Nethereum.RPC
 {
     public class Constants
     {

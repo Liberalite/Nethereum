@@ -1,4 +1,4 @@
-namespace Nethereum.RLP
+namespace Loom.Nethereum.RLP
 {
     /// <summary>
     ///     Wrapper class for decoded elements from an RLP encoded byte array.

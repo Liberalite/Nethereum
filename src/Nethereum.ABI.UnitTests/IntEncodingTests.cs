@@ -2,10 +2,10 @@ using System;
 using System.Diagnostics;
 using System.Linq;
 using System.Numerics;
-using Nethereum.Hex.HexConvertors.Extensions;
+using Loom.Nethereum.Hex.HexConvertors.Extensions;
 using Xunit;
 
-namespace Nethereum.ABI.UnitTests
+namespace Loom.Nethereum.ABI.UnitTests
 {
     public class IntEncodingTests
     {

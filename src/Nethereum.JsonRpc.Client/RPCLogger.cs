@@ -1,9 +1,9 @@
 #if !DOTNET35
 using System;
 using Common.Logging;
-using Nethereum.JsonRpc.Client.RpcMessages;
+using Loom.Nethereum.JsonRpc.Client.RpcMessages;
 
-namespace Nethereum.JsonRpc.Client
+namespace Loom.Nethereum.JsonRpc.Client
 {
 
     public class RpcLogger

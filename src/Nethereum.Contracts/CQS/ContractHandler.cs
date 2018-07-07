@@ -1,11 +1,11 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
-using Nethereum.ABI.Decoders;
-using Nethereum.ABI.FunctionEncoding.Attributes;
-using Nethereum.Hex.HexTypes;
-using Nethereum.RPC.Eth.DTOs;
+using Loom.Nethereum.ABI.Decoders;
+using Loom.Nethereum.ABI.FunctionEncoding.Attributes;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.RPC.Eth.DTOs;
 
-namespace Nethereum.Contracts.CQS
+namespace Loom.Nethereum.Contracts.CQS
 {
 
     public class ContractHandler

@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Numerics;
 using System.Threading.Tasks;
-using Nethereum.Hex.HexTypes;
-using Nethereum.JsonRpc.Client;
-using Nethereum.RPC.Eth.DTOs;
-using Nethereum.RPC.Personal;
-using Nethereum.RPC.TransactionManagers;
-using Transaction = Nethereum.Signer.Transaction;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC.Eth.DTOs;
+using Loom.Nethereum.RPC.Personal;
+using Loom.Nethereum.RPC.TransactionManagers;
+using Transaction = Loom.Nethereum.Signer.Transaction;
 
-namespace Nethereum.Web3.Accounts.Managed
+namespace Loom.Nethereum.Web3.Accounts.Managed
 {
     public class ManagedAccountTransactionManager : TransactionManagerBase
     {

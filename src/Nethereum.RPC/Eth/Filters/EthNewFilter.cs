@@ -1,11 +1,11 @@
 using System;
 using System.Threading.Tasks;
 
-using Nethereum.Hex.HexTypes;
-using Nethereum.JsonRpc.Client;
-using Nethereum.RPC.Eth.DTOs;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC.Eth.DTOs;
 
-namespace Nethereum.RPC.Eth.Filters
+namespace Loom.Nethereum.RPC.Eth.Filters
 {
     /// <Summary>
     ///     Creates a filter object, based on filter options, to notify when the state changes (logs). To check if the state

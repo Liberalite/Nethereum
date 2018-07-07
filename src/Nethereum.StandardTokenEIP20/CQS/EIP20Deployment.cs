@@ -1,8 +1,8 @@
 using System.Numerics;
-using Nethereum.ABI.FunctionEncoding.Attributes;
-using Nethereum.Contracts.CQS;
+using Loom.Nethereum.ABI.FunctionEncoding.Attributes;
+using Loom.Nethereum.Contracts.CQS;
 
-namespace Nethereum.StandardTokenEIP20.CQS
+namespace Loom.Nethereum.StandardTokenEIP20.CQS
 {
     public class EIP20Deployment : ContractDeploymentMessage
     {

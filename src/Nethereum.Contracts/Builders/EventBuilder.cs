@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
-using Nethereum.ABI.FunctionEncoding;
-using Nethereum.ABI.FunctionEncoding.Attributes;
-using Nethereum.ABI.Model;
-using Nethereum.RPC.Eth.DTOs;
+using Loom.Nethereum.ABI.FunctionEncoding;
+using Loom.Nethereum.ABI.FunctionEncoding.Attributes;
+using Loom.Nethereum.ABI.Model;
+using Loom.Nethereum.RPC.Eth.DTOs;
 using Newtonsoft.Json.Linq;
 
-namespace Nethereum.Contracts
+namespace Loom.Nethereum.Contracts
 {
     public class EventBuilder
     {

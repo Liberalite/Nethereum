@@ -3,7 +3,7 @@ using System.Collections.Generic;
 //using System.Dynamic;
 using Newtonsoft.Json;
 
-namespace Nethereum.ABI.JsonDeserialisation
+namespace Loom.Nethereum.ABI.JsonDeserialisation
 {
     /// <summary>
     ///     This is a replication (copy) of Newtonsoft ExpandoObjectConverter to allow for PCL compilaton

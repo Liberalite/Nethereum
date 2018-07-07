@@ -1,7 +1,7 @@
-﻿using Nethereum.RPC.Eth.DTOs;
+﻿using Loom.Nethereum.RPC.Eth.DTOs;
 using Newtonsoft.Json;
 
-namespace Nethereum.Quorum.RPC.DTOs
+namespace Loom.Nethereum.Quorum.RPC.DTOs
 {
     public class PrivateTransactionInput : TransactionInput
     {

@@ -1,11 +1,11 @@
 ﻿using System;
-using Nethereum.KeyStore.Crypto;
-using Nethereum.KeyStore.Model;
+using Loom.Nethereum.KeyStore.Crypto;
+using Loom.Nethereum.KeyStore.Model;
 using Newtonsoft.Json;
 using Org.BouncyCastle.Math;
 using Org.BouncyCastle.Utilities;
 
-namespace Nethereum.KeyStore
+namespace Loom.Nethereum.KeyStore
 {
     public abstract class KeyStoreServiceBase<T> : IKeyStoreService<T> where T : KdfParams
     {

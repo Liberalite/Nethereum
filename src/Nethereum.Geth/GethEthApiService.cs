@@ -1,8 +1,8 @@
-﻿using Nethereum.Geth.RPC.GethEth;
-using Nethereum.JsonRpc.Client;
-using Nethereum.RPC;
+﻿using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC;
+using Loom.Nethereum.RPC.Eth.Transactions;
 
-namespace Nethereum.Geth
+namespace Loom.Nethereum.Geth
 {
     public class GethEthApiService : RpcClientWrapper
     {

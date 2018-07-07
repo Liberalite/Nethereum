@@ -1,11 +1,11 @@
-﻿using Nethereum.ABI;
-using Nethereum.ABI.FunctionEncoding.Attributes;
-using Nethereum.Hex.HexConvertors.Extensions;
-using Nethereum.RPC.Eth.DTOs;
-using Nethereum.XUnitEthereumClients;
+﻿using Loom.Nethereum.ABI;
+using Loom.Nethereum.ABI.FunctionEncoding.Attributes;
+using Loom.Nethereum.Hex.HexConvertors.Extensions;
+using Loom.Nethereum.RPC.Eth.DTOs;
+using Loom.Nethereum.XUnitEthereumClients;
 using Xunit;
 
-namespace Nethereum.Contracts.IntegrationTests.Issues
+namespace Loom.Nethereum.Contracts.IntegrationTests.Issues
 {
     [Collection(EthereumClientIntegrationFixture.ETHEREUM_CLIENT_COLLECTION_DEFAULT)]
     public class Issue24

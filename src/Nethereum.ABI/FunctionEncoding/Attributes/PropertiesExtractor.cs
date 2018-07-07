@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace Nethereum.ABI.FunctionEncoding.Attributes
+namespace Loom.Nethereum.ABI.FunctionEncoding.Attributes
 {
     public static class PropertiesExtractor
     {

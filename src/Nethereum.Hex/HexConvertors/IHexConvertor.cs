@@ -1,4 +1,4 @@
-namespace Nethereum.Hex.HexConvertors
+namespace Loom.Nethereum.Hex.HexConvertors
 {
     public interface IHexConvertor<T>
     {

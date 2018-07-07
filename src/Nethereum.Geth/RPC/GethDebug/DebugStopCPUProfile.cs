@@ -1,7 +1,7 @@
-using Nethereum.JsonRpc.Client;
-using Nethereum.RPC.Infrastructure;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC.Infrastructure;
 
-namespace Nethereum.Geth.RPC.Debug
+namespace Loom.Nethereum.Geth.RPC.Debug
 {
     /// <Summary>
     ///     Stops an ongoing CPU profile.

@@ -1,8 +1,8 @@
-﻿using Nethereum.JsonRpc.Client;
-using Nethereum.RPC.Infrastructure;
+﻿using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC.Infrastructure;
 using Newtonsoft.Json.Linq;
 
-namespace Nethereum.Geth.RPC.Admin
+namespace Loom.Nethereum.Geth.RPC.Admin
 {
     /// <Summary>
     ///     The peers administrative property can be queried for all the information known about the connected remote nodes at

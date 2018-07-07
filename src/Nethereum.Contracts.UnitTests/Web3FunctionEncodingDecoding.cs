@@ -3,7 +3,7 @@ using System.Linq;
 using System.Numerics;
 using Xunit;
 
-namespace Nethereum.Contracts.UnitTests
+namespace Loom.Nethereum.Contracts.UnitTests
 {
     public class FunctionEncodingDecoding
     {

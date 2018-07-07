@@ -1,9 +1,9 @@
 ﻿using System.Threading.Tasks;
-using Nethereum.Hex.HexTypes;
-using Nethereum.XUnitEthereumClients;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.XUnitEthereumClients;
 using Xunit;
 
-namespace Nethereum.Contracts.IntegrationTests.Issues
+namespace Loom.Nethereum.Contracts.IntegrationTests.Issues
 {
     [Collection(EthereumClientIntegrationFixture.ETHEREUM_CLIENT_COLLECTION_DEFAULT)]
     public class Issue78

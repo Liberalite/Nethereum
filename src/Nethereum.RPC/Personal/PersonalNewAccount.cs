@@ -1,9 +1,9 @@
 using System;
 using System.Threading.Tasks;
  
-using Nethereum.JsonRpc.Client;
+using Loom.Nethereum.JsonRpc.Client;
 
-namespace Nethereum.RPC.Personal
+namespace Loom.Nethereum.RPC.Personal
 {
     /// <Summary>
     ///     Create a new account

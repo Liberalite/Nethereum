@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Numerics;
-using Nethereum.Hex.HexTypes;
-using Nethereum.Contracts.CQS;
-using Nethereum.ABI.FunctionEncoding.Attributes;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.Contracts.CQS;
+using Loom.Nethereum.ABI.FunctionEncoding.Attributes;
 using SolidityCallAnotherContract.Contracts.Test.DTOs;
 namespace SolidityCallAnotherContract.Contracts.Test.CQS
 {

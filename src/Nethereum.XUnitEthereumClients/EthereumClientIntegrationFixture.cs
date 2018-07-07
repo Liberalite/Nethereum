@@ -4,11 +4,11 @@ using System.IO;
 using System.Reflection;
 using System.Threading;
 using System.Threading.Tasks;
-using Nethereum.JsonRpc.Client;
-using Nethereum.Web3.Accounts;
-using Nethereum.Web3.Accounts.Managed;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.Web3.Accounts;
+using Loom.Nethereum.Web3.Accounts.Managed;
 
-namespace Nethereum.XUnitEthereumClients
+namespace Loom.Nethereum.XUnitEthereumClients
 {
 
     public static class Web3Factory

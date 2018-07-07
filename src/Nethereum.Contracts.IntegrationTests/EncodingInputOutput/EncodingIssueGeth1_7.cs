@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.Numerics;
 using System.Threading;
-using Nethereum.Hex.HexTypes;
-using Nethereum.RPC.TransactionReceipts;
-using Nethereum.XUnitEthereumClients;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.RPC.TransactionReceipts;
+using Loom.Nethereum.XUnitEthereumClients;
 using Xunit;
 
-namespace Nethereum.Contracts.IntegrationTests.EncodingInputOutput
+namespace Loom.Nethereum.Contracts.IntegrationTests.EncodingInputOutput
 {
     [Collection(EthereumClientIntegrationFixture.ETHEREUM_CLIENT_COLLECTION_DEFAULT)]
     public class EncodingIssueGeth1_7

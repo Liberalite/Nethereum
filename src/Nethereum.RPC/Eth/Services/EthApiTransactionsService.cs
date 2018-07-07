@@ -1,8 +1,8 @@
-using Nethereum.JsonRpc.Client;
-using Nethereum.RPC.Eth.DTOs;
-using Nethereum.RPC.Eth.Transactions;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC.Eth.DTOs;
+using Loom.Nethereum.RPC.Eth.Transactions;
 
-namespace Nethereum.RPC.Eth.Services
+namespace Loom.Nethereum.RPC.Eth.Services
 {
     public class EthApiTransactionsService : RpcClientWrapper
     {

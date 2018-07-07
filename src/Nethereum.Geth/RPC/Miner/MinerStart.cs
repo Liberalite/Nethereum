@@ -1,8 +1,8 @@
 using System;
 using System.Threading.Tasks;
-using Nethereum.JsonRpc.Client;
+using Loom.Nethereum.JsonRpc.Client;
 
-namespace Nethereum.Geth.RPC.Miner
+namespace Loom.Nethereum.Geth.RPC.Miner
 {
     /// <Summary>
     ///     Start the CPU mining process with the given number of threads and generate a new DAG if need be.

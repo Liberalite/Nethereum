@@ -5,7 +5,7 @@ using System.Reflection;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
-namespace Nethereum.JsonRpc.Client
+namespace Loom.Nethereum.JsonRpc.Client
 {
     public static class DefaultJsonSerializerSettingsFactory
     {

@@ -1,7 +1,7 @@
-﻿using Nethereum.Hex.HexConvertors.Extensions;
+﻿using Loom.Nethereum.Hex.HexConvertors.Extensions;
 using Xunit;
 
-namespace Nethereum.EVM.UnitTests
+namespace Loom.Nethereum.EVM.UnitTests
 {
     public class VmTests
     {

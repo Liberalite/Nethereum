@@ -1,9 +1,9 @@
 ﻿using System.Net.Http.Headers;
 using Common.Logging;
-using Nethereum.JsonRpc.Client;
-using Nethereum.RPC.Accounts;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC.Accounts;
 
-namespace Nethereum.Parity
+namespace Loom.Nethereum.Parity
 {
     public class Web3Parity : Web3.Web3
     {

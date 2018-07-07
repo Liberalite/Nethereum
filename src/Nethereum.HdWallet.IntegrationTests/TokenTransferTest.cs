@@ -1,10 +1,10 @@
-using Nethereum.Hex.HexTypes;
-using Nethereum.RPC.TransactionReceipts;
-using Nethereum.StandardTokenEIP20;
-using Nethereum.XUnitEthereumClients;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.RPC.TransactionReceipts;
+using Loom.Nethereum.StandardTokenEIP20;
+using Loom.Nethereum.XUnitEthereumClients;
 using Xunit;
 
-namespace Nethereum.HdWallet.IntegrationTests
+namespace Loom.Nethereum.HdWallet.IntegrationTests
 {
     [Collection(EthereumClientIntegrationFixture.ETHEREUM_CLIENT_COLLECTION_DEFAULT)]
     public class TokenTransferTest

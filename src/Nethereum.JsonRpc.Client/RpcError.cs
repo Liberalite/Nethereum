@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json.Linq;
 
-namespace Nethereum.JsonRpc.Client
+namespace Loom.Nethereum.JsonRpc.Client
 {
     public class RpcError
     {

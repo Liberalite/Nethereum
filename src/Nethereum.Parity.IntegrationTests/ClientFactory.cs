@@ -1,7 +1,7 @@
 ﻿using System;
-using Nethereum.JsonRpc.Client;
+using Loom.Nethereum.JsonRpc.Client;
 
-namespace Nethereum.Parity.IntegrationTests
+namespace Loom.Nethereum.Parity.IntegrationTests
 {
     public class ClientFactory
     {

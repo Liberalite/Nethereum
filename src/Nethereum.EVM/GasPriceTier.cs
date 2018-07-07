@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Nethereum.EVM
+namespace Loom.Nethereum.EVM
 {
     //0, 2, 3, 5, 8, 10, 20, 0}
     public enum GasPriceTier

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using Nethereum.ABI.FunctionEncoding.Attributes;
-using Nethereum.ABI.Model;
+using Loom.Nethereum.ABI.FunctionEncoding.Attributes;
+using Loom.Nethereum.ABI.Model;
 
-namespace Nethereum.Contracts
+namespace Loom.Nethereum.Contracts
 {
     public static class ABITypedRegistry
     {

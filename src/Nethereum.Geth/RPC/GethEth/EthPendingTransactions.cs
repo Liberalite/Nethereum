@@ -1,23 +1,23 @@
-﻿using Nethereum.JsonRpc.Client;
-using Nethereum.RPC.Eth.DTOs;
+﻿using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC.Eth.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Nethereum.RPC.Eth.Transactions
+namespace Loom.Nethereum.RPC.Eth.Transactions
 {
     /// <Summary>
     ///     eth_pendingTransactions
     ///     Returns information about your local geth pending transactions.
-    ///     Parameters    
+    ///     Parameters
     ///     params: []
     ///     Returns
     ///     Transaction[]
     ///     Example
     ///     Request
     ///     curl -X POST --data
-    ///     '{"jsonrpc":"2.0","method":"eth_pendingTransactions","params":[],"id":1}'    
+    ///     '{"jsonrpc":"2.0","method":"eth_pendingTransactions","params":[],"id":1}'
     ///     Result
     ///     [{
     ///     "id":1,

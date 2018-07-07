@@ -1,10 +1,10 @@
 using System;
 using System.Linq;
 using System.Numerics;
-using Nethereum.ABI.Decoders;
-using Nethereum.ABI.Util;
+using Loom.Nethereum.ABI.Decoders;
+using Loom.Nethereum.ABI.Util;
 
-namespace Nethereum.ABI.Encoders
+namespace Loom.Nethereum.ABI.Encoders
 {
     public class IntTypeEncoder : ITypeEncoder
     {

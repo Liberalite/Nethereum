@@ -4,7 +4,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System.Linq;
 
-namespace Nethereum.Unity.RpcModel
+namespace Loom.Nethereum.Unity.RpcModel
 { 
  
     /*

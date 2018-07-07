@@ -1,6 +1,6 @@
-﻿using Nethereum.ABI.FunctionEncoding;
+﻿using Loom.Nethereum.ABI.FunctionEncoding;
 
-namespace Nethereum.Contracts.CQS
+namespace Loom.Nethereum.Contracts.CQS
 {
     public static class FunctionOuputDTOExtensions
     {

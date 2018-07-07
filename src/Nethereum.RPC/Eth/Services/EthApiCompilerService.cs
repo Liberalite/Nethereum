@@ -1,7 +1,7 @@
-using Nethereum.JsonRpc.Client;
-using Nethereum.RPC.Eth.Compilation;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC.Eth.Compilation;
 
-namespace Nethereum.RPC.Eth.Services
+namespace Loom.Nethereum.RPC.Eth.Services
 {
     public class EthApiCompilerService : RpcClientWrapper
     {

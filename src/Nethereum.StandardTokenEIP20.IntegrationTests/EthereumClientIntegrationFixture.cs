@@ -1,7 +1,7 @@
-﻿using Nethereum.XUnitEthereumClients;
+﻿using Loom.Nethereum.XUnitEthereumClients;
 using Xunit;
 
-namespace Nethereum.StandardTokenEIP20.IntegrationTests
+namespace Loom.Nethereum.StandardTokenEIP20.IntegrationTests
 {
     [CollectionDefinition(EthereumClientIntegrationFixture.ETHEREUM_CLIENT_COLLECTION_DEFAULT)]
     public class EthereumClientFixtureCollection : ICollectionFixture<EthereumClientIntegrationFixture>

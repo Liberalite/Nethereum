@@ -1,8 +1,8 @@
-﻿using Nethereum.Hex.HexTypes;
+﻿using Loom.Nethereum.Hex.HexTypes;
 using Newtonsoft.Json;
 using System.Collections;
 
-namespace Nethereum.RPC.Eth.DTOs
+namespace Loom.Nethereum.RPC.Eth.DTOs
 {
     public class Block
     {

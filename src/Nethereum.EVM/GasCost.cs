@@ -1,4 +1,4 @@
-﻿namespace Nethereum.EVM
+﻿namespace Loom.Nethereum.EVM
 {
     public class GasCost
     {

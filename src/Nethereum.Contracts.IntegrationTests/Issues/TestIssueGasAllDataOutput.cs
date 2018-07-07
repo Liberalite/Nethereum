@@ -2,13 +2,13 @@ using System.Collections.Generic;
 using System.Numerics;
 using System.Threading;
 using System.Threading.Tasks;
-using Nethereum.ABI.FunctionEncoding.Attributes;
-using Nethereum.Hex.HexTypes;
-using Nethereum.RPC.Eth.DTOs;
-using Nethereum.XUnitEthereumClients;
+using Loom.Nethereum.ABI.FunctionEncoding.Attributes;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.RPC.Eth.DTOs;
+using Loom.Nethereum.XUnitEthereumClients;
 using Xunit;
 
-namespace Nethereum.Contracts.IntegrationTests.Issues
+namespace Loom.Nethereum.Contracts.IntegrationTests.Issues
 {
     [Collection(EthereumClientIntegrationFixture.ETHEREUM_CLIENT_COLLECTION_DEFAULT)]
     public class TestIssueGasAllDataOutput

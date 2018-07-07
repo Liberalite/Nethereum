@@ -1,10 +1,10 @@
-﻿using Nethereum.RPC.TransactionManagers;
+﻿using Loom.Nethereum.RPC.TransactionManagers;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Nethereum.RPC.NonceServices;
+using Loom.Nethereum.RPC.NonceServices;
 
-namespace Nethereum.RPC.Accounts
+namespace Loom.Nethereum.RPC.Accounts
 {
     public interface IAccount
     {

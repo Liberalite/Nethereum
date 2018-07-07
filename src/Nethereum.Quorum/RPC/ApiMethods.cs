@@ -1,4 +1,4 @@
-﻿namespace Nethereum.Quorum.RPC
+﻿namespace Loom.Nethereum.Quorum.RPC
 {
     public enum ApiMethods
     {

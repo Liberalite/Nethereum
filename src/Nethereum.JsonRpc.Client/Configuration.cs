@@ -1,4 +1,4 @@
-namespace Nethereum.JsonRpc.Client
+namespace Loom.Nethereum.JsonRpc.Client
 {
     public class Configuration
     {

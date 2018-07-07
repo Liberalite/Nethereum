@@ -1,4 +1,4 @@
-﻿namespace Nethereum.KeyStore.Crypto
+﻿namespace Loom.Nethereum.KeyStore.Crypto
 {
     public interface IRandomBytesGenerator
     {

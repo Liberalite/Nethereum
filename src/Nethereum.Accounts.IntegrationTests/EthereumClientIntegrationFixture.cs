@@ -4,10 +4,10 @@ using System.Diagnostics;
 using System.IO;
 using System.Reflection;
 using System.Text;
-using Nethereum.XUnitEthereumClients;
+using Loom.Nethereum.XUnitEthereumClients;
 using Xunit;
 
-namespace Nethereum.Accounts.IntegrationTests
+namespace Loom.Nethereum.Accounts.IntegrationTests
 {
     [CollectionDefinition(EthereumClientIntegrationFixture.ETHEREUM_CLIENT_COLLECTION_DEFAULT)]
     public class EthereumClientFixtureCollection : ICollectionFixture<EthereumClientIntegrationFixture>

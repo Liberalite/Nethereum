@@ -1,8 +1,8 @@
 using System.Collections;
-using Nethereum.ABI.Util;
-using Nethereum.Util;
+using Loom.Nethereum.ABI.Util;
+using Loom.Nethereum.Util;
 
-namespace Nethereum.ABI.Encoders
+namespace Loom.Nethereum.ABI.Encoders
 {
     public class DynamicArrayTypeEncoder : ArrayTypeEncoder
     {

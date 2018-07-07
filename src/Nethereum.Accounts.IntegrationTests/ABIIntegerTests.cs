@@ -2,15 +2,15 @@
 using System.Threading.Tasks;
 using Common.Logging;
 using Common.Logging.Simple;
-using Nethereum.ABI;
-using Nethereum.ABI.FunctionEncoding.Attributes;
-using Nethereum.Contracts.CQS;
-using Nethereum.JsonRpc.Client;
-using Nethereum.XUnitEthereumClients;
+using Loom.Nethereum.ABI;
+using Loom.Nethereum.ABI.FunctionEncoding.Attributes;
+using Loom.Nethereum.Contracts.CQS;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.XUnitEthereumClients;
 using Xunit;
 using static Nethereum.Accounts.IntegrationTests.ABIIntegerTests;
 
-namespace Nethereum.Accounts.IntegrationTests
+namespace Loom.Nethereum.Accounts.IntegrationTests
 {
     [Collection(EthereumClientIntegrationFixture.ETHEREUM_CLIENT_COLLECTION_DEFAULT)]
     public class ABIIntegerTests

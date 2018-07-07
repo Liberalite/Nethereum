@@ -1,9 +1,9 @@
 ﻿using System.Net.Http.Headers;
 using Common.Logging;
-using Nethereum.JsonRpc.Client;
-using Nethereum.RPC.Accounts;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC.Accounts;
 
-namespace Nethereum.Geth
+namespace Loom.Nethereum.Geth
 {
     public class Web3Geth : Web3.Web3
     {

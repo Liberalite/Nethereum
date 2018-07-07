@@ -1,9 +1,9 @@
 using System.Threading.Tasks;
-using Nethereum.Geth.RPC.Debug.DTOs;
-using Nethereum.JsonRpc.Client;
+using Loom.Nethereum.Geth.RPC.Debug.DTOs;
+using Loom.Nethereum.JsonRpc.Client;
 using Newtonsoft.Json.Linq;
 
-namespace Nethereum.Geth.RPC.Debug
+namespace Loom.Nethereum.Geth.RPC.Debug
 {
     /// <Summary>
     ///     The traceTransaction debugging method will attempt to run the transaction in the exact same manner as it was

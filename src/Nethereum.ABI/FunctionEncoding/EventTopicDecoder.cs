@@ -1,9 +1,9 @@
 using System;
 using System.Linq;
 using System.Reflection;
-using Nethereum.ABI.FunctionEncoding.Attributes;
+using Loom.Nethereum.ABI.FunctionEncoding.Attributes;
 
-namespace Nethereum.ABI.FunctionEncoding
+namespace Loom.Nethereum.ABI.FunctionEncoding
 {
     public class EventTopicDecoder : ParameterDecoder
     {

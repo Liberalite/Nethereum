@@ -1,6 +1,6 @@
-﻿using Nethereum.Hex.HexConvertors.Extensions;
+﻿using Loom.Nethereum.Hex.HexConvertors.Extensions;
 
-namespace Nethereum.Signer
+namespace Loom.Nethereum.Signer
 {
     public class TransactionFactory
     {

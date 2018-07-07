@@ -1,11 +1,11 @@
 using System.Numerics;
 using System.Threading.Tasks;
-using Nethereum.Hex.HexTypes;
-using Nethereum.RPC.Eth.DTOs;
-using Nethereum.XUnitEthereumClients;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.RPC.Eth.DTOs;
+using Loom.Nethereum.XUnitEthereumClients;
 using Xunit;
 
-namespace Nethereum.Contracts.IntegrationTests.EncodingInputOutput
+namespace Loom.Nethereum.Contracts.IntegrationTests.EncodingInputOutput
 {
     [Collection(EthereumClientIntegrationFixture.ETHEREUM_CLIENT_COLLECTION_DEFAULT)]
     public class IntTypeIntegrationTests

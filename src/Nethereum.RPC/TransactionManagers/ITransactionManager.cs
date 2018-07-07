@@ -1,13 +1,13 @@
 ﻿using System.Threading.Tasks;
-using Nethereum.Hex.HexTypes;
-using Nethereum.JsonRpc.Client;
-using Nethereum.RPC.Eth.DTOs;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC.Eth.DTOs;
 using System.Numerics;
 using System.Threading;
-using Nethereum.RPC.Accounts;
-using Nethereum.RPC.TransactionReceipts;
+using Loom.Nethereum.RPC.Accounts;
+using Loom.Nethereum.RPC.TransactionReceipts;
 
-namespace Nethereum.RPC.TransactionManagers
+namespace Loom.Nethereum.RPC.TransactionManagers
 {
     public interface ITransactionManager
     {

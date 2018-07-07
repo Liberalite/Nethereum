@@ -1,10 +1,10 @@
 ﻿using System.Runtime.InteropServices;
 using System.Text;
-using Nethereum.Hex.HexConvertors.Extensions;
-using Nethereum.KeyStore.Crypto;
+using Loom.Nethereum.Hex.HexConvertors.Extensions;
+using Loom.Nethereum.KeyStore.Crypto;
 using Xunit;
 
-namespace Nethereum.KeyStore.UnitTests
+namespace Loom.Nethereum.KeyStore.UnitTests
 {
     public class KeyStoreCryptoTester
     {

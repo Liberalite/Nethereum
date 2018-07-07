@@ -5,14 +5,14 @@ using System.Linq;
 using System.Numerics;
 using System.Reflection;
 using System.Threading.Tasks;
-using Nethereum.ABI.FunctionEncoding.Attributes;
-using Nethereum.Contracts.CQS;
-using Nethereum.Hex.HexTypes;
-using Nethereum.Web3.Accounts;
-using Nethereum.XUnitEthereumClients;
+using Loom.Nethereum.ABI.FunctionEncoding.Attributes;
+using Loom.Nethereum.Contracts.CQS;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.Web3.Accounts;
+using Loom.Nethereum.XUnitEthereumClients;
 using Xunit;
 
-namespace Nethereum.Accounts.IntegrationTests
+namespace Loom.Nethereum.Accounts.IntegrationTests
 {
     [Collection(EthereumClientIntegrationFixture.ETHEREUM_CLIENT_COLLECTION_DEFAULT)]
     public class ABIStructsTests

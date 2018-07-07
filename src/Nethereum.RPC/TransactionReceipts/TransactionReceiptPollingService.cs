@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using Nethereum.RPC.Eth.DTOs;
-using Nethereum.RPC.TransactionManagers;
-using Nethereum.RPC.Eth.Transactions;
-using Nethereum.RPC.Eth;
-using Nethereum.RPC.Eth.Exceptions;
+using Loom.Nethereum.RPC.Eth.DTOs;
+using Loom.Nethereum.RPC.TransactionManagers;
+using Loom.Nethereum.RPC.Eth.Transactions;
+using Loom.Nethereum.RPC.Eth;
+using Loom.Nethereum.RPC.Eth.Exceptions;
 
-namespace Nethereum.RPC.TransactionReceipts
+namespace Loom.Nethereum.RPC.TransactionReceipts
 {
 
 #if !DOTNET35

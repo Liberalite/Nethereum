@@ -1,8 +1,8 @@
 using System.Collections;
-using Nethereum.Contracts.CQS;
-using Nethereum.Hex.HexTypes;
+using Loom.Nethereum.Contracts.CQS;
+using Loom.Nethereum.Hex.HexTypes;
 
-namespace Nethereum.JsonRpc.UnityClient
+namespace Loom.Nethereum.JsonRpc.UnityClient
 {
     public class EstimateContractTransactionUnityRequest : UnityRequest<HexBigInteger>
     {

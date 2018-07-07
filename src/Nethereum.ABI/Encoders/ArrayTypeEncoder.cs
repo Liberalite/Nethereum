@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Linq;
 
-namespace Nethereum.ABI.Encoders
+namespace Loom.Nethereum.ABI.Encoders
 {
     public abstract class ArrayTypeEncoder : ITypeEncoder
     {

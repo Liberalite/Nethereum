@@ -1,8 +1,8 @@
 using System.Collections;
-using Nethereum.RPC.Eth.DTOs;
+using Loom.Nethereum.RPC.Eth.DTOs;
 using UnityEngine;
 
-namespace Nethereum.JsonRpc.UnityClient
+namespace Loom.Nethereum.JsonRpc.UnityClient
 {
     public class TransactionReceiptPollingRequest : UnityRequest<TransactionReceipt>
     {

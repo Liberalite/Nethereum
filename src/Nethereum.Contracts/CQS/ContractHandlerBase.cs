@@ -1,9 +1,9 @@
-﻿using Nethereum.Hex.HexTypes;
-using Nethereum.JsonRpc.Client;
-using Nethereum.RPC.Accounts;
-using Nethereum.RPC.TransactionManagers;
+﻿using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC.Accounts;
+using Loom.Nethereum.RPC.TransactionManagers;
 
-namespace Nethereum.Contracts.CQS
+namespace Loom.Nethereum.Contracts.CQS
 {
     public abstract class ContractHandlerBase<TContractMessage> where TContractMessage : ContractMessage
     {

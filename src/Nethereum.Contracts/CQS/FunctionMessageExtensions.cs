@@ -1,7 +1,7 @@
-﻿using Nethereum.ABI.Model;
-using Nethereum.RPC.Eth.DTOs;
+﻿using Loom.Nethereum.ABI.Model;
+using Loom.Nethereum.RPC.Eth.DTOs;
 
-namespace Nethereum.Contracts.CQS
+namespace Loom.Nethereum.Contracts.CQS
 {
     public static class FunctionMessageExtensions
     {

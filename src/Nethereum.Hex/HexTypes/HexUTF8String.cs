@@ -1,7 +1,7 @@
-using Nethereum.Hex.HexConvertors;
+using Loom.Nethereum.Hex.HexConvertors;
 using Newtonsoft.Json;
 
-namespace Nethereum.Hex.HexTypes
+namespace Loom.Nethereum.Hex.HexTypes
 {
     [JsonConverter(typeof(HexRPCTypeJsonConverter<HexUTF8String, string>))]
     public class HexUTF8String : HexRPCType<string>

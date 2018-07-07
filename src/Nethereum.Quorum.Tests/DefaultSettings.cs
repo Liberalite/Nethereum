@@ -1,4 +1,4 @@
-﻿namespace Nethereum.Quorum.Tests
+﻿namespace Loom.Nethereum.Quorum.Tests
 {
     public class DefaultSettings
     {

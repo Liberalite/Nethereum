@@ -1,9 +1,9 @@
 using System.Threading;
 using System.Threading.Tasks;
-using Nethereum.Hex.HexTypes;
-using Nethereum.RPC.Eth.DTOs;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.RPC.Eth.DTOs;
 
-namespace Nethereum.Contracts
+namespace Loom.Nethereum.Contracts
 {
     public class Function : FunctionBase
     {

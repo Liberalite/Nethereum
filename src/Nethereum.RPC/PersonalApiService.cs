@@ -1,7 +1,7 @@
-﻿using Nethereum.JsonRpc.Client;
-using Nethereum.RPC.Personal;
+﻿using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC.Personal;
 
-namespace Nethereum.RPC
+namespace Loom.Nethereum.RPC
 {
     public class PersonalApiService : RpcClientWrapper
     {

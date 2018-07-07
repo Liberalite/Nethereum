@@ -1,7 +1,7 @@
 ﻿using System.Numerics;
-using Nethereum.Hex.HexTypes;
+using Loom.Nethereum.Hex.HexTypes;
 
-namespace Nethereum.Contracts.CQS
+namespace Loom.Nethereum.Contracts.CQS
 {
     public static class ContractMessageHexBigIntegerExtensions
     {

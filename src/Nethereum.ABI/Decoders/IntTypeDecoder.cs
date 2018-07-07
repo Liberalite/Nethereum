@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
 using System.Reflection;
-using Nethereum.Hex.HexConvertors.Extensions;
+using Loom.Nethereum.Hex.HexConvertors.Extensions;
 
-namespace Nethereum.ABI.Decoders
+namespace Loom.Nethereum.ABI.Decoders
 {
     public class IntTypeDecoder : TypeDecoder
     {

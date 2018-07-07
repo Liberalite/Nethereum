@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Numerics;
-using Nethereum.Hex.HexConvertors.Extensions;
-using Nethereum.RLP;
+using Loom.Nethereum.Hex.HexConvertors.Extensions;
+using Loom.Nethereum.RLP;
 
-namespace Nethereum.Signer
+namespace Loom.Nethereum.Signer
 {
     public class TransactionChainId : TransactionBase
     {  

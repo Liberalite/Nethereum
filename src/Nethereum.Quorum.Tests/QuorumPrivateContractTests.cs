@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Nethereum.Web3;
-using Nethereum.RPC.TransactionReceipts;
+using Loom.Nethereum.Web3;
+using Loom.Nethereum.RPC.TransactionReceipts;
 using Xunit;
 
-namespace Nethereum.Quorum.Tests
+namespace Loom.Nethereum.Quorum.Tests
 {
     public class QuorumPrivateContractTests
     {

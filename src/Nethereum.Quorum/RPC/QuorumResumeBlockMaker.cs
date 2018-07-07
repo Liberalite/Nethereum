@@ -1,7 +1,7 @@
-﻿using Nethereum.JsonRpc.Client;
-using Nethereum.RPC.Infrastructure;
+﻿using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC.Infrastructure;
 
-namespace Nethereum.Quorum.RPC
+namespace Loom.Nethereum.Quorum.RPC
 {
     public class QuorumResumeBlockMaker : GenericRpcRequestResponseHandlerNoParam<object>
     {

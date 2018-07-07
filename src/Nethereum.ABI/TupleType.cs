@@ -1,7 +1,7 @@
 using System.Linq;
-using Nethereum.ABI.Model;
+using Loom.Nethereum.ABI.Model;
 
-namespace Nethereum.ABI
+namespace Loom.Nethereum.ABI
 {
     public class TupleType : ABIType
     {

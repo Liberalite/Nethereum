@@ -1,9 +1,9 @@
 using System;
 using System.Threading.Tasks;
-using Nethereum.Hex.HexTypes;
-using Nethereum.JsonRpc.Client;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.JsonRpc.Client;
 
-namespace Nethereum.Geth.RPC.Miner
+namespace Loom.Nethereum.Geth.RPC.Miner
 {
     /// <Summary>
     ///     Sets the minimal accepted gas price when mining transactions. Any transactions that are below this limit are

@@ -1,10 +1,10 @@
 ﻿using System.Threading.Tasks;
-using Nethereum.ABI.FunctionEncoding.Attributes;
-using Nethereum.Contracts.CQS;
-using Nethereum.Web3.Accounts;
+using Loom.Nethereum.ABI.FunctionEncoding.Attributes;
+using Loom.Nethereum.Contracts.CQS;
+using Loom.Nethereum.Web3.Accounts;
 using Xunit;
 
-namespace Nethereum.Accounts.IntegrationTests
+namespace Loom.Nethereum.Accounts.IntegrationTests
 {
     public class SignOfflineTransactionTest
     {

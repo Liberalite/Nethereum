@@ -1,12 +1,12 @@
 using System;
 using System.Threading.Tasks;
  
-using Nethereum.Hex.HexConvertors.Extensions;
-using Nethereum.Hex.HexTypes;
-using Nethereum.JsonRpc.Client;
-using Nethereum.RPC.Eth;
+using Loom.Nethereum.Hex.HexConvertors.Extensions;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC.Eth;
 
-namespace Nethereum.RPC.Personal
+namespace Loom.Nethereum.RPC.Personal
 {
     /// <Summary>
     ///     personal_unlockAccount

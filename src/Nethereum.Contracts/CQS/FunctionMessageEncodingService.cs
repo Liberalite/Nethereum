@@ -1,7 +1,7 @@
 ﻿using System;
-using Nethereum.RPC.Eth.DTOs;
+using Loom.Nethereum.RPC.Eth.DTOs;
 
-namespace Nethereum.Contracts.CQS
+namespace Loom.Nethereum.Contracts.CQS
 {
     public class FunctionMessageEncodingService<TContractFunction> :
         IContractMessageTransactionInputCreator<TContractFunction>,

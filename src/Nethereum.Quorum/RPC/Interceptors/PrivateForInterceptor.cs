@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Nethereum.JsonRpc.Client;
-using Nethereum.Quorum.RPC.DTOs;
-using Nethereum.RPC.Eth.DTOs;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.Quorum.RPC.DTOs;
+using Loom.Nethereum.RPC.Eth.DTOs;
 using Newtonsoft.Json.Linq;
 
-namespace Nethereum.Quorum.RPC.Interceptors
+namespace Loom.Nethereum.Quorum.RPC.Interceptors
 {
     public class PrivateForInterceptor : RequestInterceptor
     {

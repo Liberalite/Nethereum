@@ -4,12 +4,12 @@ using System.Numerics;
 using System.Text;
 using Common.Logging;
 using Common.Logging.Simple;
-using Nethereum.Hex.HexTypes;
-using Nethereum.JsonRpc.Client;
-using Nethereum.XUnitEthereumClients;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.XUnitEthereumClients;
 using Xunit;
 
-namespace Nethereum.Contracts.IntegrationTests.Logging
+namespace Loom.Nethereum.Contracts.IntegrationTests.Logging
 {
     [Collection(EthereumClientIntegrationFixture.ETHEREUM_CLIENT_COLLECTION_DEFAULT)]
     public class LoggingTest

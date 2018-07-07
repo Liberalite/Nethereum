@@ -1,10 +1,10 @@
 using System.Threading.Tasks;
-using Nethereum.Hex.HexTypes;
-using Nethereum.Web3.Accounts;
-using Nethereum.XUnitEthereumClients;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.Web3.Accounts;
+using Loom.Nethereum.XUnitEthereumClients;
 using Xunit;
 
-namespace Nethereum.Contracts.IntegrationTests
+namespace Loom.Nethereum.Contracts.IntegrationTests
 {
     [Collection(EthereumClientIntegrationFixture.ETHEREUM_CLIENT_COLLECTION_DEFAULT)]
     public class ReceiptStatusTests

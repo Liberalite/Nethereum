@@ -1,7 +1,7 @@
-﻿using Nethereum.Hex.HexConvertors.Extensions;
+﻿using Loom.Nethereum.Hex.HexConvertors.Extensions;
 using Xunit;
 
-namespace Nethereum.KeyStore.UnitTests
+namespace Loom.Nethereum.KeyStore.UnitTests
 {
     public class KeyStoreServiceTester
     {

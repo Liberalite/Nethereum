@@ -1,4 +1,4 @@
-namespace Nethereum.ABI.Model
+namespace Loom.Nethereum.ABI.Model
 {
     public class ContractABI
     {

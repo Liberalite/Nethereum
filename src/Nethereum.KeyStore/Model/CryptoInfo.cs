@@ -1,7 +1,7 @@
-﻿using Nethereum.Hex.HexConvertors.Extensions;
+﻿using Loom.Nethereum.Hex.HexConvertors.Extensions;
 using Newtonsoft.Json;
 
-namespace Nethereum.KeyStore.Model
+namespace Loom.Nethereum.KeyStore.Model
 {
     public class CryptoInfo<TKdfParams> where TKdfParams : KdfParams
     {

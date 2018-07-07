@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-namespace Nethereum.ABI.Encoders
+namespace Loom.Nethereum.ABI.Encoders
 {
     public class StringTypeEncoder : ITypeEncoder
     {

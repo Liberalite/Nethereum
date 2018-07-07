@@ -1,4 +1,4 @@
-﻿namespace Nethereum.ABI.Decoders
+﻿namespace Loom.Nethereum.ABI.Decoders
 {
     public interface ICustomRawDecoder<T>
     {

@@ -5,12 +5,12 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using Common.Logging;
-using Nethereum.JsonRpc.Client;
-using Nethereum.JsonRpc.Client.RpcMessages;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.JsonRpc.Client.RpcMessages;
 using Newtonsoft.Json;
 using RpcError = Nethereum.JsonRpc.Client.RpcError;
 
-namespace Nethereum.JsonRpc.WebSocketClient
+namespace Loom.Nethereum.JsonRpc.WebSocketClient
 {
     public class WebSocketClient : ClientBase, IDisposable
     {

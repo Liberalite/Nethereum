@@ -1,8 +1,8 @@
-using Nethereum.Hex.HexConvertors.Extensions;
-using Nethereum.Hex.HexTypes;
+using Loom.Nethereum.Hex.HexConvertors.Extensions;
+using Loom.Nethereum.Hex.HexTypes;
 using Newtonsoft.Json;
 
-namespace Nethereum.RPC.Eth.DTOs
+namespace Loom.Nethereum.RPC.Eth.DTOs
 {
     /// <summary>
     ///     Object - The transaction call object

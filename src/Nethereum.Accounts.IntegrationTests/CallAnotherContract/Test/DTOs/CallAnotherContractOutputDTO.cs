@@ -1,8 +1,8 @@
 using System;
 using System.Threading.Tasks;
 using System.Numerics;
-using Nethereum.Hex.HexTypes;
-using Nethereum.ABI.FunctionEncoding.Attributes;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.ABI.FunctionEncoding.Attributes;
 namespace SolidityCallAnotherContract.Contracts.Test.DTOs
 {
     [FunctionOutput]

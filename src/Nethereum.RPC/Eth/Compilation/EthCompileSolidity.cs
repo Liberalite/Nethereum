@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Threading.Tasks;
  
-using Nethereum.JsonRpc.Client;
+using Loom.Nethereum.JsonRpc.Client;
 using Newtonsoft.Json.Linq;
-using Nethereum.Hex.HexConvertors.Extensions;
+using Loom.Nethereum.Hex.HexConvertors.Extensions;
 
-namespace Nethereum.RPC.Eth.Compilation
+namespace Loom.Nethereum.RPC.Eth.Compilation
 {
     /// <summary>
     ///     Returns compiled solidity code.

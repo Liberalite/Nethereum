@@ -1,6 +1,6 @@
-﻿using Nethereum.RPC.Eth.DTOs;
+﻿using Loom.Nethereum.RPC.Eth.DTOs;
 
-namespace Nethereum.Contracts
+namespace Loom.Nethereum.Contracts
 {
     public class FilterInputBuilder
     {

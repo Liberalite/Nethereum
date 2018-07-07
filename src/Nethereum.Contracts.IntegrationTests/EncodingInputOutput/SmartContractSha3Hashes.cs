@@ -1,9 +1,9 @@
-﻿using Nethereum.Hex.HexConvertors.Extensions;
-using Nethereum.Hex.HexTypes;
-using Nethereum.XUnitEthereumClients;
+﻿using Loom.Nethereum.Hex.HexConvertors.Extensions;
+using Loom.Nethereum.Hex.HexTypes;
+using Loom.Nethereum.XUnitEthereumClients;
 using Xunit;
 
-namespace Nethereum.Contracts.IntegrationTests.EncodingInputOutput
+namespace Loom.Nethereum.Contracts.IntegrationTests.EncodingInputOutput
 {
     [Collection(EthereumClientIntegrationFixture.ETHEREUM_CLIENT_COLLECTION_DEFAULT)]
     public class SmartContractSha3Hashes

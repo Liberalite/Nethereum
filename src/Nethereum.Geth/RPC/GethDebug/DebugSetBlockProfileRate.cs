@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
-using Nethereum.JsonRpc.Client;
+using Loom.Nethereum.JsonRpc.Client;
 
-namespace Nethereum.Geth.RPC.Debug
+namespace Loom.Nethereum.Geth.RPC.Debug
 {
     /// <Summary>
     ///     Sets the rate (in samples/sec) of goroutine block profile data collection. A non-zero rate enables block profiling,

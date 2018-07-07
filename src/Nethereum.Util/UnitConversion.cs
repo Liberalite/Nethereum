@@ -1,7 +1,7 @@
 using System;
 using System.Numerics;
 
-namespace Nethereum.Util
+namespace Loom.Nethereum.Util
 {
     public class UnitConversion
     {

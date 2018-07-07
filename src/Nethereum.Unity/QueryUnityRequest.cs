@@ -1,9 +1,9 @@
-﻿using Nethereum.RPC.Eth.DTOs;
+﻿using Loom.Nethereum.RPC.Eth.DTOs;
 using System.Collections;
-using Nethereum.Contracts;
-using Nethereum.Contracts.CQS;
+using Loom.Nethereum.Contracts;
+using Loom.Nethereum.Contracts.CQS;
 
-namespace Nethereum.JsonRpc.UnityClient
+namespace Loom.Nethereum.JsonRpc.UnityClient
 {
     public class QueryUnityRequest<TFunctionMessage, TResponse> : UnityRequest<TResponse>
         where TFunctionMessage : FunctionMessage, new()

@@ -1,7 +1,7 @@
 using System.Reflection;
-using Nethereum.ABI.FunctionEncoding.Attributes;
+using Loom.Nethereum.ABI.FunctionEncoding.Attributes;
 
-namespace Nethereum.ABI.FunctionEncoding.AttributeEncoding
+namespace Loom.Nethereum.ABI.FunctionEncoding.AttributeEncoding
 {
     public class ParameterAttributeValue
     {

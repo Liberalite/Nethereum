@@ -1,9 +1,9 @@
 using System.Linq;
 using System.Text;
-using Nethereum.ABI.Model;
-using Nethereum.Util;
+using Loom.Nethereum.ABI.Model;
+using Loom.Nethereum.Util;
 
-namespace Nethereum.ABI.FunctionEncoding
+namespace Loom.Nethereum.ABI.FunctionEncoding
 {
     public class SignatureEncoder
     {

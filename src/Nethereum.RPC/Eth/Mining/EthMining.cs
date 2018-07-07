@@ -1,7 +1,7 @@
-using Nethereum.JsonRpc.Client;
-using Nethereum.RPC.Infrastructure;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC.Infrastructure;
 
-namespace Nethereum.RPC.Eth.Mining
+namespace Loom.Nethereum.RPC.Eth.Mining
 {
     /// <Summary>
     ///     eth_mining

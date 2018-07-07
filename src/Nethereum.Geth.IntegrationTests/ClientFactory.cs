@@ -1,8 +1,8 @@
 ﻿using System;
-using Nethereum.JsonRpc.Client;
-using Nethereum.RPC.Tests.Testers;
+using Loom.Nethereum.JsonRpc.Client;
+using Loom.Nethereum.RPC.Tests.Testers;
 
-namespace Nethereum.RPC.Tests
+namespace Loom.Nethereum.RPC.Tests
 {
     public class ClientFactory
     {
