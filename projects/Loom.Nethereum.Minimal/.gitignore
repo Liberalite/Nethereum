@@ -8,3 +8,5 @@ JsonRpc.Router/
 RPC/
 Web3/
 NethereumJsonRpc/
+
+*.nuget.props

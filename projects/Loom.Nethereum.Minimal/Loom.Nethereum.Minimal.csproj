@@ -23,6 +23,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <DocumentationFile>bin\Debug\Loom.Nethereum.Minimal.xml</DocumentationFile>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -32,6 +33,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <DocumentationFile>bin\Release\Loom.Nethereum.Minimal.xml</DocumentationFile>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
@@ -240,6 +242,9 @@
     <Compile Include="..\..\src\Nethereum.ABI\FunctionEncoding\Attributes\ParameterAttribute.cs">
       <Link>ABI\FunctionEncoding\Attributes\ParameterAttribute.cs</Link>
     </Compile>
+    <Compile Include="..\..\src\Nethereum.ABI\FunctionEncoding\Attributes\PropertiesExtractor.cs">
+      <Link>ABI\FunctionEncoding\Attributes\PropertiesExtractor.cs</Link>
+    </Compile>
     <Compile Include="..\..\src\Nethereum.ABI\JsonDeserialisation\ABIDeserialiser.cs">
       <Link>ABI\JsonDeserialisation\ABIDeserialiser.cs</Link>
     </Compile>
@@ -402,6 +407,12 @@
     <Compile Include="..\..\src\Nethereum.Contracts\Builders\ContractBuilder.cs">
       <Link>Contracts\Builders\ContractBuilder.cs</Link>
     </Compile>
+    <Compile Include="..\..\src\Nethereum.Contracts\Builders\ABITypedRegistry.cs">
+      <Link>Contracts\Builders\ABITypedRegistry.cs</Link>
+    </Compile>
+    <Compile Include="..\..\src\Nethereum.Contracts\Builders\EventExtensions.cs">
+      <Link>Contracts\Builders\EventExtensions.cs</Link>
+    </Compile>
     <Compile Include="..\..\src\Nethereum.Contracts\Builders\DeployContractTransactionBuilder.cs">
       <Link>Contracts\Builders\DeployContractTransactionBuilder.cs</Link>
     </Compile>
@@ -410,6 +421,9 @@
     </Compile>
     <Compile Include="..\..\src\Nethereum.Contracts\Builders\EventTopicBuilder.cs">
       <Link>Contracts\Builders\EventTopicBuilder.cs</Link>
+    </Compile>
+    <Compile Include="..\..\src\Nethereum.Contracts\Builders\FilterInputBuilder.cs">
+      <Link>Contracts\Builders\FilterInputBuilder.cs</Link>
     </Compile>
     <Compile Include="..\..\src\Nethereum.Contracts\Builders\FunctionBuilder.cs">
       <Link>Contracts\Builders\FunctionBuilder.cs</Link>
