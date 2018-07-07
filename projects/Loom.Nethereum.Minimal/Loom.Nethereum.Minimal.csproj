@@ -462,4 +462,12 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <PropertyGroup>
+    <PostBuildEvent Condition=" '$(Configuration)' == 'Release' AND '$(OS)' == 'Windows_NT' ">
+"%UserProfile%\.nuget\packages\ILRepack\2.0.15\tools\ilrepack" /out:Loom.Nethereum.Minimal.Packed.dll Loom.Nethereum.Minimal.dll BouncyCastle.Crypto.dll /internalize /xmldocs
+</PostBuildEvent>
+    <PostBuildEvent Condition=" '$(Configuration)' == 'Release' AND '$(OS)' != 'Windows_NT' ">
+mono "~/.nuget/packages/ILRepack/2.0.15/tools/ILRepack.exe" /out:Loom.Nethereum.Minimal.Packed.dll Loom.Nethereum.Minimal.dll BouncyCastle.Crypto.dll /internalize /xmldocs
+</PostBuildEvent>
+  </PropertyGroup>
 </Project>

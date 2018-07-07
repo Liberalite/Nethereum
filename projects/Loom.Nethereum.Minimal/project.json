@@ -25,6 +25,7 @@
   "supports": {},
   "dependencies": {
     "BouncyCastle": "1.8.2",
+    "ILRepack": "2.0.15",
     "Newtonsoft.Json": "8.0.3"
   },
   "runtimes": {
