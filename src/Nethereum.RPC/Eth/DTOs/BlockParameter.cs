@@ -1,7 +1,7 @@
 ﻿using System;
+using System.Numerics;
 using Loom.Nethereum.Hex.HexTypes;
 using Newtonsoft.Json;
-using Org.BouncyCastle.Math;
 
 namespace Loom.Nethereum.RPC.Eth.DTOs
 {
@@ -31,7 +31,7 @@ namespace Loom.Nethereum.RPC.Eth.DTOs
             SetValue(blockNumber);
         }
 
-        public BlockParameter(ulong blockNumber) : this(new HexBigInteger(new BigInteger(blockNumber.ToString())))
+        public BlockParameter(ulong blockNumber) : this(new HexBigInteger(blockNumber))
         {
         }
 

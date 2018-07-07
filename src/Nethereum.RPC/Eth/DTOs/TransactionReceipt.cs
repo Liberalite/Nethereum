@@ -63,7 +63,7 @@ namespace Loom.Nethereum.RPC.Eth.DTOs
         public bool? HasErrors()
         {
             if (Status == null) return null;
-            return Status.Value.LongValue == 0;
+            return Status.Value == 0;
         }
     }
 }

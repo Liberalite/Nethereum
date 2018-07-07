@@ -1,6 +1,6 @@
+using System.Numerics;
 using Loom.Nethereum.Hex.HexConvertors;
 using Newtonsoft.Json;
-using Org.BouncyCastle.Math;
 
 namespace Loom.Nethereum.Hex.HexTypes
 {

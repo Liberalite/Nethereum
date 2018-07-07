@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Globalization;
-using Org.BouncyCastle.Math;
+using System.Numerics;
 
 namespace Loom.Nethereum.Util
 {
@@ -72,7 +72,7 @@ namespace Loom.Nethereum.Util
         {
             if (Exponent > 0)
             {
-                Mantissa = Mantissa.Multiply(BigInteger.ValueOf(10).Pow(Exponent));
+                Mantissa = Mantissa * BigInteger.Pow(10, Exponent);
                 Exponent = 0;
             }
         }
@@ -84,19 +84,17 @@ namespace Loom.Nethereum.Util
         {
             if (Exponent == 0) return;
 
-            if (Mantissa.LongValue == 0)
+            if (Mantissa.IsZero)
             {
                 Exponent = 0;
             }
             else
             {
-                BigInteger remainder = BigInteger.Zero;
-                while (remainder.LongValue == 0)
+                BigInteger remainder = 0;
+                while (remainder == 0)
                 {
-                    BigInteger[] divideAndRemainder = Mantissa.DivideAndRemainder(BigInteger.ValueOf(10));
-                    BigInteger shortened = divideAndRemainder[0];
-                    remainder = divideAndRemainder[1];
-                    if (remainder.LongValue != 0)
+                    var shortened = BigInteger.DivRem(Mantissa, 10, out remainder);
+                    if (remainder != 0)
                         continue;
                     Mantissa = shortened;
                     Exponent++;
@@ -116,9 +114,9 @@ namespace Loom.Nethereum.Util
             // save some time because the number of digits is not needed to remove trailing zeros
             shortened.Normalize();
             // remove the least significant digits, as long as the number of digits is higher than the given Precision
-            while (shortened.Mantissa.ToString().Length > precision)
+            while (shortened.Mantissa.NumberOfDigits() > precision)
             {
-                shortened.Mantissa = shortened.Mantissa.Divide(BigInteger.Ten);
+                shortened.Mantissa /= 10;
                 shortened.Exponent++;
             }
             return shortened;
@@ -131,6 +129,11 @@ namespace Loom.Nethereum.Util
         public BigDecimal Floor()
         {
             return Truncate(Mantissa.NumberOfDigits() + Exponent);
+        }
+
+        private static int NumberOfDigits(BigInteger value)
+        {
+            return value.NumberOfDigits();
         }
 
         public override string ToString()
@@ -179,33 +182,33 @@ namespace Loom.Nethereum.Util
 
         public static implicit operator BigDecimal(int value)
         {
-            return new BigDecimal(value);
+            return new BigDecimal(value, 0);
         }
 
         public static implicit operator BigDecimal(double value)
         {
-            var mantissa = BigInteger.ValueOf((long) value);
+            var mantissa = (BigInteger) value;
             var exponent = 0;
             double scaleFactor = 1;
-            while (Math.Abs(value * scaleFactor - mantissa.LongValue) > 0)
+            while (Math.Abs(value * scaleFactor - (double) mantissa) > 0)
             {
                 exponent -= 1;
                 scaleFactor *= 10;
-                mantissa = BigInteger.ValueOf((long) (value * scaleFactor));
+                mantissa = (BigInteger) (value * scaleFactor);
             }
             return new BigDecimal(mantissa, exponent);
         }
 
         public static implicit operator BigDecimal(decimal value)
         {
-            var mantissa = new BigInteger(Decimal.Truncate(value).ToString(CultureInfo.InvariantCulture));
+            var mantissa = (BigInteger) value;
             var exponent = 0;
             decimal scaleFactor = 1;
-            while (mantissa.ToDecimal() != value * scaleFactor)
+            while ((decimal) mantissa != value * scaleFactor)
             {
                 exponent -= 1;
                 scaleFactor *= 10;
-                mantissa = new BigInteger(Decimal.Truncate(value * scaleFactor).ToString(CultureInfo.InvariantCulture));
+                mantissa = (BigInteger) (value * scaleFactor);
             }
             return new BigDecimal(mantissa, exponent);
         }
@@ -246,7 +249,7 @@ namespace Loom.Nethereum.Util
 
         public static BigDecimal operator -(BigDecimal value)
         {
-            value.Mantissa = value.Mantissa.Negate();
+            value.Mantissa *= -1;
             return value;
         }
 
@@ -273,22 +276,22 @@ namespace Loom.Nethereum.Util
         private static BigDecimal Add(BigDecimal left, BigDecimal right)
         {
             return left.Exponent > right.Exponent
-                ? new BigDecimal(AlignExponent(left, right).Add(right.Mantissa), right.Exponent)
-                : new BigDecimal(AlignExponent(right, left).Add(left.Mantissa), left.Exponent);
+                ? new BigDecimal(AlignExponent(left, right) + right.Mantissa, right.Exponent)
+                : new BigDecimal(AlignExponent(right, left) + left.Mantissa, left.Exponent);
         }
 
         public static BigDecimal operator *(BigDecimal left, BigDecimal right)
         {
-            return new BigDecimal(left.Mantissa.Multiply(right.Mantissa), left.Exponent + right.Exponent);
+            return new BigDecimal(left.Mantissa * right.Mantissa, left.Exponent + right.Exponent);
         }
 
         public static BigDecimal operator /(BigDecimal dividend, BigDecimal divisor)
         {
-            var exponentChange = Precision - (dividend.Mantissa.NumberOfDigits() - divisor.Mantissa.NumberOfDigits());
+            var exponentChange = Precision - (NumberOfDigits(dividend.Mantissa) - NumberOfDigits(divisor.Mantissa));
             if (exponentChange < 0)
                 exponentChange = 0;
-            dividend.Mantissa = dividend.Mantissa.Multiply(BigInteger.Ten.Pow(exponentChange));
-            return new BigDecimal(dividend.Mantissa.Divide(divisor.Mantissa),
+            dividend.Mantissa *= BigInteger.Pow(10, exponentChange);
+            return new BigDecimal(dividend.Mantissa / divisor.Mantissa,
                 dividend.Exponent - divisor.Exponent - exponentChange);
         }
 
@@ -305,29 +308,29 @@ namespace Loom.Nethereum.Util
         public static bool operator <(BigDecimal left, BigDecimal right)
         {
             return left.Exponent > right.Exponent
-                ? AlignExponent(left, right).CompareTo(right.Mantissa) < 0
-                : left.Mantissa.CompareTo(AlignExponent(right, left)) < 0;
+                ? AlignExponent(left, right) < right.Mantissa
+                : left.Mantissa < AlignExponent(right, left);
         }
 
         public static bool operator >(BigDecimal left, BigDecimal right)
         {
             return left.Exponent > right.Exponent
-                ? AlignExponent(left, right).CompareTo(right.Mantissa) > 0
-                : left.Mantissa.CompareTo(AlignExponent(right, left)) > 0;
+                ? AlignExponent(left, right) > right.Mantissa
+                : left.Mantissa > AlignExponent(right, left);
         }
 
         public static bool operator <=(BigDecimal left, BigDecimal right)
         {
             return left.Exponent > right.Exponent
-                ? AlignExponent(left, right).CompareTo(right.Mantissa) <= 0
-                : left.Mantissa.CompareTo(AlignExponent(right, left)) <= 0;
+                ? AlignExponent(left, right) <= right.Mantissa
+                : left.Mantissa <= AlignExponent(right, left);
         }
 
         public static bool operator >=(BigDecimal left, BigDecimal right)
         {
             return left.Exponent > right.Exponent
-                ? AlignExponent(left, right).CompareTo(right.Mantissa) >= 0
-                : left.Mantissa.CompareTo(AlignExponent(right, left)) >= 0;
+                ? AlignExponent(left, right) >= right.Mantissa
+                : left.Mantissa >= AlignExponent(right, left);
         }
 
         public static BigDecimal Parse(string value)
@@ -338,7 +341,7 @@ namespace Loom.Nethereum.Util
             var exponent = 0;
             if (indexOfDecimal != -1)
                 exponent = (value.Length - (indexOfDecimal + 1)) * -1;
-            var mantissa = new BigInteger(value.Replace(decimalCharacter, ""));
+            var mantissa = BigInteger.Parse(value.Replace(decimalCharacter, ""));
             return new BigDecimal(mantissa, exponent);
         }
 
@@ -348,7 +351,7 @@ namespace Loom.Nethereum.Util
         /// </summary>
         private static BigInteger AlignExponent(BigDecimal value, BigDecimal reference)
         {
-            return value.Mantissa.Multiply(BigInteger.Ten.Pow(value.Exponent - reference.Exponent));
+            return value.Mantissa * BigInteger.Pow(10, value.Exponent - reference.Exponent);
         }
 
         #endregion

@@ -1,7 +1,7 @@
 using System;
+using System.Numerics;
 using System.Text;
 using Loom.Nethereum.ABI.Util;
-using Org.BouncyCastle.Math;
 
 namespace Loom.Nethereum.ABI.Encoders
 {
@@ -18,7 +18,7 @@ namespace Loom.Nethereum.ABI.Encoders
         {
             if (value.IsNumber())
             {
-                var bigInt = new BigInteger(value.ToString());
+                var bigInt = BigInteger.Parse(value.ToString());
                 return _intTypeEncoder.EncodeInt(bigInt);
             }
 
