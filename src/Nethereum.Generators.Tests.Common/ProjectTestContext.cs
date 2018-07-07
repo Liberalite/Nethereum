@@ -27,7 +27,6 @@ namespace Nethereum.Generators.Tests.Common
 
             ProjectName = TargetProjectFolder.Split(Path.DirectorySeparatorChar).Last();
             OutputAssemblyName = $"{ProjectName}.dll";
-            ProjectFilePath = Path.Combine(TargetProjectFolder, ProjectName) + ".csproj";
         }
 
         public string WriteFileToProject(string fileName, string fileContent)
@@ -35,11 +34,32 @@ namespace Nethereum.Generators.Tests.Common
             return TestEnvironment.WriteFileToFolder(TargetProjectFolder, fileName, fileContent);
         }
 
+        private void ReferenceLocalNugetPackages()
+        {
+            if (!Directory.Exists(LocalNugetPackageFolder))
+                return;
+
+            string nugetConfig = 
+$@"<?xml version=""1.0"" encoding=""utf-8""?>
+<configuration>
+  <packageSources>
+    <clear />
+    <add key=""Local"" value=""{LocalNugetPackageFolder}"" />
+    <add key=""NuGet"" value=""https://api.nuget.org/v3/index.json"" />
+  </packageSources>
+</configuration>
+";
+            WriteFileToProject("NuGet.config", nugetConfig);
+        }
+
+        public string LocalNugetPackageFolder { get; set; } = @"C:\dev\test\nuget\packages";
+
         public void CreateProject(CodeGenLanguage language = CodeGenLanguage.CSharp, IEnumerable<Tuple<string, string>> nugetPackages = null)
         {
             EmptyTargetFolder();
 
             Directory.CreateDirectory(TargetProjectFolder);
+            ReferenceLocalNugetPackages();
             CreateProjectFile(language);
             if (nugetPackages != null)
             {
@@ -48,6 +68,11 @@ namespace Nethereum.Generators.Tests.Common
                     AddNugetPackage(nuget.Item1, nuget.Item2);
                 }
             }
+        }
+
+        public void CreateEmptyProject()
+        {
+            Directory.CreateDirectory(TargetProjectFolder);
         }
 
         public bool DirectoryExists(string subDirectory)
@@ -127,6 +152,7 @@ namespace Nethereum.Generators.Tests.Common
         private void CreateProjectFile(CodeGenLanguage language)
         {
             DotNet($"new classLib -f {TargetFramework} -lang {language.ToDotNetCli()}");
+            ProjectFilePath = Path.Combine(TargetProjectFolder, ProjectName) + CodeGenLanguageExt.ProjectFileExtensions[language];
         }
 
         private void DotNet(string args, string workingFolderOverride = null)
@@ -194,6 +220,38 @@ namespace Nethereum.Generators.Tests.Common
                 }
 
                 projectDoc.Save(ProjectFilePath);
+        }
+
+        public void SetRootNamespaceInProject(string rootNamespace)
+        {
+            var projectDoc = new XmlDocument();
+            projectDoc.Load(ProjectFilePath);
+            var propertyGroupElement = projectDoc.DocumentElement.SelectSingleNode("PropertyGroup");
+            var rootNsElement = propertyGroupElement.SelectSingleNode("RootNamespace");
+            if (rootNsElement == null)
+            {
+                rootNsElement = projectDoc.CreateElement("RootNamespace");
+                propertyGroupElement.AppendChild(rootNsElement);
+            }
+
+            rootNsElement.InnerText = rootNamespace;
+            projectDoc.Save(ProjectFilePath);
+        }
+
+        public void SetAssemblyNameInProject(string rootNamespace)
+        {
+            var projectDoc = new XmlDocument();
+            projectDoc.Load(ProjectFilePath);
+            var propertyGroupElement = projectDoc.DocumentElement.SelectSingleNode("PropertyGroup");
+            var assemblyNameElement = propertyGroupElement.SelectSingleNode("AssemblyName");
+            if (assemblyNameElement == null)
+            {
+                assemblyNameElement = projectDoc.CreateElement("AssemblyName");
+                propertyGroupElement.AppendChild(assemblyNameElement);
+            }
+
+            assemblyNameElement.InnerText = rootNamespace;
+            projectDoc.Save(ProjectFilePath);
         }
 
     }

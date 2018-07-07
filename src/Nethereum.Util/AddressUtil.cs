@@ -1,10 +1,22 @@
 ﻿using System.Globalization;
+using System.Text.RegularExpressions;
 using Nethereum.Hex.HexConvertors.Extensions;
 
 namespace Nethereum.Util
 {
     public class AddressUtil
     {
+        private static AddressUtil _current;
+
+        public static AddressUtil Current
+        {
+            get
+            {
+                if (_current == null) _current = new AddressUtil();
+                return _current;
+            }
+        }
+
         public string ConvertToChecksumAddress(string address)
         {
             address = address.ToLower().RemoveHexPrefix();
@@ -29,6 +41,15 @@ namespace Nethereum.Util
         {
             address = address.RemoveHexPrefix();
             return address.Length == 40;
+        }
+
+        /// <summary>
+        /// Validates if the hex string is 40 alphanumeric characters
+        /// </summary>
+        public bool IsValidEthereumAdressHexFormat(string address)
+        {
+            var r = new Regex("^(0x){1}[0-9a-fA-F]{40}$");
+            return r.IsMatch(address);
         }
 
         public bool IsChecksumAddress(string address)

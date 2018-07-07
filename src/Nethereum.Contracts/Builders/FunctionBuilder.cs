@@ -1,5 +1,6 @@
 ﻿using Nethereum.ABI.Decoders;
 using Nethereum.ABI.Model;
+using Nethereum.Hex.HexConvertors.Extensions;
 using Nethereum.Hex.HexTypes;
 using Nethereum.RPC.Eth.DTOs;
 
@@ -7,8 +8,9 @@ namespace Nethereum.Contracts
 {
     public class FunctionBuilder : FunctionBuilderBase
     {
-        public FunctionBuilder(ContractBuilder contract, FunctionABI function)
-            : base(contract, function)
+
+        public FunctionBuilder(string contractAddress, FunctionABI function)
+            : base(contractAddress, function)
         {
         }
 
@@ -59,10 +61,17 @@ namespace Nethereum.Contracts
         }
     }
 
+
     public class FunctionBuilder<TFunctionInput> : FunctionBuilderBase
     {
-        public FunctionBuilder(ContractBuilder contract, FunctionABI function)
-            : base(contract, function)
+        public FunctionBuilder(string contractAddres):base(contractAddres)
+        {
+
+            FunctionABI = ABITypedRegistry.GetFunctionABI<TFunctionInput>();
+        }
+
+        public FunctionBuilder(string contractAddress, FunctionABI function)
+            : base(contractAddress, function)
         {
         }
 
@@ -87,6 +96,11 @@ namespace Nethereum.Contracts
         public string GetData(TFunctionInput functionInput)
         {
             return FunctionCallEncoder.EncodeRequest(functionInput, FunctionABI.Sha3Signature);
+        }
+
+        public byte[] GetDataAsBytes(TFunctionInput functionInput)
+        {
+            return GetData(functionInput).HexToByteArray();
         }
 
         public TFunctionInput DecodeFunctionInput(TFunctionInput functionInput, TransactionInput transactionInput)
